@@ -1,0 +1,25 @@
+VER 3 0100000000000004 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END
+VER 3 0100000000000005 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]諾宝[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]斯克利
+END
+VER 3 0100000000000002 "糖" "Ability_Creature_Disease_05"
+/施放  拉糖仪式
+/Y 小小一颗糖 能保命来能续航 带上十几二十个 基尔加丹随便抗
+END
+VER 3 0100000000000003 "输出" "Spell_Fire_MoltenBlood"
+/cast 火焰箭
+/console Sound_EnableSFX 0
+/castsequence reset=4/combat/target 燃烧,献祭,烧尽,烧尽,烧尽,烧尽
+/cast 混乱之箭
+/console Sound_EnableSFX 1
+/脚本 UIErrorsFrame:Clear()
+END
+VER 3 0100000000000001 "集合石" "Ability_Rogue_EnvelopingShadows"
+/施放 召唤仪式
+/S 我~~被削弱了~~一万年
+/S 还被迫给你们拉糖
+/S 现在，你们竟敢当我是集合石
+/S 《%T》你这是自寻死路！
+END

@@ -1,0 +1,6 @@
+
+JST_CDB = {
+["LoadOption"] = {
+["role_enable_tag"] = "no-rl",
+},
+}

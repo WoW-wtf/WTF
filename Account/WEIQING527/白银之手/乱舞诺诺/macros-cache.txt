@@ -1,0 +1,41 @@
+VER 3 0100000000000004 "冰霜" "237520"
+#showtooltip
+/cast 冰霜打击
+/targetenemy 
+/startattack
+END
+VER 3 0100000000000007 "减伤" "134400"
+#showtooltip
+/cast 冰封之韧
+/cast 天灾契约
+END
+VER 3 0100000000000003 "湮灭" "134400"
+#showtooltip
+/cleartarget
+/targetenemy [noharm][dead][noexists][help]
+/startattack
+/cast 湮灭
+END
+VER 3 0100000000000005 "灵打" "134400"
+#showtooltip
+/cleartarget
+/targetenemy [noharm][dead][noexists][help]
+/cast [nocombat] 灵界打击
+/stopmacro [channeling]
+/startattack
+/cast [harm] 灵界打击
+/targetlasttarget
+END
+VER 3 0100000000000001 "爆发" "134400"
+#showtooltip 死神印记
+/cast 死神印记
+/use 13
+/cast 冰霜之柱
+/cast 符文武器增效
+/cast 亡者复生
+END
+VER 3 0100000000000006 "自疗" "134400"
+#showtooltip
+/cast 巫妖之躯
+/cast [target=player] 凋零缠绕
+END

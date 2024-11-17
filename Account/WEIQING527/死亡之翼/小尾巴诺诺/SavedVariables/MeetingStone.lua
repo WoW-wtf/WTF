@@ -1,0 +1,23 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+["profileKeys"] = {
+["小尾巴诺诺 - 死亡之翼"] = "小尾巴诺诺 - 死亡之翼",
+},
+["profiles"] = {
+["小尾巴诺诺 - 死亡之翼"] = {
+["settings"] = {
+["storage"] = {
+["y"] = 0,
+["x"] = 386.5,
+["point"] = "TOPLEFT",
+["scale"] = 1,
+},
+},
+["searchHistoryList"] = {
+"6-0-0-0",
+},
+["version"] = "20241104",
+["lastSearchCode"] = "6-0-0-0",
+},
+},
+}

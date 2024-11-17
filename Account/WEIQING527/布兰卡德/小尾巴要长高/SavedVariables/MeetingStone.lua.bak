@@ -1,0 +1,19 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+["profileKeys"] = {
+["小尾巴要长高 - 布兰卡德"] = "小尾巴要长高 - 布兰卡德",
+},
+["profiles"] = {
+["小尾巴要长高 - 布兰卡德"] = {
+["version"] = "20241024",
+["settings"] = {
+["storage"] = {
+["y"] = 0,
+["x"] = 403.9997253417969,
+["point"] = "TOPLEFT",
+["scale"] = 1,
+},
+},
+},
+},
+}

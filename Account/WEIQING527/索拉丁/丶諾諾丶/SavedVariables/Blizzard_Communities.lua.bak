@@ -1,0 +1,17 @@
+
+g_clubIdToSeenApplicants = {
+[151114535] = {
+["Player-842-05AC52EB"] = true,
+["Player-1955-02B3DA2F"] = true,
+["Player-838-038B39E7"] = true,
+["Player-707-06985247"] = true,
+["Player-826-05BEAE56"] = true,
+["Player-1672-02D00B0A"] = true,
+["Player-810-052A6FA7"] = true,
+["Player-2126-0EB05045"] = true,
+["Player-838-05B03908"] = true,
+["Player-1955-02AC5EB7"] = true,
+["Player-1687-02BD6E56"] = true,
+["Player-707-06AEEAE5"] = true,
+},
+}

@@ -1,0 +1,19 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+["profileKeys"] = {
+["海棠未眠 - 索拉丁"] = "海棠未眠 - 索拉丁",
+},
+["profiles"] = {
+["海棠未眠 - 索拉丁"] = {
+["version"] = "20241104",
+["settings"] = {
+["storage"] = {
+["y"] = 0,
+["x"] = 368.5000305175781,
+["point"] = "TOPLEFT",
+["scale"] = 1,
+},
+},
+},
+},
+}

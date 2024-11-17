@@ -1,0 +1,161 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+["profileKeys"] = {
+["丶諾諾丶 - 白银之手"] = "丶諾諾丶 - 白银之手",
+},
+["profiles"] = {
+["丶諾諾丶 - 白银之手"] = {
+["lastSearchCode"] = "6-0-0-0",
+["searchHistoryList"] = {
+"6-0-0-0",
+},
+["version"] = "20241104",
+["recent"] = {
+["6-0-16-0"] = {
+{
+["role"] = "DAMAGER",
+["name"] = "婷儿-银月",
+["time"] = 1730458455,
+["class"] = 3,
+["leader"] = true,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "大漠灬如烟-罗宁",
+["time"] = 1730458449,
+["class"] = 10,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "足道亦是道-麦迪文",
+["time"] = 1730458449,
+["class"] = 9,
+},
+{
+["role"] = "HEALER",
+["name"] = "叫我小纯洁丶-熊猫酒仙",
+["time"] = 1730458449,
+["class"] = 5,
+},
+{
+["role"] = "TANK",
+["name"] = "壹朵小红花-凤凰之神",
+["time"] = 1730458449,
+["class"] = 11,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "榷说-金色平原",
+["time"] = 1730458453,
+["class"] = 3,
+},
+{
+["role"] = "TANK",
+["name"] = "瓦王的护卫者-影之哀伤",
+["time"] = 1730458455,
+["class"] = 2,
+},
+{
+["role"] = "TANK",
+["name"] = "伊拉-艾萨拉",
+["time"] = 1730458453,
+["class"] = 12,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "小风时雨丶-雷克萨",
+["time"] = 1730458455,
+["class"] = 6,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "红衣大主教-鬼雾峰",
+["time"] = 1730458455,
+["class"] = 2,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "月之优雅-石爪峰",
+["time"] = 1730458449,
+["class"] = 7,
+},
+{
+["role"] = "TANK",
+["name"] = "风茸茸-图拉扬",
+["time"] = 1730458455,
+["class"] = 6,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "狂惑暴戾-霜之哀伤",
+["time"] = 1730458455,
+["class"] = 1,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "丶悠悠我心-德拉诺",
+["time"] = 1730458455,
+["class"] = 3,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "朱珠-伊瑟拉",
+["time"] = 1730458455,
+["class"] = 9,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "Handsomedog-回音山",
+["time"] = 1730458455,
+["class"] = 3,
+},
+},
+["1-363-1538-0"] = {
+{
+["role"] = "DAMAGER",
+["name"] = "婷儿-银月",
+["time"] = 1730458341,
+["class"] = 3,
+["leader"] = true,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "大漠灬如烟-罗宁",
+["time"] = 1730458341,
+["class"] = 10,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "足道亦是道-麦迪文",
+["time"] = 1730458341,
+["class"] = 9,
+},
+{
+["role"] = "HEALER",
+["name"] = "叫我小纯洁丶-熊猫酒仙",
+["time"] = 1730458341,
+["class"] = 5,
+},
+{
+["role"] = "TANK",
+["name"] = "壹朵小红花-凤凰之神",
+["time"] = 1730458341,
+["class"] = 11,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "榷说-金色平原",
+["time"] = 1730458341,
+["class"] = 3,
+},
+{
+["role"] = "TANK",
+["name"] = "瓦王的护卫者-影之哀伤",
+["time"] = 1730458341,
+["class"] = 2,
+},
+},
+},
+},
+},
+}

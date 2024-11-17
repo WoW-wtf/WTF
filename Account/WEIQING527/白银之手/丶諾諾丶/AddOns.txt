@@ -1,0 +1,12 @@
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+HandyNotes_HallowsEnd: enabled
+BtWQuests: disabled
+Cell: disabled
+Decursive: disabled
+MaxDps: disabled
+RangeDisplay: disabled
+Scrap: disabled
+tdBattlePetScript: disabled

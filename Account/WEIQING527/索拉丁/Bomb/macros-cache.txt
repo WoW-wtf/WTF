@@ -1,0 +1,6 @@
+VER 3 0100000000000003 "爆发" "132344"
+#showtooltip
+/cast 鲁莽
+/cast 天神下凡
+/cast 雷鸣之吼
+END

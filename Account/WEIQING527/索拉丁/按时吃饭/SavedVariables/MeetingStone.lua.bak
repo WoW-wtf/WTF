@@ -1,0 +1,11 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+["profileKeys"] = {
+["按时吃饭 - 索拉丁"] = "按时吃饭 - 索拉丁",
+},
+["profiles"] = {
+["按时吃饭 - 索拉丁"] = {
+["version"] = "20241024",
+},
+},
+}

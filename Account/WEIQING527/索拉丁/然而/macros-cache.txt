@@ -1,0 +1,9 @@
+VER 3 0100000000000004 "duan" "134400"
+#showtooltip
+/cast [@focus] 风剪
+END
+VER 3 0100000000000001 "TT" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [btn:2] 图腾召唤
+/castsequence reset=combat/60 抗寒图腾
+END

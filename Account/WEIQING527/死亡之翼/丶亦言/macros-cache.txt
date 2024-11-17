@@ -1,0 +1,13 @@
+VER 3 0100000000000003 " " "134400"
+#showtooltip 误导
+/click AutoTankMisdirect leftbutton 1
+/cast 误导
+END
+VER 3 0100000000000002 "爆发" "134400"
+#showtooltip 荒野的召唤
+/use 13 
+/cast 荒野的召唤
+END
+VER 3 0100000000000001 "目标" "132150"
+/tar 幼年
+END

@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "加速" "134400"
+#showtooltip
+/cast [@player] 天堂之羽
+END

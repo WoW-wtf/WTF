@@ -1,0 +1,47 @@
+VER 3 0100000000000003 "9" "Ability_Druid_LunarGuidance"
+#showtooltip 起死回生 
+/ME 发现%t的尸体... 
+/S "摸摸应该木有事情吧"
+/cast 起死回生
+/in 10 /y                                                                    %t：请别摸我脸！
+END
+VER 3 0100000000000002 "99" "Spell_Frost_FrostShock"
+/e 开始检查%t的呼吸... ...
+/e 变魔术一样从口袋里摸出一整包樟脑丸，塞到%t的嘴巴里... ...
+/e 惊叫：天哪！【%T】把一整包樟脑丸都吃下去了！！！
+/e 把%t救活了！！
+/e 万岁！！！
+END
+VER 3 010000000000000B "ttt" "236156"
+/tar 正在
+END
+VER 3 0100000000000007 "一键" "134400"
+#showtooltips 痛击
+/startattack
+/cast [combat]铁鬃
+/castsequence [actionbar:1]reset=2 痛击,裂伤,月火术,月火术
+/castsequence [actionbar:2]reset=2 痛击,裂伤
+END
+VER 3 0100000000000008 "化身" "134400"
+#showtooltip 化身：乌索克的守护者(变形)
+/cast 化身：乌索克的守护者(变形)
+/changeactionbar 2
+END
+VER 3 010000000000000A "变熊" "134400"
+#showtooltip 
+/cast [nostance:1] 熊形态
+/cast [nocombat,indoors]猎豹形态
+/cast [nocombat,outdoors]旅行形态
+END
+VER 3 0100000000000001 "复活" "Spell_Arcane_TeleportIronForge"
+/Y %T，惹祸了吧，被打趴下了吧~来把小手给我，我给你安慰~ 
+END
+VER 3 0100000000000009 "结束" "134400"
+#showtooltip 化身：乌索克的守护者(变形)
+/changeactionbar 1
+END
+VER 3 0100000000000006 "迎头痛击" "134400"
+#showtooltip
+/cast 熊形态
+/cast 迎头痛击
+END
