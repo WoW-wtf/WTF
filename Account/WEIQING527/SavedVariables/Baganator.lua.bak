@@ -168,12 +168,17 @@ BAGANATOR_CONFIG = {
 ["showGroupPrefix"] = true,
 ["priority"] = -1,
 },
-["default_keystone"] = {
-["group"] = "type",
-},
 ["2"] = {
 ["showGroupPrefix"] = true,
 ["priority"] = 0,
+},
+["default_consumable"] = {
+["addedItems"] = {
+["i:118475"] = true,
+},
+},
+["default_keystone"] = {
+["group"] = "type",
 },
 },
 ["warband_bank_view_width"] = 14,
@@ -194,9 +199,9 @@ BAGANATOR_CONFIG = {
 ["bag_view_width"] = 16,
 ["icon_equipment_set_border"] = true,
 ["sort_ignore_slots_at_end"] = false,
-["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
 "丶諾諾丶-索拉丁",
+"諾宝-索拉丁",
 "乱舞诺诺-白银之手",
 "小尾巴-索拉丁",
 "丶亦言-死亡之翼",
@@ -204,7 +209,6 @@ BAGANATOR_CONFIG = {
 "小尾巴要长高-布兰卡德",
 "丶諾諾丶-白银之手",
 "諾諾诺-安苏",
-"諾宝-索拉丁",
 "按时吃饭-索拉丁",
 "諾諾的小尾巴-死亡之翼",
 "然而-索拉丁",
@@ -217,6 +221,7 @@ BAGANATOR_CONFIG = {
 "丶诺宝-索拉丁",
 "诺宝-白银之手",
 },
+["debug_keywords"] = false,
 ["sort_ignore_slots_count_2"] = {
 ["諾宝-索拉丁"] = 0,
 ["丶諾諾丶-索拉丁"] = 0,
@@ -290,7 +295,7 @@ BAGANATOR_CONFIG = {
 },
 ["诺宝-白银之手"] = {
 },
-["诺诺丶-白银之手"] = {
+["按时吃饭-索拉丁"] = {
 },
 ["丶諾諾丶-白银之手"] = {
 },
@@ -300,7 +305,7 @@ BAGANATOR_CONFIG = {
 },
 ["丶诺宝-索拉丁"] = {
 },
-["按时吃饭-索拉丁"] = {
+["诺诺丶-白银之手"] = {
 },
 ["諾宝-索拉丁"] = {
 {

@@ -15,10 +15,10 @@ ChoreTrackerDB = {
 [2875] = 14,
 [333] = true,
 [356] = true,
-[794] = true,
-[202] = true,
-[185] = true,
 [2874] = 2,
+[202] = true,
+[794] = true,
+[185] = true,
 },
 },
 ["丶諾諾丶 - 白银之手"] = {
@@ -45,10 +45,10 @@ ChoreTrackerDB = {
 [2875] = 9,
 [186] = true,
 [356] = true,
-[185] = true,
-[202] = true,
-[2881] = 54,
 [794] = true,
+[202] = true,
+[185] = true,
+[2881] = 54,
 },
 },
 ["按时吃饭 - 索拉丁"] = {
@@ -59,14 +59,12 @@ ChoreTrackerDB = {
 ["丶諾諾丶 - 索拉丁"] = {
 ["skillLines"] = {
 [2882] = 100,
+[2877] = 100,
+[356] = true,
+[182] = true,
+[393] = true,
 [794] = true,
 [185] = true,
-[356] = true,
-[2832] = 15,
-[2834] = 33,
-[393] = true,
-[2877] = 100,
-[182] = true,
 },
 },
 ["丶亦言 - 死亡之翼"] = {
@@ -77,8 +75,8 @@ ChoreTrackerDB = {
 [356] = true,
 [2881] = 100,
 [202] = true,
-[185] = true,
 [794] = true,
+[185] = true,
 },
 },
 ["乱舞诺诺 - 白银之手"] = {
@@ -103,10 +101,10 @@ ChoreTrackerDB = {
 ["questId"] = 63953,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "0/200 收集时空扭曲徽章",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 200,
+["have"] = 0,
 },
 },
 },
@@ -115,10 +113,10 @@ ChoreTrackerDB = {
 ["questId"] = 79329,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/12 收集残渣之袋",
 ["need"] = 12,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/12 收集残渣之袋",
 },
 },
 },
@@ -133,10 +131,10 @@ ChoreTrackerDB = {
 ["questId"] = 36471,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "event",
 ["have"] = 0,
 ["text"] = "击败克里斯托弗·冯·费舍尔",
+["need"] = 1,
+["type"] = "event",
 },
 },
 },
@@ -145,10 +143,10 @@ ChoreTrackerDB = {
 ["questId"] = 46244,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "击败孟菲斯托斯",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "击败孟菲斯托斯",
 },
 },
 },
@@ -157,10 +155,10 @@ ChoreTrackerDB = {
 ["questId"] = 80671,
 ["objectives"] = {
 {
-["text"] = "在艾基-卡赫特完成活动 (0%)",
 ["type"] = "progressbar",
-["need"] = 100,
+["text"] = "在艾基-卡赫特完成活动 (0%)",
 ["have"] = 0,
+["need"] = 100,
 },
 },
 },
@@ -169,10 +167,10 @@ ChoreTrackerDB = {
 ["questId"] = 82300,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "event",
 ["have"] = 0,
 ["text"] = "在宠物对战中击败错乱的服务机",
+["need"] = 1,
+["type"] = "event",
 },
 },
 },
@@ -205,10 +203,10 @@ ChoreTrackerDB = {
 ["questId"] = 44089,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 选择神器",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -229,10 +227,10 @@ ChoreTrackerDB = {
 ["questId"] = 43179,
 ["objectives"] = {
 {
-["text"] = "0/3 完成3个肯瑞托世界任务",
 ["type"] = "object",
-["need"] = 3,
+["text"] = "0/3 完成3个肯瑞托世界任务",
 ["have"] = 0,
+["need"] = 3,
 },
 },
 },
@@ -253,22 +251,22 @@ ChoreTrackerDB = {
 ["questId"] = 42269,
 ["objectives"] = {
 {
+["type"] = "monster",
 ["text"] = "0/1 消灭赫林船长",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 消灭捕魂者麦芙拉",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/1 消灭掠夺者多恩",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 消灭掠夺者多恩",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -277,10 +275,10 @@ ChoreTrackerDB = {
 ["questId"] = 78821,
 ["objectives"] = {
 {
-["need"] = 3,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/3 种下梦境之种",
+["need"] = 3,
+["type"] = "monster",
 },
 },
 },
@@ -289,10 +287,10 @@ ChoreTrackerDB = {
 ["questId"] = 43323,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 回答勒洛尔的问题",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -313,10 +311,10 @@ ChoreTrackerDB = {
 ["questId"] = 83069,
 ["objectives"] = {
 {
-["need"] = 3,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/3 在多恩岛完成3个世界任务",
+["need"] = 3,
+["type"] = "object",
 },
 },
 },
@@ -325,16 +323,16 @@ ChoreTrackerDB = {
 ["questId"] = 47523,
 ["objectives"] = {
 {
-["text"] = "0/1 击败伊利丹·怒风",
 ["type"] = "object",
-["need"] = 1,
+["text"] = "0/1 击败伊利丹·怒风",
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/1 被时间扭曲的伊利达雷作战计划",
 ["type"] = "item",
-["need"] = 1,
+["text"] = "0/1 被时间扭曲的伊利达雷作战计划",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -343,10 +341,10 @@ ChoreTrackerDB = {
 ["questId"] = 43962,
 ["objectives"] = {
 {
-["text"] = "0/1 选择要追求的第二件神器",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 选择要追求的第二件神器",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -355,10 +353,10 @@ ChoreTrackerDB = {
 ["questId"] = 76586,
 ["objectives"] = {
 {
-["need"] = 4,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/4 激活小型钥焰",
+["need"] = 4,
+["type"] = "monster",
 },
 },
 },
@@ -367,10 +365,10 @@ ChoreTrackerDB = {
 ["questId"] = 79173,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "尽力找回补给 (0%)",
 ["need"] = 100,
 ["type"] = "progressbar",
+["have"] = 0,
+["text"] = "尽力找回补给 (0%)",
 },
 },
 },
@@ -379,10 +377,10 @@ ChoreTrackerDB = {
 ["questId"] = 48641,
 ["objectives"] = {
 {
-["text"] = "0/4 在破碎海滩完成4个世界任务",
 ["type"] = "object",
-["need"] = 4,
+["text"] = "0/4 在破碎海滩完成4个世界任务",
 ["have"] = 0,
+["need"] = 4,
 },
 },
 },
@@ -391,10 +389,10 @@ ChoreTrackerDB = {
 ["questId"] = 39986,
 ["objectives"] = {
 {
-["text"] = "0/1 调查奥术畸体",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 调查奥术畸体",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -421,10 +419,10 @@ ChoreTrackerDB = {
 ["questId"] = 46773,
 ["objectives"] = {
 {
-["text"] = "0/1 完成指挥中心的建造",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 完成指挥中心的建造",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -433,10 +431,10 @@ ChoreTrackerDB = {
 ["questId"] = 82783,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 完成“克罗米的法典”场景战役",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -445,10 +443,10 @@ ChoreTrackerDB = {
 ["questId"] = 81793,
 ["objectives"] = {
 {
-["need"] = 100,
-["type"] = "item",
 ["have"] = 0,
 ["text"] = "0/100 战争火花",
+["need"] = 100,
+["type"] = "item",
 },
 },
 },
@@ -457,10 +455,10 @@ ChoreTrackerDB = {
 ["questId"] = 83358,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/10 获得竞技场练习赛胜利",
 ["need"] = 10,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/10 获得竞技场练习赛胜利",
 },
 },
 },
@@ -475,10 +473,10 @@ ChoreTrackerDB = {
 ["questId"] = 82496,
 ["objectives"] = {
 {
-["text"] = "在英雄或更高难度下完成千丝之城地下城",
 ["type"] = "object",
-["need"] = 1,
+["text"] = "在英雄或更高难度下完成千丝之城地下城",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -505,10 +503,10 @@ ChoreTrackerDB = {
 ["questId"] = 39987,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 发现暗淡的奥术回响",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 发现暗淡的奥术回响",
 },
 },
 },
@@ -535,10 +533,10 @@ ChoreTrackerDB = {
 ["questId"] = 46247,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 击败一次恶魔突袭",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 击败一次恶魔突袭",
 },
 },
 },
@@ -547,34 +545,34 @@ ChoreTrackerDB = {
 ["questId"] = 84254,
 ["objectives"] = {
 {
+["need"] = 1,
+["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 与格林凯尔交谈",
-["need"] = 1,
-["type"] = "monster",
 },
 {
+["need"] = 1,
+["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 与汉瑟尔·希利尔森交谈",
-["need"] = 1,
-["type"] = "monster",
 },
 {
+["need"] = 1,
+["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 与兹林威尔交谈",
-["need"] = 1,
-["type"] = "monster",
 },
 {
+["need"] = 1,
+["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 与瓦妮·荆量交谈",
-["need"] = 1,
-["type"] = "monster",
 },
 {
-["have"] = 0,
-["text"] = "0/1 与佩特拉交谈",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 与佩特拉交谈",
 },
 },
 },
@@ -583,16 +581,16 @@ ChoreTrackerDB = {
 ["questId"] = 82817,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "0/1 击败达格兰·索瑞森",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/1 时空扭曲的铁炉堡图纸",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -601,10 +599,10 @@ ChoreTrackerDB = {
 ["questId"] = 81827,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 完成竞速",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -637,16 +635,16 @@ ChoreTrackerDB = {
 ["questId"] = 82658,
 ["objectives"] = {
 {
-["type"] = "item",
 ["text"] = "0/6 欧珀开采工具",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 6,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/10 消灭蛛魔",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 10,
+["have"] = 0,
 },
 },
 },
@@ -655,10 +653,10 @@ ChoreTrackerDB = {
 ["questId"] = 46008,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭巴纳佐斯",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -667,10 +665,10 @@ ChoreTrackerDB = {
 ["questId"] = 40930,
 ["objectives"] = {
 {
-["text"] = "0/1 在暮色森林调查密斯特曼托庄园",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 在暮色森林调查密斯特曼托庄园",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -685,10 +683,10 @@ ChoreTrackerDB = {
 ["questId"] = 82946,
 ["objectives"] = {
 {
-["need"] = 10,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/10 收集怪异蜡团",
+["need"] = 10,
+["type"] = "monster",
 },
 },
 },
@@ -715,10 +713,10 @@ ChoreTrackerDB = {
 ["questId"] = 84735,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "击败达格兰·索瑞森大帝",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -733,10 +731,10 @@ ChoreTrackerDB = {
 ["questId"] = 39142,
 ["objectives"] = {
 {
-["text"] = "0/1 测试血石",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 测试血石",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -745,10 +743,10 @@ ChoreTrackerDB = {
 ["questId"] = 75665,
 ["objectives"] = {
 {
-["need"] = 1500,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1500 获得峈姆鼹鼠人声望",
+["need"] = 1500,
+["type"] = "object",
 },
 },
 },
@@ -775,10 +773,10 @@ ChoreTrackerDB = {
 ["questId"] = 40931,
 ["objectives"] = {
 {
-["text"] = "0/1 跟随瑞维尔前往埃瑞丁营地",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 跟随瑞维尔前往埃瑞丁营地",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -787,10 +785,10 @@ ChoreTrackerDB = {
 ["questId"] = 83363,
 ["objectives"] = {
 {
-["need"] = 5,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/5 击败时空漫游团队首领或完成时空漫游地下城",
+["need"] = 5,
+["type"] = "object",
 },
 },
 },
@@ -799,10 +797,10 @@ ChoreTrackerDB = {
 ["questId"] = 83459,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "帮助斯蒂泰克将军在仪式中提供安保",
+["need"] = 1,
+["type"] = "object",
 },
 },
 },
@@ -835,16 +833,16 @@ ChoreTrackerDB = {
 ["questId"] = 44748,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/10 消灭邪翼吞噬者",
 ["need"] = 10,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/10 消灭邪翼吞噬者",
 },
 {
-["have"] = 0,
-["text"] = "0/12 船难物资",
 ["need"] = 12,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/12 船难物资",
 },
 },
 },
@@ -859,10 +857,10 @@ ChoreTrackerDB = {
 ["questId"] = 40740,
 ["objectives"] = {
 {
-["text"] = "0/1 进入军团传送门",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 进入军团传送门",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -877,10 +875,10 @@ ChoreTrackerDB = {
 ["questId"] = 82470,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 修复魔法涓流",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -919,10 +917,10 @@ ChoreTrackerDB = {
 ["questId"] = 40932,
 ["objectives"] = {
 {
-["text"] = "0/1 调查埃瑞丁营地",
 ["type"] = "object",
-["need"] = 1,
+["text"] = "0/1 调查埃瑞丁营地",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -931,10 +929,10 @@ ChoreTrackerDB = {
 ["questId"] = 57300,
 ["objectives"] = {
 {
-["need"] = 500,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/500 在科尔拉克的复仇获得荣誉点数",
+["need"] = 500,
+["type"] = "object",
 },
 },
 },
@@ -943,10 +941,10 @@ ChoreTrackerDB = {
 ["questId"] = 83333,
 ["objectives"] = {
 {
-["need"] = 20,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/20 清除敌人波次",
+["need"] = 20,
+["type"] = "monster",
 },
 },
 },
@@ -997,10 +995,10 @@ ChoreTrackerDB = {
 ["questId"] = 39735,
 ["objectives"] = {
 {
-["text"] = "0/1 前往达拉然",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 前往达拉然",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1015,10 +1013,10 @@ ChoreTrackerDB = {
 ["questId"] = 39799,
 ["objectives"] = {
 {
-["text"] = "0/1 选择首个出击目标",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 选择首个出击目标",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1027,10 +1025,10 @@ ChoreTrackerDB = {
 ["questId"] = 47049,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 与猎手斯洛迪交谈",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 与猎手斯洛迪交谈",
 },
 },
 },
@@ -1039,10 +1037,10 @@ ChoreTrackerDB = {
 ["questId"] = 40933,
 ["objectives"] = {
 {
-["text"] = "0/1 得知黑暗骑士的位置",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 得知黑暗骑士的位置",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1069,16 +1067,16 @@ ChoreTrackerDB = {
 ["questId"] = 83240,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/50 赢得观众的认可",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 50,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/1 完成一场剧场巡演",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -1087,10 +1085,10 @@ ChoreTrackerDB = {
 ["questId"] = 44782,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 进入紫色天台",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 进入紫色天台",
 },
 },
 },
@@ -1099,10 +1097,10 @@ ChoreTrackerDB = {
 ["questId"] = 43265,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 完成“散布消息”任务",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 完成“散布消息”任务",
 },
 },
 },
@@ -1111,10 +1109,10 @@ ChoreTrackerDB = {
 ["questId"] = 77236,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 完成一个时光裂隙",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -1147,16 +1145,16 @@ ChoreTrackerDB = {
 ["questId"] = 40934,
 ["objectives"] = {
 {
-["text"] = "0/1 打败黑暗骑士",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 打败黑暗骑士",
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/1 取得天启",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 取得天启",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1177,10 +1175,10 @@ ChoreTrackerDB = {
 ["questId"] = 83274,
 ["objectives"] = {
 {
-["need"] = 5,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/5 完成时空漫游地下城",
+["need"] = 5,
+["type"] = "object",
 },
 },
 },
@@ -1189,10 +1187,10 @@ ChoreTrackerDB = {
 ["questId"] = 43266,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 训练结群食尸鬼",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 训练结群食尸鬼",
 },
 },
 },
@@ -1207,10 +1205,10 @@ ChoreTrackerDB = {
 ["questId"] = 45406,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 开始突袭",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -1225,10 +1223,10 @@ ChoreTrackerDB = {
 ["questId"] = 84616,
 ["objectives"] = {
 {
-["text"] = "参加庆典活动 (100%)",
 ["type"] = "progressbar",
-["need"] = 100,
+["text"] = "参加庆典活动 (100%)",
 ["have"] = 0,
+["need"] = 100,
 },
 },
 },
@@ -1237,10 +1235,10 @@ ChoreTrackerDB = {
 ["questId"] = 80592,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 选择一项契约",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -1249,10 +1247,10 @@ ChoreTrackerDB = {
 ["questId"] = 11667,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1  ",
 ["need"] = 1,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/1  ",
 },
 },
 },
@@ -1261,10 +1259,10 @@ ChoreTrackerDB = {
 ["questId"] = 40935,
 ["objectives"] = {
 {
-["text"] = "0/1 使用黑锋之门前往冰封王座",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 使用黑锋之门前往冰封王座",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1273,10 +1271,10 @@ ChoreTrackerDB = {
 ["questId"] = 42484,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 复活纳兹戈林",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 复活纳兹戈林",
 },
 },
 },
@@ -1309,10 +1307,10 @@ ChoreTrackerDB = {
 ["questId"] = 39179,
 ["objectives"] = {
 {
-["text"] = "0/1  ",
 ["type"] = "item",
-["need"] = 1,
+["text"] = "0/1  ",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1327,10 +1325,10 @@ ChoreTrackerDB = {
 ["questId"] = 82414,
 ["objectives"] = {
 {
-["need"] = 100,
-["type"] = "progressbar",
 ["have"] = 0,
 ["text"] = "扰乱阿拉希之末 (0%)",
+["need"] = 100,
+["type"] = "progressbar",
 },
 },
 },
@@ -1339,10 +1337,10 @@ ChoreTrackerDB = {
 ["questId"] = 79380,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "消灭静石威胁 (10%)",
 ["need"] = 100,
 ["type"] = "progressbar",
+["have"] = 0,
+["text"] = "消灭静石威胁 (10%)",
 },
 },
 },
@@ -1363,10 +1361,10 @@ ChoreTrackerDB = {
 ["questId"] = 44401,
 ["objectives"] = {
 {
-["text"] = "0/1 选择要追求的第三件神器",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 选择要追求的第三件神器",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1375,10 +1373,10 @@ ChoreTrackerDB = {
 ["questId"] = 45439,
 ["objectives"] = {
 {
-["type"] = "progressbar",
 ["text"] = "击退燃烧军团的部队 (0%)",
-["have"] = 0,
+["type"] = "progressbar",
 ["need"] = 100,
+["have"] = 0,
 },
 },
 },
@@ -1387,10 +1385,10 @@ ChoreTrackerDB = {
 ["questId"] = 82159,
 ["objectives"] = {
 {
-["need"] = 3,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/3 完成艾基-卡赫特的世界任务",
+["need"] = 3,
+["type"] = "object",
 },
 },
 },
@@ -1399,16 +1397,16 @@ ChoreTrackerDB = {
 ["questId"] = 46110,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 攻击开始",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭 ",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -1417,22 +1415,22 @@ ChoreTrackerDB = {
 ["questId"] = 46126,
 ["objectives"] = {
 {
+["need"] = 8,
+["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/8 消灭死木邪能法师",
-["need"] = 8,
-["type"] = "monster",
 },
 {
+["need"] = 8,
+["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/8 消灭死木羽刃战士",
-["need"] = 8,
-["type"] = "monster",
 },
 {
-["have"] = 0,
-["text"] = "0/5 烧毁鹰身人的巢穴",
 ["need"] = 5,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/5 烧毁鹰身人的巢穴",
 },
 },
 },
@@ -1459,10 +1457,10 @@ ChoreTrackerDB = {
 ["questId"] = 46765,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 发现破碎海滩的一个隐藏的军团威胁",
 ["need"] = 1,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/1 发现破碎海滩的一个隐藏的军团威胁",
 },
 },
 },
@@ -1477,10 +1475,10 @@ ChoreTrackerDB = {
 ["questId"] = 46286,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/100 收集抗魔联军战争物资",
 ["need"] = 100,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/100 收集抗魔联军战争物资",
 },
 },
 },
@@ -1495,10 +1493,10 @@ ChoreTrackerDB = {
 ["questId"] = 46845,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 保卫复仇岗哨",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 保卫复仇岗哨",
 },
 },
 },
@@ -1507,10 +1505,10 @@ ChoreTrackerDB = {
 ["questId"] = 45839,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/4 击退军团据点",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 4,
+["have"] = 0,
 },
 },
 },
@@ -1519,10 +1517,10 @@ ChoreTrackerDB = {
 ["questId"] = 41767,
 ["objectives"] = {
 {
-["text"] = "0/1 与奇拉·艾索尔交谈",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 与奇拉·艾索尔交谈",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1537,16 +1535,16 @@ ChoreTrackerDB = {
 ["questId"] = 82512,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1 在卡兹阿加消灭任意世界首领",
+["need"] = 1,
+["type"] = "object",
 },
 {
-["need"] = 5,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/5 在卡兹阿加消灭稀有生物",
+["need"] = 5,
+["type"] = "object",
 },
 },
 },
@@ -1555,10 +1553,10 @@ ChoreTrackerDB = {
 ["questId"] = 42422,
 ["objectives"] = {
 {
-["text"] = "0/4 完成4个守望者世界任务",
 ["type"] = "object",
-["need"] = 4,
+["text"] = "0/4 完成4个守望者世界任务",
 ["have"] = 0,
+["need"] = 4,
 },
 },
 },
@@ -1579,10 +1577,10 @@ ChoreTrackerDB = {
 ["questId"] = 82481,
 ["objectives"] = {
 {
-["need"] = 12,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/12 消灭苍白鞭纹者",
+["need"] = 12,
+["type"] = "monster",
 },
 },
 },
@@ -1591,10 +1589,10 @@ ChoreTrackerDB = {
 ["questId"] = 29507,
 ["objectives"] = {
 {
-["need"] = 15,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/15 化石考古碎片",
+["need"] = 15,
+["type"] = "object",
 },
 },
 },
@@ -1615,16 +1613,16 @@ ChoreTrackerDB = {
 ["questId"] = 76733,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/5 点燃收割火炬",
 ["need"] = 5,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/5 点燃收割火炬",
 },
 {
-["have"] = 0,
-["text"] = "0/15  ",
 ["need"] = 15,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/15  ",
 },
 },
 },
@@ -1639,10 +1637,10 @@ ChoreTrackerDB = {
 ["questId"] = 79959,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 消灭夏亚路德",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -1651,16 +1649,16 @@ ChoreTrackerDB = {
 ["questId"] = 45473,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/4 消灭海巨人劫掠者",
 ["need"] = 4,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/4 消灭海巨人劫掠者",
 },
 {
-["have"] = 0,
-["text"] = "0/8 找回水下的宝箱",
 ["need"] = 8,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/8 找回水下的宝箱",
 },
 },
 },
@@ -1669,10 +1667,10 @@ ChoreTrackerDB = {
 ["questId"] = 43461,
 ["objectives"] = {
 {
-["text"] = "0/1 回答吉帕的问题",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 回答吉帕的问题",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1681,10 +1679,10 @@ ChoreTrackerDB = {
 ["questId"] = 39389,
 ["objectives"] = {
 {
-["text"] = "0/1 给血石喂食",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 给血石喂食",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1693,10 +1691,10 @@ ChoreTrackerDB = {
 ["questId"] = 82291,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "在宠物对战中击败觉醒的监管者",
 ["need"] = 1,
 ["type"] = "event",
+["have"] = 0,
+["text"] = "在宠物对战中击败觉醒的监管者",
 },
 },
 },
@@ -1705,10 +1703,10 @@ ChoreTrackerDB = {
 ["questId"] = 80279,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 完成竞速",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -1717,10 +1715,10 @@ ChoreTrackerDB = {
 ["questId"] = 82387,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "获得50或更高层数的无明异变",
+["need"] = 1,
+["type"] = "object",
 },
 },
 },
@@ -1729,10 +1727,10 @@ ChoreTrackerDB = {
 ["questId"] = 38990,
 ["objectives"] = {
 {
-["text"] = "0/1 使用黑锋之门",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 使用黑锋之门",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1747,10 +1745,10 @@ ChoreTrackerDB = {
 ["questId"] = 82292,
 ["objectives"] = {
 {
-["type"] = "event",
 ["text"] = "在宠物对战中击败收集者戴娜",
-["have"] = 0,
+["type"] = "event",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -1759,10 +1757,10 @@ ChoreTrackerDB = {
 ["questId"] = 40715,
 ["objectives"] = {
 {
-["text"] = "0/1 选择神器",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 选择神器",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -1789,10 +1787,10 @@ ChoreTrackerDB = {
 ["questId"] = 29436,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/5 获得火炮目标积分",
 ["need"] = 5,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/5 获得火炮目标积分",
 },
 },
 },
@@ -1801,10 +1799,10 @@ ChoreTrackerDB = {
 ["questId"] = 81750,
 ["objectives"] = {
 {
-["need"] = 30,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/30 收集云雾",
+["need"] = 30,
+["type"] = "monster",
 },
 },
 },
@@ -1813,10 +1811,10 @@ ChoreTrackerDB = {
 ["questId"] = 82293,
 ["objectives"] = {
 {
-["type"] = "event",
 ["text"] = "在宠物对战中击败拥友者格雷姆",
-["have"] = 0,
+["type"] = "event",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -1825,10 +1823,10 @@ ChoreTrackerDB = {
 ["questId"] = 46113,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "击败无名秘术师",
 ["need"] = 1,
 ["type"] = "event",
+["have"] = 0,
+["text"] = "击败无名秘术师",
 },
 },
 },
@@ -1855,28 +1853,28 @@ ChoreTrackerDB = {
 ["questId"] = 74501,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1 拾取弥散熔炉",
-},
-{
-["need"] = 1,
-["type"] = "monster",
-["have"] = 0,
-["text"] = "0/1 消灭熔炉护卫",
-},
-{
 ["need"] = 1,
 ["type"] = "object",
-["have"] = 0,
-["text"] = "0/1 拾取弥散铸模",
 },
 {
+["have"] = 0,
+["text"] = "0/1 消灭熔炉护卫",
 ["need"] = 1,
 ["type"] = "monster",
+},
+{
+["have"] = 0,
+["text"] = "0/1 拾取弥散铸模",
+["need"] = 1,
+["type"] = "object",
+},
+{
 ["have"] = 0,
 ["text"] = "0/1 消灭熔炉主管",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -1885,10 +1883,10 @@ ChoreTrackerDB = {
 ["questId"] = 82709,
 ["objectives"] = {
 {
-["need"] = 30,
-["type"] = "item",
 ["have"] = 0,
 ["text"] = "0/30 卡兹阿加考古碎片",
+["need"] = 30,
+["type"] = "item",
 },
 },
 },
@@ -1915,10 +1913,10 @@ ChoreTrackerDB = {
 ["questId"] = 42097,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "完成“搜索档案”任务",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "完成“搜索档案”任务",
 },
 },
 },
@@ -1933,10 +1931,10 @@ ChoreTrackerDB = {
 ["questId"] = 45786,
 ["objectives"] = {
 {
-["type"] = "progressbar",
 ["text"] = "击退燃烧军团的部队 (0%)",
-["have"] = 0,
+["type"] = "progressbar",
 ["need"] = 100,
+["have"] = 0,
 },
 },
 },
@@ -1945,16 +1943,16 @@ ChoreTrackerDB = {
 ["questId"] = 46264,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/3 关闭军团传送门",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 3,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/3 烧毁观察记录",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 3,
+["have"] = 0,
 },
 },
 },
@@ -1969,22 +1967,22 @@ ChoreTrackerDB = {
 ["questId"] = 29660,
 ["objectives"] = {
 {
+["need"] = 1,
+["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 消灭指挥官萨拉妮丝",
-["need"] = 1,
-["type"] = "monster",
 },
 {
-["have"] = 0,
-["text"] = "0/1 消灭 ",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 消灭 ",
 },
 {
-["have"] = 0,
-["text"] = "0/1 消灭 ",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 消灭 ",
 },
 },
 },
@@ -1999,16 +1997,16 @@ ChoreTrackerDB = {
 ["questId"] = 82678,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "进一步推进战役以解锁档案馆。",
+["need"] = 1,
+["type"] = "object",
 },
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 在记忆宝地与布琳泽见面",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -2035,16 +2033,16 @@ ChoreTrackerDB = {
 ["questId"] = 46066,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/6 消灭邪爪巢母",
 ["need"] = 6,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/6 消灭邪爪巢母",
 },
 {
-["have"] = 0,
-["text"] = "0/15 驱散魔蝠幼崽",
 ["need"] = 15,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/15 驱散魔蝠幼崽",
 },
 },
 },
@@ -2071,16 +2069,16 @@ ChoreTrackerDB = {
 ["questId"] = 81656,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/12 消灭斯卡丁",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 12,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/6 收集被丢弃的工具",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 6,
+["have"] = 0,
 },
 },
 },
@@ -2101,10 +2099,10 @@ ChoreTrackerDB = {
 ["questId"] = 42601,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1 选择职业大厅升级",
+["need"] = 1,
+["type"] = "object",
 },
 },
 },
@@ -2125,10 +2123,10 @@ ChoreTrackerDB = {
 ["questId"] = 46016,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭玛格德佐斯",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -2137,10 +2135,10 @@ ChoreTrackerDB = {
 ["questId"] = 80187,
 ["objectives"] = {
 {
-["need"] = 1000,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1000 在竞技场练习赛中获得荣誉点数",
+["need"] = 1000,
+["type"] = "object",
 },
 },
 },
@@ -2149,10 +2147,10 @@ ChoreTrackerDB = {
 ["questId"] = 82679,
 ["objectives"] = {
 {
-["need"] = 100,
-["type"] = "item",
 ["have"] = 0,
 ["text"] = "0/100 泰坦圆盘碎片",
+["need"] = 100,
+["type"] = "item",
 },
 },
 },
@@ -2167,10 +2165,10 @@ ChoreTrackerDB = {
 ["questId"] = 80188,
 ["objectives"] = {
 {
-["need"] = 1500,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1500 在评级竞技场中获得荣誉点数",
+["need"] = 1500,
+["type"] = "object",
 },
 },
 },
@@ -2180,28 +2178,28 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[12383] = {
-["status"] = 2,
-["questId"] = 12383,
-["objectives"] = {
-},
-},
 [44805] = {
 ["status"] = 1,
 ["questId"] = 44805,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/10 消灭夜之子部队",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 10,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭菲奥拉队长",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
+},
+},
+[12383] = {
+["status"] = 2,
+["questId"] = 12383,
+["objectives"] = {
 },
 },
 [44821] = {
@@ -2209,10 +2207,10 @@ ChoreTrackerDB = {
 ["questId"] = 44821,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 聆听议会的请求",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 聆听议会的请求",
 },
 },
 },
@@ -2222,28 +2220,10 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[60215] = {
-["status"] = 1,
-["questId"] = 60215,
+[82488] = {
+["status"] = 2,
+["questId"] = 82488,
 ["objectives"] = {
-{
-["text"] = "0/1 消灭末日行者",
-["type"] = "monster",
-["need"] = 1,
-["have"] = 0,
-},
-{
-["text"] = "0/1 消灭怒之煞",
-["type"] = "monster",
-["need"] = 1,
-["have"] = 0,
-},
-{
-["text"] = "0/1 消灭岩石看守者阿尔卡冯",
-["type"] = "monster",
-["need"] = 1,
-["have"] = 0,
-},
 },
 },
 [12399] = {
@@ -2252,10 +2232,28 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[82488] = {
-["status"] = 2,
-["questId"] = 82488,
+[60215] = {
+["status"] = 1,
+["questId"] = 60215,
 ["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 消灭末日行者",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 消灭怒之煞",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 消灭岩石看守者阿尔卡冯",
+["have"] = 0,
+["need"] = 1,
+},
 },
 },
 [84564] = {
@@ -2269,10 +2267,10 @@ ChoreTrackerDB = {
 ["questId"] = 46245,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 捐献抗魔联军物资",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 捐献抗魔联军物资",
 },
 },
 },
@@ -2323,10 +2321,10 @@ ChoreTrackerDB = {
 ["questId"] = 82297,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "event",
 ["have"] = 0,
 ["text"] = "在宠物对战中击败扎伊度",
+["need"] = 1,
+["type"] = "event",
 },
 },
 },
@@ -2347,10 +2345,10 @@ ChoreTrackerDB = {
 ["questId"] = 77251,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/100 收集梦涌凝珠",
 ["need"] = 100,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/100 收集梦涌凝珠",
 },
 },
 },
@@ -2359,10 +2357,10 @@ ChoreTrackerDB = {
 ["questId"] = 39718,
 ["objectives"] = {
 {
-["text"] = "0/1 前往达拉然",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 前往达拉然",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -2395,10 +2393,10 @@ ChoreTrackerDB = {
 ["questId"] = 38035,
 ["objectives"] = {
 {
-["text"] = "0/1 使用皇家召令",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 使用皇家召令",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -2425,10 +2423,10 @@ ChoreTrackerDB = {
 ["questId"] = 82653,
 ["objectives"] = {
 {
-["need"] = 3,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/3 护送碎点者",
+["need"] = 3,
+["type"] = "monster",
 },
 },
 },
@@ -2455,22 +2453,22 @@ ChoreTrackerDB = {
 ["questId"] = 76338,
 ["objectives"] = {
 {
-["need"] = 8,
-["type"] = "item",
 ["have"] = 0,
 ["text"] = "0/8 收集光纤陀螺弹簧",
+["need"] = 8,
+["type"] = "item",
 },
 {
-["need"] = 5,
-["type"] = "item",
 ["have"] = 0,
 ["text"] = "0/5 收集亮铜螺钉",
+["need"] = 5,
+["type"] = "item",
 },
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 找到控制设备，将其归还给艾兹吉",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -2479,10 +2477,10 @@ ChoreTrackerDB = {
 ["questId"] = 79226,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 完成盛大发掘：叛徒之眠",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -2491,10 +2489,10 @@ ChoreTrackerDB = {
 ["questId"] = 82158,
 ["objectives"] = {
 {
-["text"] = "0/3 完成陨圣峪的世界任务",
 ["type"] = "object",
-["need"] = 3,
+["text"] = "0/3 完成陨圣峪的世界任务",
 ["have"] = 0,
+["need"] = 3,
 },
 },
 },
@@ -2503,10 +2501,10 @@ ChoreTrackerDB = {
 ["questId"] = 29433,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/250 恐怖的战利品",
 ["need"] = 250,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/250 恐怖的战利品",
 },
 },
 },
@@ -2527,10 +2525,10 @@ ChoreTrackerDB = {
 ["questId"] = 78444,
 ["objectives"] = {
 {
-["text"] = "0/1500 获得梦境守望者声望",
 ["type"] = "object",
-["need"] = 1500,
+["text"] = "0/1500 获得梦境守望者声望",
 ["have"] = 0,
+["need"] = 1500,
 },
 },
 },
@@ -2539,10 +2537,10 @@ ChoreTrackerDB = {
 ["questId"] = 74378,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "在拜荒者的未来完成“暴风之怒”事件。",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -2569,16 +2567,16 @@ ChoreTrackerDB = {
 ["questId"] = 43264,
 ["objectives"] = {
 {
+["need"] = 1,
+["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1 招募萨萨里安",
-["need"] = 1,
-["type"] = "object",
 },
 {
-["have"] = 0,
-["text"] = "0/1 招募纳兹戈林",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 招募纳兹戈林",
 },
 },
 },
@@ -2599,10 +2597,10 @@ ChoreTrackerDB = {
 ["questId"] = 43267,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "完成“部队出勤”任务",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "完成“部队出勤”任务",
 },
 },
 },
@@ -2613,10 +2611,10 @@ ChoreTrackerDB = {
 ["questId"] = 81630,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 消灭考尔达克",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 消灭考尔达克",
 },
 },
 },
@@ -2631,16 +2629,16 @@ ChoreTrackerDB = {
 ["questId"] = 83240,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/50 赢得观众的认可",
 ["need"] = 50,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/50 赢得观众的认可",
 },
 {
-["have"] = 0,
-["text"] = "0/1 完成一场剧场巡演",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 完成一场剧场巡演",
 },
 },
 },
@@ -2679,10 +2677,10 @@ ChoreTrackerDB = {
 ["questId"] = 57638,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭血怒者科尔拉克",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -2703,10 +2701,10 @@ ChoreTrackerDB = {
 ["questId"] = 82492,
 ["objectives"] = {
 {
-["text"] = "在普通或更高难度下完成千丝之城地下城",
 ["type"] = "object",
-["need"] = 1,
+["text"] = "在普通或更高难度下完成千丝之城地下城",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -2721,10 +2719,10 @@ ChoreTrackerDB = {
 ["questId"] = 78444,
 ["objectives"] = {
 {
-["need"] = 1500,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1500 获得梦境守望者声望",
+["need"] = 1500,
+["type"] = "object",
 },
 },
 },
@@ -2751,10 +2749,10 @@ ChoreTrackerDB = {
 ["questId"] = 71145,
 ["objectives"] = {
 {
-["text"] = "在宠物对战中击败帕丘",
 ["type"] = "event",
-["need"] = 1,
+["text"] = "在宠物对战中击败帕丘",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -2763,10 +2761,10 @@ ChoreTrackerDB = {
 ["questId"] = 82158,
 ["objectives"] = {
 {
-["need"] = 3,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/3 完成陨圣峪的世界任务",
+["need"] = 3,
+["type"] = "object",
 },
 },
 },
@@ -2775,10 +2773,10 @@ ChoreTrackerDB = {
 ["questId"] = 57304,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 占领矿洞",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -2793,10 +2791,10 @@ ChoreTrackerDB = {
 ["questId"] = 83274,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/5 完成时空漫游地下城",
 ["need"] = 5,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/5 完成时空漫游地下城",
 },
 },
 },
@@ -2811,10 +2809,10 @@ ChoreTrackerDB = {
 ["questId"] = 79226,
 ["objectives"] = {
 {
-["text"] = "0/1 完成盛大发掘：叛徒之眠",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 完成盛大发掘：叛徒之眠",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -2841,10 +2839,10 @@ ChoreTrackerDB = {
 ["questId"] = 31812,
 ["objectives"] = {
 {
-["text"] = "击败祖塔",
 ["type"] = "event",
-["need"] = 1,
+["text"] = "击败祖塔",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -2853,10 +2851,10 @@ ChoreTrackerDB = {
 ["questId"] = 57639,
 ["objectives"] = {
 {
-["text"] = "0/1 消灭 ",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 消灭 ",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -2871,10 +2869,10 @@ ChoreTrackerDB = {
 ["questId"] = 38299,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "击败收藏家爱瑞斯",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -2913,10 +2911,10 @@ ChoreTrackerDB = {
 ["questId"] = 29075,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 使用篝火",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -2949,28 +2947,28 @@ ChoreTrackerDB = {
 ["questId"] = 27071,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭 ",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭 ",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭 ",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭 ",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -2997,10 +2995,10 @@ ChoreTrackerDB = {
 ["questId"] = 77236,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 完成一个时光裂隙",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -3009,10 +3007,10 @@ ChoreTrackerDB = {
 ["questId"] = 36483,
 ["objectives"] = {
 {
-["type"] = "item",
 ["text"] = "0/1  ",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3021,10 +3019,10 @@ ChoreTrackerDB = {
 ["questId"] = 70176,
 ["objectives"] = {
 {
-["text"] = "0/6 解救受害者",
 ["type"] = "monster",
-["need"] = 6,
+["text"] = "0/6 解救受害者",
 ["have"] = 0,
+["need"] = 6,
 },
 },
 },
@@ -3045,10 +3043,10 @@ ChoreTrackerDB = {
 ["questId"] = 82496,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "在英雄或更高难度下完成千丝之城地下城",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "在英雄或更高难度下完成千丝之城地下城",
 },
 },
 },
@@ -3057,16 +3055,16 @@ ChoreTrackerDB = {
 ["questId"] = 82512,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 在卡兹阿加消灭任意世界首领",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 在卡兹阿加消灭任意世界首领",
 },
 {
-["have"] = 0,
-["text"] = "0/5 在卡兹阿加消灭稀有生物",
 ["need"] = 5,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/5 在卡兹阿加消灭稀有生物",
 },
 },
 },
@@ -3075,10 +3073,10 @@ ChoreTrackerDB = {
 ["questId"] = 82783,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 完成“克罗米的法典”场景战役",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -3105,10 +3103,10 @@ ChoreTrackerDB = {
 ["questId"] = 82300,
 ["objectives"] = {
 {
-["type"] = "event",
 ["text"] = "在宠物对战中击败错乱的服务机",
-["have"] = 0,
+["type"] = "event",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3123,10 +3121,10 @@ ChoreTrackerDB = {
 ["questId"] = 82146,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "0/3 在多恩岛完成3个世界任务",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 3,
+["have"] = 0,
 },
 },
 },
@@ -3141,10 +3139,10 @@ ChoreTrackerDB = {
 ["questId"] = 76074,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "击败无头骑士",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3177,10 +3175,10 @@ ChoreTrackerDB = {
 ["questId"] = 57322,
 ["objectives"] = {
 {
-["text"] = "0/10  ",
 ["type"] = "item",
-["need"] = 10,
+["text"] = "0/10  ",
 ["have"] = 0,
+["need"] = 10,
 },
 },
 },
@@ -3213,10 +3211,10 @@ ChoreTrackerDB = {
 ["questId"] = 83358,
 ["objectives"] = {
 {
-["need"] = 10,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/10 获得竞技场练习赛胜利",
+["need"] = 10,
+["type"] = "object",
 },
 },
 },
@@ -3225,10 +3223,10 @@ ChoreTrackerDB = {
 ["questId"] = 76073,
 ["objectives"] = {
 {
-["type"] = "event",
 ["text"] = "调查喷泉",
-["have"] = 0,
+["type"] = "event",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3237,16 +3235,16 @@ ChoreTrackerDB = {
 ["questId"] = 27223,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭 ",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭悲惨的提米",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3255,10 +3253,10 @@ ChoreTrackerDB = {
 ["questId"] = 39719,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭裂骨船长",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3267,10 +3265,10 @@ ChoreTrackerDB = {
 ["questId"] = 76072,
 ["objectives"] = {
 {
-["type"] = "event",
 ["text"] = "沿着道路寻找线索",
-["have"] = 0,
+["type"] = "event",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3285,10 +3283,10 @@ ChoreTrackerDB = {
 ["questId"] = 7926,
 ["objectives"] = {
 {
-["text"] = "将免费券交给暗月马戏团里的吉瓦斯·格里加特。",
 ["type"] = "log",
-["need"] = 1,
+["text"] = "将免费券交给暗月马戏团里的吉瓦斯·格里加特。",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -3297,10 +3295,10 @@ ChoreTrackerDB = {
 ["questId"] = 76075,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "event",
 ["have"] = 0,
 ["text"] = "找到托马斯·汤姆森",
+["need"] = 1,
+["type"] = "event",
 },
 },
 },
@@ -3309,10 +3307,10 @@ ChoreTrackerDB = {
 ["questId"] = 40329,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "0/5 击败驯宠师",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 5,
+["have"] = 0,
 },
 },
 },
@@ -3333,10 +3331,10 @@ ChoreTrackerDB = {
 ["questId"] = 27305,
 ["objectives"] = {
 {
-["type"] = "item",
 ["text"] = "0/1  ",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3351,10 +3349,10 @@ ChoreTrackerDB = {
 ["questId"] = 84616,
 ["objectives"] = {
 {
-["text"] = "参加庆典活动 (50%)",
 ["type"] = "progressbar",
-["need"] = 100,
+["text"] = "参加庆典活动 (50%)",
 ["have"] = 0,
+["need"] = 100,
 },
 },
 },
@@ -3363,16 +3361,16 @@ ChoreTrackerDB = {
 ["questId"] = 82817,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 击败达格兰·索瑞森",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 击败达格兰·索瑞森",
 },
 {
-["have"] = 0,
-["text"] = "0/1 时空扭曲的铁炉堡图纸",
 ["need"] = 1,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/1 时空扭曲的铁炉堡图纸",
 },
 },
 },
@@ -3382,15 +3380,15 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[81750] = {
+[27068] = {
 ["status"] = 1,
-["questId"] = 81750,
+["questId"] = 27068,
 ["objectives"] = {
 {
+["text"] = "0/1 消灭 ",
 ["type"] = "monster",
-["text"] = "0/30 收集云雾",
+["need"] = 1,
 ["have"] = 0,
-["need"] = 30,
 },
 },
 },
@@ -3406,16 +3404,10 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[39720] = {
-["status"] = 1,
-["questId"] = 39720,
+[82499] = {
+["status"] = 2,
+["questId"] = 82499,
 ["objectives"] = {
-{
-["type"] = "monster",
-["text"] = "0/8 摧毁肥料",
-["have"] = 0,
-["need"] = 8,
-},
 },
 },
 [75700] = {
@@ -3435,22 +3427,22 @@ ChoreTrackerDB = {
 ["questId"] = 65443,
 ["objectives"] = {
 {
+["type"] = "monster",
 ["text"] = "0/1 招募工匠",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 招募探险者",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/1 招募学者",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 招募学者",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -3459,10 +3451,40 @@ ChoreTrackerDB = {
 ["questId"] = 76586,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/4 激活小型钥焰",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 4,
+["have"] = 0,
+},
+},
+},
+[81750] = {
+["status"] = 1,
+["questId"] = 81750,
+["objectives"] = {
+{
+["text"] = "0/30 收集云雾",
+["type"] = "monster",
+["need"] = 30,
+["have"] = 0,
+},
+},
+},
+[82483] = {
+["status"] = 2,
+["questId"] = 82483,
+["objectives"] = {
+},
+},
+[39720] = {
+["status"] = 1,
+["questId"] = 39720,
+["objectives"] = {
+{
+["text"] = "0/8 摧毁肥料",
+["type"] = "monster",
+["need"] = 8,
+["have"] = 0,
 },
 },
 },
@@ -3472,39 +3494,15 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[82483] = {
-["status"] = 2,
-["questId"] = 82483,
-["objectives"] = {
-},
-},
-[82499] = {
-["status"] = 2,
-["questId"] = 82499,
-["objectives"] = {
-},
-},
-[63953] = {
-["status"] = 1,
-["questId"] = 63953,
-["objectives"] = {
-{
-["type"] = "object",
-["text"] = "0/200 收集时空扭曲徽章",
-["have"] = 0,
-["need"] = 200,
-},
-},
-},
 [29371] = {
 ["status"] = 1,
 ["questId"] = 29371,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 熄灭部落的稻草人",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -3513,10 +3511,10 @@ ChoreTrackerDB = {
 ["questId"] = 82292,
 ["objectives"] = {
 {
-["type"] = "event",
 ["text"] = "在宠物对战中击败收集者戴娜",
-["have"] = 0,
+["type"] = "event",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3531,10 +3529,10 @@ ChoreTrackerDB = {
 ["questId"] = 39716,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/6 消灭生长中的南瓜娃娃",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 6,
+["have"] = 0,
 },
 },
 },
@@ -3543,28 +3541,28 @@ ChoreTrackerDB = {
 ["questId"] = 75280,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "拾取弥散熔炉",
-},
-{
-["need"] = 1,
-["type"] = "monster",
-["have"] = 0,
-["text"] = "0/1 消灭熔炉护卫",
-},
-{
 ["need"] = 1,
 ["type"] = "object",
-["have"] = 0,
-["text"] = "拾取弥散铸模",
 },
 {
+["have"] = 0,
+["text"] = "0/1 消灭熔炉护卫",
 ["need"] = 1,
 ["type"] = "monster",
+},
+{
+["have"] = 0,
+["text"] = "拾取弥散铸模",
+["need"] = 1,
+["type"] = "object",
+},
+{
 ["have"] = 0,
 ["text"] = "0/1 消灭熔炉主管",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -3579,10 +3577,10 @@ ChoreTrackerDB = {
 ["questId"] = 57310,
 ["objectives"] = {
 {
-["type"] = "item",
 ["text"] = "0/10  ",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 10,
+["have"] = 0,
 },
 },
 },
@@ -3591,23 +3589,17 @@ ChoreTrackerDB = {
 ["questId"] = 27185,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭 ",
-["have"] = 0,
-["need"] = 1,
-},
-},
-},
-[29144] = {
-["status"] = 1,
-["questId"] = 29144,
-["objectives"] = {
-{
-["need"] = 10,
 ["type"] = "monster",
+["need"] = 1,
 ["have"] = 0,
-["text"] = "0/10 清除臭气弹",
 },
+},
+},
+[82659] = {
+["status"] = 2,
+["questId"] = 82659,
+["objectives"] = {
 },
 },
 [27108] = {
@@ -3615,10 +3607,10 @@ ChoreTrackerDB = {
 ["questId"] = 27108,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "item",
 ["have"] = 0,
 ["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
 },
 },
 },
@@ -3639,10 +3631,10 @@ ChoreTrackerDB = {
 ["questId"] = 82946,
 ["objectives"] = {
 {
-["need"] = 10,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/10 收集怪异蜡团",
+["need"] = 10,
+["type"] = "monster",
 },
 },
 },
@@ -3651,10 +3643,10 @@ ChoreTrackerDB = {
 ["questId"] = 77251,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "0/100 收集梦涌凝珠",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 100,
+["have"] = 0,
 },
 },
 },
@@ -3669,10 +3661,10 @@ ChoreTrackerDB = {
 ["questId"] = 82771,
 ["objectives"] = {
 {
-["text"] = "0/1 上传经验",
 ["type"] = "object",
-["need"] = 1,
+["text"] = "0/1 上传经验",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -3687,10 +3679,10 @@ ChoreTrackerDB = {
 ["questId"] = 82293,
 ["objectives"] = {
 {
-["type"] = "event",
 ["text"] = "在宠物对战中击败拥友者格雷姆",
-["have"] = 0,
+["type"] = "event",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3712,15 +3704,15 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[39721] = {
+[27192] = {
 ["status"] = 1,
-["questId"] = 39721,
+["questId"] = 27192,
 ["objectives"] = {
 {
-["type"] = "monster",
-["text"] = "0/12 消灭白骨船船员",
+["text"] = "0/1  ",
+["type"] = "item",
+["need"] = 1,
 ["have"] = 0,
-["need"] = 12,
 },
 },
 },
@@ -3735,22 +3727,22 @@ ChoreTrackerDB = {
 ["questId"] = 70149,
 ["objectives"] = {
 {
-["text"] = "帮助流离失所的巢鸟、欧恩哈拉之卵以及欧恩哈拉之子 (0%)",
 ["type"] = "progressbar",
-["need"] = 100,
+["text"] = "帮助流离失所的巢鸟、欧恩哈拉之卵以及欧恩哈拉之子 (0%)",
 ["have"] = 0,
+["need"] = 100,
 },
 },
 },
-[43323] = {
+[27208] = {
 ["status"] = 1,
-["questId"] = 43323,
+["questId"] = 27208,
 ["objectives"] = {
 {
+["text"] = "0/1 消灭 ",
 ["type"] = "monster",
-["text"] = "0/1 回答勒洛尔的问题",
-["have"] = 0,
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3759,16 +3751,16 @@ ChoreTrackerDB = {
 ["questId"] = 81656,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/12 消灭斯卡丁",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 12,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/6 收集被丢弃的工具",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 6,
+["have"] = 0,
 },
 },
 },
@@ -3789,34 +3781,34 @@ ChoreTrackerDB = {
 ["questId"] = 84254,
 ["objectives"] = {
 {
+["type"] = "monster",
 ["text"] = "0/1 与格林凯尔交谈",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 与汉瑟尔·希利尔森交谈",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 与兹林威尔交谈",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 与瓦妮·荆量交谈",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/1 与佩特拉交谈",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 与佩特拉交谈",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -3826,15 +3818,15 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[27192] = {
+[39721] = {
 ["status"] = 1,
-["questId"] = 27192,
+["questId"] = 39721,
 ["objectives"] = {
 {
-["type"] = "item",
-["text"] = "0/1  ",
+["text"] = "0/12 消灭白骨船船员",
+["type"] = "monster",
+["need"] = 12,
 ["have"] = 0,
-["need"] = 1,
 },
 },
 },
@@ -3856,15 +3848,15 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[27208] = {
+[43323] = {
 ["status"] = 1,
-["questId"] = 27208,
+["questId"] = 43323,
 ["objectives"] = {
 {
+["text"] = "0/1 回答勒洛尔的问题",
 ["type"] = "monster",
-["text"] = "0/1 消灭 ",
-["have"] = 0,
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -3873,10 +3865,10 @@ ChoreTrackerDB = {
 ["questId"] = 29507,
 ["objectives"] = {
 {
-["need"] = 15,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/15 化石考古碎片",
+["need"] = 15,
+["type"] = "object",
 },
 },
 },
@@ -3885,10 +3877,10 @@ ChoreTrackerDB = {
 ["questId"] = 57305,
 ["objectives"] = {
 {
-["type"] = "item",
 ["text"] = "0/20 护甲碎片",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 20,
+["have"] = 0,
 },
 },
 },
@@ -3909,10 +3901,10 @@ ChoreTrackerDB = {
 ["questId"] = 70150,
 ["objectives"] = {
 {
-["text"] = "0/1 选择雏龙",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 选择雏龙",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -3921,10 +3913,10 @@ ChoreTrackerDB = {
 ["questId"] = 53435,
 ["objectives"] = {
 {
-["text"] = "0/36000 在海岛探险中收集36000份艾泽里特",
 ["type"] = "monster",
-["need"] = 36000,
+["text"] = "0/36000 在海岛探险中收集36000份艾泽里特",
 ["have"] = 0,
+["need"] = 36000,
 },
 },
 },
@@ -3939,10 +3931,10 @@ ChoreTrackerDB = {
 ["questId"] = 83458,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 协助艾特娜·布雷兹修女对抗隐修院",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -3951,10 +3943,10 @@ ChoreTrackerDB = {
 ["questId"] = 82709,
 ["objectives"] = {
 {
-["need"] = 30,
-["type"] = "item",
 ["have"] = 0,
 ["text"] = "0/30 卡兹阿加考古碎片",
+["need"] = 30,
+["type"] = "item",
 },
 },
 },
@@ -3987,40 +3979,22 @@ ChoreTrackerDB = {
 ["questId"] = 75665,
 ["objectives"] = {
 {
-["need"] = 1500,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1500 获得峈姆鼹鼠人声望",
+["need"] = 1500,
+["type"] = "object",
 },
 },
 },
-[8311] = {
+[82295] = {
 ["status"] = 1,
-["questId"] = 8311,
+["questId"] = 82295,
 ["objectives"] = {
 {
+["text"] = "在宠物对战中击败基里阿克",
+["type"] = "event",
 ["need"] = 1,
-["type"] = "item",
 ["have"] = 0,
-["text"] = "0/1  ",
-},
-{
-["need"] = 1,
-["type"] = "item",
-["have"] = 0,
-["text"] = "0/1  ",
-},
-{
-["need"] = 1,
-["type"] = "item",
-["have"] = 0,
-["text"] = "0/1  ",
-},
-{
-["need"] = 1,
-["type"] = "item",
-["have"] = 0,
-["text"] = "0/1  ",
 },
 },
 },
@@ -4047,22 +4021,22 @@ ChoreTrackerDB = {
 ["questId"] = 72406,
 ["objectives"] = {
 {
+["type"] = "monster",
 ["text"] = "0/1 装备补给商",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 幼龙手稿和护甲补给商",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/1 贸易协调员",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 贸易协调员",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4071,10 +4045,10 @@ ChoreTrackerDB = {
 ["questId"] = 80671,
 ["objectives"] = {
 {
-["need"] = 100,
-["type"] = "progressbar",
 ["have"] = 0,
 ["text"] = "在艾基-卡赫特完成活动 (20%)",
+["need"] = 100,
+["type"] = "progressbar",
 },
 },
 },
@@ -4083,10 +4057,10 @@ ChoreTrackerDB = {
 ["questId"] = 78821,
 ["objectives"] = {
 {
-["need"] = 3,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/3 种下梦境之种",
+["need"] = 3,
+["type"] = "monster",
 },
 },
 },
@@ -4101,10 +4075,10 @@ ChoreTrackerDB = {
 ["questId"] = 65437,
 ["objectives"] = {
 {
-["text"] = "0/1 与艾比西安交谈",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 与艾比西安交谈",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4113,10 +4087,10 @@ ChoreTrackerDB = {
 ["questId"] = 57307,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 摧毁旗帜",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -4131,10 +4105,10 @@ ChoreTrackerDB = {
 ["questId"] = 57315,
 ["objectives"] = {
 {
-["text"] = "0/1 占领哨塔",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 占领哨塔",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4155,10 +4129,10 @@ ChoreTrackerDB = {
 ["questId"] = 57300,
 ["objectives"] = {
 {
-["need"] = 500,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/500 在科尔拉克的复仇获得荣誉点数",
+["need"] = 500,
+["type"] = "object",
 },
 },
 },
@@ -4167,10 +4141,10 @@ ChoreTrackerDB = {
 ["questId"] = 57314,
 ["objectives"] = {
 {
-["text"] = "0/1 占领矿洞",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 占领矿洞",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4197,10 +4171,10 @@ ChoreTrackerDB = {
 ["questId"] = 70196,
 ["objectives"] = {
 {
-["text"] = "消灭始祖龙 (0%)",
 ["type"] = "progressbar",
-["need"] = 100,
+["text"] = "消灭始祖龙 (0%)",
 ["have"] = 0,
+["need"] = 100,
 },
 },
 },
@@ -4209,10 +4183,10 @@ ChoreTrackerDB = {
 ["questId"] = 72560,
 ["objectives"] = {
 {
-["text"] = "0/1 消灭Kill Credit: NEVER [DNT]",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 消灭Kill Credit: NEVER [DNT]",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4221,10 +4195,10 @@ ChoreTrackerDB = {
 ["questId"] = 36471,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "event",
 ["have"] = 0,
 ["text"] = "击败克里斯托弗·冯·费舍尔",
+["need"] = 1,
+["type"] = "event",
 },
 },
 },
@@ -4233,16 +4207,16 @@ ChoreTrackerDB = {
 ["questId"] = 82678,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "进一步推进战役以解锁档案馆。",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "进一步推进战役以解锁档案馆。",
 },
 {
-["have"] = 0,
-["text"] = "0/1 在记忆宝地与布琳泽见面",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 在记忆宝地与布琳泽见面",
 },
 },
 },
@@ -4257,10 +4231,10 @@ ChoreTrackerDB = {
 ["questId"] = 82679,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/100 泰坦圆盘碎片",
 ["need"] = 100,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/100 泰坦圆盘碎片",
 },
 },
 },
@@ -4269,10 +4243,10 @@ ChoreTrackerDB = {
 ["questId"] = 84735,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "击败达格兰·索瑞森大帝",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "击败达格兰·索瑞森大帝",
 },
 },
 },
@@ -4306,15 +4280,33 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[82295] = {
+[8311] = {
 ["status"] = 1,
-["questId"] = 82295,
+["questId"] = 8311,
 ["objectives"] = {
 {
-["type"] = "event",
-["text"] = "在宠物对战中击败基里阿克",
 ["have"] = 0,
+["text"] = "0/1  ",
 ["need"] = 1,
+["type"] = "item",
+},
+{
+["have"] = 0,
+["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
+},
+{
+["have"] = 0,
+["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
+},
+{
+["have"] = 0,
+["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
 },
 },
 },
@@ -4329,10 +4321,10 @@ ChoreTrackerDB = {
 ["questId"] = 83333,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/20 清除敌人波次",
 ["need"] = 20,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/20 清除敌人波次",
 },
 },
 },
@@ -4353,10 +4345,10 @@ ChoreTrackerDB = {
 ["questId"] = 7905,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "log",
 ["have"] = 0,
 ["text"] = "将免费券交给暗月马戏团里的吉瓦斯·格里加特。",
+["need"] = 1,
+["type"] = "log",
 },
 },
 },
@@ -4371,10 +4363,10 @@ ChoreTrackerDB = {
 ["questId"] = 65841,
 ["objectives"] = {
 {
-["text"] = "抑制蕨皮腐朽的散播 (0%)",
 ["type"] = "progressbar",
-["need"] = 100,
+["text"] = "抑制蕨皮腐朽的散播 (0%)",
 ["have"] = 0,
+["need"] = 100,
 },
 },
 },
@@ -4383,10 +4375,10 @@ ChoreTrackerDB = {
 ["questId"] = 57321,
 ["objectives"] = {
 {
-["text"] = "0/10  ",
 ["type"] = "item",
-["need"] = 10,
+["text"] = "0/10  ",
 ["have"] = 0,
+["need"] = 10,
 },
 },
 },
@@ -4395,10 +4387,10 @@ ChoreTrackerDB = {
 ["questId"] = 57312,
 ["objectives"] = {
 {
-["text"] = "0/1 占领墓地",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 占领墓地",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4413,10 +4405,10 @@ ChoreTrackerDB = {
 ["questId"] = 38934,
 ["objectives"] = {
 {
-["text"] = "0/1 找到第一条线索",
 ["type"] = "object",
-["need"] = 1,
+["text"] = "0/1 找到第一条线索",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4425,10 +4417,10 @@ ChoreTrackerDB = {
 ["questId"] = 57302,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 占领墓地",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -4450,10 +4442,16 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[82659] = {
-["status"] = 2,
-["questId"] = 82659,
+[29144] = {
+["status"] = 1,
+["questId"] = 29144,
 ["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/10 清除臭气弹",
+["need"] = 10,
+["type"] = "monster",
+},
 },
 },
 [75668] = {
@@ -4474,15 +4472,15 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[27068] = {
+[63953] = {
 ["status"] = 1,
-["questId"] = 27068,
+["questId"] = 63953,
 ["objectives"] = {
 {
-["type"] = "monster",
-["text"] = "0/1 消灭 ",
+["text"] = "0/200 收集时空扭曲徽章",
+["type"] = "object",
+["need"] = 200,
 ["have"] = 0,
-["need"] = 1,
 },
 },
 },
@@ -4491,10 +4489,10 @@ ChoreTrackerDB = {
 ["questId"] = 70632,
 ["objectives"] = {
 {
-["text"] = "0/1 乘上编目员的木筏",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 乘上编目员的木筏",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4509,10 +4507,10 @@ ChoreTrackerDB = {
 ["questId"] = 57311,
 ["objectives"] = {
 {
-["type"] = "item",
 ["text"] = "0/10  ",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 10,
+["have"] = 0,
 },
 },
 },
@@ -4521,10 +4519,10 @@ ChoreTrackerDB = {
 ["questId"] = 27107,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "item",
 ["have"] = 0,
 ["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
 },
 },
 },
@@ -4569,22 +4567,22 @@ ChoreTrackerDB = {
 ["questId"] = 47254,
 ["objectives"] = {
 {
+["type"] = "monster",
 ["text"] = "0/1 消灭卡扎克",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 消灭艾索雷苟斯",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/1 消灭梦魇之龙",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 消灭梦魇之龙",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4593,10 +4591,10 @@ ChoreTrackerDB = {
 ["questId"] = 74378,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "在拜荒者的未来完成“暴风之怒”事件。",
+["need"] = 1,
+["type"] = "object",
 },
 },
 },
@@ -4605,10 +4603,10 @@ ChoreTrackerDB = {
 ["questId"] = 29054,
 ["objectives"] = {
 {
-["need"] = 25,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/25 投放炸弹",
+["need"] = 25,
+["type"] = "monster",
 },
 },
 },
@@ -4623,10 +4621,10 @@ ChoreTrackerDB = {
 ["questId"] = 43461,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 回答吉帕的问题",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 回答吉帕的问题",
 },
 },
 },
@@ -4649,10 +4647,10 @@ ChoreTrackerDB = {
 ["questId"] = 84435,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 与拉什克交谈",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 与拉什克交谈",
 },
 },
 },
@@ -4667,16 +4665,16 @@ ChoreTrackerDB = {
 ["questId"] = 83240,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/50 赢得观众的认可",
 ["need"] = 50,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/50 赢得观众的认可",
 },
 {
-["have"] = 0,
-["text"] = "0/1 完成一场剧场巡演",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 完成一场剧场巡演",
 },
 },
 },
@@ -4703,10 +4701,10 @@ ChoreTrackerDB = {
 ["questId"] = 84595,
 ["objectives"] = {
 {
-["need"] = 100,
-["type"] = "progressbar",
 ["have"] = 0,
 ["text"] = "破解谜题 (0%)",
+["need"] = 100,
+["type"] = "progressbar",
 },
 },
 },
@@ -4715,10 +4713,10 @@ ChoreTrackerDB = {
 ["questId"] = 84882,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "找到丢失的暗月占卜套牌 (10%)",
 ["need"] = 100,
 ["type"] = "progressbar",
+["have"] = 0,
+["text"] = "找到丢失的暗月占卜套牌 (10%)",
 },
 },
 },
@@ -4763,10 +4761,10 @@ ChoreTrackerDB = {
 ["questId"] = 83465,
 ["objectives"] = {
 {
-["need"] = 1,
 ["type"] = "monster",
-["have"] = 0,
 ["text"] = "0/1 干扰艾拉-卡拉的运作",
+["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4775,10 +4773,10 @@ ChoreTrackerDB = {
 ["questId"] = 84756,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "发现玩具小偷 (0%)",
 ["need"] = 100,
 ["type"] = "progressbar",
+["have"] = 0,
+["text"] = "发现玩具小偷 (0%)",
 },
 },
 },
@@ -4799,10 +4797,10 @@ ChoreTrackerDB = {
 ["questId"] = 79226,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 完成盛大发掘：叛徒之眠",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -4817,22 +4815,22 @@ ChoreTrackerDB = {
 ["questId"] = 84868,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 购买魂灵熏香",
-},
-{
 ["need"] = 1,
 ["type"] = "monster",
+},
+{
 ["have"] = 0,
 ["text"] = "0/1 使用魂灵熏香",
-},
-{
 ["need"] = 1,
 ["type"] = "monster",
+},
+{
 ["have"] = 0,
 ["text"] = "0/1 与玛露的灵魂交谈",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -4847,10 +4845,10 @@ ChoreTrackerDB = {
 ["questId"] = 81649,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭被侵蚀的泰坦构造体",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -4871,10 +4869,10 @@ ChoreTrackerDB = {
 ["questId"] = 85060,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 在藏宝海湾寻找关于库索劳默的线索",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -4889,10 +4887,10 @@ ChoreTrackerDB = {
 ["questId"] = 84933,
 ["objectives"] = {
 {
-["type"] = "progressbar",
 ["text"] = "吸取教训 (0%)",
-["have"] = 0,
+["type"] = "progressbar",
 ["need"] = 100,
+["have"] = 0,
 },
 },
 },
@@ -4901,16 +4899,16 @@ ChoreTrackerDB = {
 ["questId"] = 78319,
 ["objectives"] = {
 {
-["text"] = "0/50 获得繁茂",
 ["type"] = "monster",
-["need"] = 50,
+["text"] = "0/50 获得繁茂",
 ["have"] = 0,
+["need"] = 50,
 },
 {
-["text"] = "0/1 完成超然盛放",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 完成超然盛放",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -4949,10 +4947,10 @@ ChoreTrackerDB = {
 ["questId"] = 83069,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "0/3 在多恩岛完成3个世界任务",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 3,
+["have"] = 0,
 },
 },
 },
@@ -4991,10 +4989,10 @@ ChoreTrackerDB = {
 ["questId"] = 46205,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 与法罗迪斯王子交谈",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5003,10 +5001,10 @@ ChoreTrackerDB = {
 ["questId"] = 82496,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "在英雄或更高难度下完成千丝之城地下城",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "在英雄或更高难度下完成千丝之城地下城",
 },
 },
 },
@@ -5015,16 +5013,16 @@ ChoreTrackerDB = {
 ["questId"] = 82512,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/1 在卡兹阿加消灭任意世界首领",
+["need"] = 1,
+["type"] = "object",
 },
 {
-["need"] = 5,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/5 在卡兹阿加消灭稀有生物",
+["need"] = 5,
+["type"] = "object",
 },
 },
 },
@@ -5033,10 +5031,10 @@ ChoreTrackerDB = {
 ["questId"] = 82783,
 ["objectives"] = {
 {
-["need"] = 1,
 ["type"] = "monster",
-["have"] = 0,
 ["text"] = "0/1 完成“克罗米的法典”场景战役",
+["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -5045,10 +5043,10 @@ ChoreTrackerDB = {
 ["questId"] = 84616,
 ["objectives"] = {
 {
-["need"] = 100,
-["type"] = "progressbar",
 ["have"] = 0,
 ["text"] = "参加庆典活动 (100%)",
+["need"] = 100,
+["type"] = "progressbar",
 },
 },
 },
@@ -5057,10 +5055,10 @@ ChoreTrackerDB = {
 ["questId"] = 29446,
 ["objectives"] = {
 {
-["type"] = "log",
 ["text"] = "将这把精美的武器带给暗月岛上的暗月马戏团的萨杜斯·帕雷教授。",
-["have"] = 0,
+["type"] = "log",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5069,10 +5067,10 @@ ChoreTrackerDB = {
 ["questId"] = 84393,
 ["objectives"] = {
 {
-["text"] = "0/1 使用派利斯火炬",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 使用派利斯火炬",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -5081,10 +5079,10 @@ ChoreTrackerDB = {
 ["questId"] = 55983,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 护送穆勒尔至梅扎米尔",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5099,10 +5097,10 @@ ChoreTrackerDB = {
 ["questId"] = 45058,
 ["objectives"] = {
 {
-["type"] = "progressbar",
 ["text"] = "击退燃烧军团的部队 (0%)",
-["have"] = 0,
+["type"] = "progressbar",
 ["need"] = 100,
+["have"] = 0,
 },
 },
 },
@@ -5111,10 +5109,10 @@ ChoreTrackerDB = {
 ["questId"] = 84521,
 ["objectives"] = {
 {
-["need"] = 100,
-["type"] = "progressbar",
 ["have"] = 0,
 ["text"] = "护送玛露解开贝纳陶克的谜题 (0%)",
+["need"] = 100,
+["type"] = "progressbar",
 },
 },
 },
@@ -5129,10 +5127,10 @@ ChoreTrackerDB = {
 ["questId"] = 57338,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/15 消灭纳迦部队",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 15,
+["have"] = 0,
 },
 },
 },
@@ -5141,10 +5139,10 @@ ChoreTrackerDB = {
 ["questId"] = 81653,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭修拉伊",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5165,16 +5163,16 @@ ChoreTrackerDB = {
 ["questId"] = 70529,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/6 解救被囚禁的海象人",
 ["need"] = 6,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/6 解救被囚禁的海象人",
 },
 {
-["have"] = 0,
-["text"] = "消灭暗齿豺狼人 (0%)",
 ["need"] = 100,
 ["type"] = "progressbar",
+["have"] = 0,
+["text"] = "消灭暗齿豺狼人 (0%)",
 },
 },
 },
@@ -5183,10 +5181,10 @@ ChoreTrackerDB = {
 ["questId"] = 82291,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "在宠物对战中击败觉醒的监管者",
 ["need"] = 1,
 ["type"] = "event",
+["have"] = 0,
+["text"] = "在宠物对战中击败觉醒的监管者",
 },
 },
 },
@@ -5195,16 +5193,16 @@ ChoreTrackerDB = {
 ["questId"] = 82817,
 ["objectives"] = {
 {
-["text"] = "0/1 击败达格兰·索瑞森",
 ["type"] = "object",
-["need"] = 1,
+["text"] = "0/1 击败达格兰·索瑞森",
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/1 时空扭曲的铁炉堡图纸",
 ["type"] = "item",
-["need"] = 1,
+["text"] = "0/1 时空扭曲的铁炉堡图纸",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -5213,10 +5211,10 @@ ChoreTrackerDB = {
 ["questId"] = 84363,
 ["objectives"] = {
 {
-["need"] = 100,
-["type"] = "progressbar",
 ["have"] = 0,
 ["text"] = "找到宝藏 (0%)",
+["need"] = 100,
+["type"] = "progressbar",
 },
 },
 },
@@ -5225,10 +5223,10 @@ ChoreTrackerDB = {
 ["questId"] = 76586,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/4 激活小型钥焰",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 4,
+["have"] = 0,
 },
 },
 },
@@ -5249,10 +5247,10 @@ ChoreTrackerDB = {
 ["questId"] = 46167,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭考兹鲁姆",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5297,10 +5295,10 @@ ChoreTrackerDB = {
 ["questId"] = 82946,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/10 收集怪异蜡团",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 10,
+["have"] = 0,
 },
 },
 },
@@ -5327,10 +5325,10 @@ ChoreTrackerDB = {
 ["questId"] = 84588,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "找到并归还玩具 (0%)",
 ["need"] = 100,
 ["type"] = "progressbar",
+["have"] = 0,
+["text"] = "找到并归还玩具 (0%)",
 },
 },
 },
@@ -5339,10 +5337,10 @@ ChoreTrackerDB = {
 ["questId"] = 52375,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/20  ",
 ["need"] = 20,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/20  ",
 },
 },
 },
@@ -5351,10 +5349,10 @@ ChoreTrackerDB = {
 ["questId"] = 42191,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 选择职业大厅升级",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 选择职业大厅升级",
 },
 },
 },
@@ -5363,10 +5361,10 @@ ChoreTrackerDB = {
 ["questId"] = 29451,
 ["objectives"] = {
 {
-["type"] = "log",
 ["text"] = "把《战略论》带给暗月岛上暗月马戏团内的萨杜斯·帕雷教授。",
-["have"] = 0,
+["type"] = "log",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5375,10 +5373,10 @@ ChoreTrackerDB = {
 ["questId"] = 70659,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 乘上编目员的木筏",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 乘上编目员的木筏",
 },
 },
 },
@@ -5393,34 +5391,34 @@ ChoreTrackerDB = {
 ["questId"] = 84254,
 ["objectives"] = {
 {
+["type"] = "monster",
 ["text"] = "0/1 与格林凯尔交谈",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 与汉瑟尔·希利尔森交谈",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 与兹林威尔交谈",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 与瓦妮·荆量交谈",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/1 与佩特拉交谈",
 ["type"] = "monster",
-["need"] = 1,
+["text"] = "0/1 与佩特拉交谈",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -5447,10 +5445,10 @@ ChoreTrackerDB = {
 ["questId"] = 43323,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 回答勒洛尔的问题",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
@@ -5471,52 +5469,52 @@ ChoreTrackerDB = {
 ["questId"] = 85195,
 ["objectives"] = {
 {
-["type"] = "item",
 ["text"] = "0/2 潜行者菊花草",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 2,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/2 泡蕉朗姆酒果子",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 2,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/1 喷火爆椒袋",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/2 寇亚迪尼之油",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 2,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/5 逆风鲶鱼",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 5,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/4 增长之鱼",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 4,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/2 索拉查水母",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 2,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/3 高地龙虾",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 3,
+["have"] = 0,
 },
 },
 },
@@ -5537,10 +5535,10 @@ ChoreTrackerDB = {
 ["questId"] = 41905,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "完成“调查天禅院”任务",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "完成“调查天禅院”任务",
 },
 },
 },
@@ -5549,10 +5547,10 @@ ChoreTrackerDB = {
 ["questId"] = 83825,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1  ",
 ["need"] = 1,
 ["type"] = "item",
+["have"] = 0,
+["text"] = "0/1  ",
 },
 },
 },
@@ -5561,16 +5559,16 @@ ChoreTrackerDB = {
 ["questId"] = 70071,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 引流魔法",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 引流魔法",
 },
 {
-["have"] = 0,
-["text"] = "收集魔法 (0%)",
 ["need"] = 100,
 ["type"] = "progressbar",
+["have"] = 0,
+["text"] = "收集魔法 (0%)",
 },
 },
 },
@@ -5579,10 +5577,10 @@ ChoreTrackerDB = {
 ["questId"] = 83363,
 ["objectives"] = {
 {
-["need"] = 5,
-["type"] = "object",
 ["have"] = 0,
 ["text"] = "0/5 击败时空漫游团队首领或完成时空漫游地下城",
+["need"] = 5,
+["type"] = "object",
 },
 },
 },
@@ -5609,28 +5607,28 @@ ChoreTrackerDB = {
 ["questId"] = 82678,
 ["objectives"] = {
 {
-["text"] = "进一步推进战役以解锁档案馆。",
 ["type"] = "object",
-["need"] = 1,
+["text"] = "进一步推进战役以解锁档案馆。",
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 在记忆宝地与布琳泽见面",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
+["type"] = "monster",
 ["text"] = "0/1 与布琳泽谈一谈",
-["type"] = "monster",
-["need"] = 1,
 ["have"] = 0,
+["need"] = 1,
 },
 {
-["text"] = "0/100 泰坦圆盘碎片",
 ["type"] = "item",
-["need"] = 100,
+["text"] = "0/100 泰坦圆盘碎片",
 ["have"] = 0,
+["need"] = 100,
 },
 },
 },
@@ -5639,10 +5637,10 @@ ChoreTrackerDB = {
 ["questId"] = 43268,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 选择职业大厅升级",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 选择职业大厅升级",
 },
 },
 },
@@ -5663,10 +5661,10 @@ ChoreTrackerDB = {
 ["questId"] = 84336,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 指认变形者",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 指认变形者",
 },
 },
 },
@@ -5675,10 +5673,10 @@ ChoreTrackerDB = {
 ["questId"] = 46161,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭邪能召唤者萨勒兹拉",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5687,10 +5685,10 @@ ChoreTrackerDB = {
 ["questId"] = 46199,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭瑟瑞塔斯",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5699,10 +5697,10 @@ ChoreTrackerDB = {
 ["questId"] = 77251,
 ["objectives"] = {
 {
-["text"] = "0/100 收集梦涌凝珠",
 ["type"] = "object",
-["need"] = 100,
+["text"] = "0/100 收集梦涌凝珠",
 ["have"] = 0,
+["need"] = 100,
 },
 },
 },
@@ -5711,10 +5709,10 @@ ChoreTrackerDB = {
 ["questId"] = 82679,
 ["objectives"] = {
 {
-["need"] = 100,
 ["type"] = "item",
-["have"] = 0,
 ["text"] = "0/100 泰坦圆盘碎片",
+["have"] = 0,
+["need"] = 100,
 },
 },
 },
@@ -5723,10 +5721,10 @@ ChoreTrackerDB = {
 ["questId"] = 84735,
 ["objectives"] = {
 {
-["text"] = "击败达格兰·索瑞森大帝",
 ["type"] = "object",
-["need"] = 1,
+["text"] = "击败达格兰·索瑞森大帝",
 ["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -5735,10 +5733,10 @@ ChoreTrackerDB = {
 ["questId"] = 80671,
 ["objectives"] = {
 {
-["need"] = 100,
 ["type"] = "progressbar",
-["have"] = 0,
 ["text"] = "在艾基-卡赫特完成活动 (0%)",
+["have"] = 0,
+["need"] = 100,
 },
 },
 },
@@ -5753,10 +5751,10 @@ ChoreTrackerDB = {
 ["questId"] = 74838,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "在宠物对战中击败莱威尔",
 ["need"] = 1,
 ["type"] = "event",
+["have"] = 0,
+["text"] = "在宠物对战中击败莱威尔",
 },
 },
 },
@@ -5771,10 +5769,10 @@ ChoreTrackerDB = {
 ["questId"] = 69987,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/1 消灭玛尼特",
 ["need"] = 1,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 消灭玛尼特",
 },
 },
 },
@@ -5783,10 +5781,10 @@ ChoreTrackerDB = {
 ["questId"] = 45838,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/4 击退军团据点",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 4,
+["have"] = 0,
 },
 },
 },
@@ -5795,10 +5793,10 @@ ChoreTrackerDB = {
 ["questId"] = 84278,
 ["objectives"] = {
 {
-["type"] = "monster",
 ["text"] = "0/1 在北风苔原找到雷克萨",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5807,10 +5805,10 @@ ChoreTrackerDB = {
 ["questId"] = 83333,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "0/20 清除敌人波次",
 ["need"] = 20,
 ["type"] = "monster",
+["have"] = 0,
+["text"] = "0/20 清除敌人波次",
 },
 },
 },
@@ -5825,10 +5823,10 @@ ChoreTrackerDB = {
 ["questId"] = 84237,
 ["objectives"] = {
 {
-["need"] = 100,
-["type"] = "progressbar",
 ["have"] = 0,
 ["text"] = "破解谜题 (0%)",
+["need"] = 100,
+["type"] = "progressbar",
 },
 },
 },
@@ -5849,10 +5847,10 @@ ChoreTrackerDB = {
 ["questId"] = 84296,
 ["objectives"] = {
 {
-["type"] = "progressbar",
 ["text"] = "破解谜题 (0%)",
-["have"] = 0,
+["type"] = "progressbar",
 ["need"] = 100,
+["have"] = 0,
 },
 },
 },
@@ -5861,10 +5859,10 @@ ChoreTrackerDB = {
 ["questId"] = 45795,
 ["objectives"] = {
 {
-["type"] = "progressbar",
 ["text"] = "击退燃烧军团的部队 (0%)",
-["have"] = 0,
+["type"] = "progressbar",
 ["need"] = 100,
+["have"] = 0,
 },
 },
 },
@@ -5873,28 +5871,28 @@ ChoreTrackerDB = {
 ["questId"] = 55529,
 ["objectives"] = {
 {
-["type"] = "item",
 ["text"] = "0/1  ",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/1  ",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/1  ",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 1,
+["have"] = 0,
 },
 {
-["type"] = "item",
 ["text"] = "0/1  ",
-["have"] = 0,
+["type"] = "item",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -5910,16 +5908,10 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[72560] = {
-["status"] = 1,
-["questId"] = 72560,
+[82505] = {
+["status"] = 2,
+["questId"] = 82505,
 ["objectives"] = {
-{
-["have"] = 0,
-["text"] = "0/1 消灭Kill Credit: NEVER [DNT]",
-["need"] = 1,
-["type"] = "monster",
-},
 },
 },
 [82489] = {
@@ -5928,10 +5920,16 @@ ChoreTrackerDB = {
 ["objectives"] = {
 },
 },
-[82505] = {
-["status"] = 2,
-["questId"] = 82505,
+[72560] = {
+["status"] = 1,
+["questId"] = 72560,
 ["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 消灭Kill Credit: NEVER [DNT]",
+},
 },
 },
 [57300] = {
@@ -5951,10 +5949,10 @@ ChoreTrackerDB = {
 ["questId"] = 82710,
 ["objectives"] = {
 {
-["need"] = 2,
 ["type"] = "object",
-["have"] = 0,
 ["text"] = "0/2 完成陨圣峪地下堡",
+["have"] = 0,
+["need"] = 2,
 },
 },
 },
@@ -5963,10 +5961,10 @@ ChoreTrackerDB = {
 ["questId"] = 75665,
 ["objectives"] = {
 {
-["need"] = 1500,
 ["type"] = "object",
-["have"] = 0,
 ["text"] = "0/1500 获得峈姆鼹鼠人声望",
+["have"] = 0,
+["need"] = 1500,
 },
 },
 },
@@ -5987,10 +5985,10 @@ ChoreTrackerDB = {
 ["questId"] = 83366,
 ["objectives"] = {
 {
-["need"] = 10,
 ["type"] = "object",
-["have"] = 0,
 ["text"] = "0/10 完成世界任务",
+["have"] = 0,
+["need"] = 10,
 },
 },
 },
@@ -5999,16 +5997,16 @@ ChoreTrackerDB = {
 ["questId"] = 45134,
 ["objectives"] = {
 {
-["type"] = "progressbar",
 ["text"] = "击退燃烧军团的部队 (0%)",
-["have"] = 0,
+["type"] = "progressbar",
 ["need"] = 100,
+["have"] = 0,
 },
 {
-["type"] = "monster",
 ["text"] = "0/1 消灭末日领主克罗纳克",
-["have"] = 0,
+["type"] = "monster",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -6083,22 +6081,22 @@ ChoreTrackerDB = {
 ["questId"] = 47254,
 ["objectives"] = {
 {
-["need"] = 1,
 ["type"] = "monster",
-["have"] = 0,
 ["text"] = "0/1 消灭卡扎克",
+["have"] = 0,
+["need"] = 1,
 },
 {
-["need"] = 1,
 ["type"] = "monster",
-["have"] = 0,
 ["text"] = "0/1 消灭艾索雷苟斯",
+["have"] = 0,
+["need"] = 1,
 },
 {
-["need"] = 1,
 ["type"] = "monster",
-["have"] = 0,
 ["text"] = "0/1 消灭梦魇之龙",
+["have"] = 0,
+["need"] = 1,
 },
 },
 },
@@ -6107,10 +6105,10 @@ ChoreTrackerDB = {
 ["questId"] = 74378,
 ["objectives"] = {
 {
-["type"] = "object",
 ["text"] = "在拜荒者的未来完成“暴风之怒”事件。",
-["have"] = 0,
+["type"] = "object",
 ["need"] = 1,
+["have"] = 0,
 },
 },
 },
@@ -6119,10 +6117,10 @@ ChoreTrackerDB = {
 ["questId"] = 43539,
 ["objectives"] = {
 {
-["have"] = 0,
-["text"] = "完成“骑手萨拉纳尔”任务",
 ["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
+["text"] = "完成“骑手萨拉纳尔”任务",
 },
 },
 },
@@ -6137,10 +6135,10 @@ ChoreTrackerDB = {
 ["questId"] = 43461,
 ["objectives"] = {
 {
-["need"] = 1,
-["type"] = "monster",
 ["have"] = 0,
 ["text"] = "0/1 回答吉帕的问题",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },

@@ -21,12 +21,12 @@ MEETINGSTONE_UI_DB = {
 ["max"] = 0,
 ["enable"] = false,
 },
-["Age"] = {
+["Members"] = {
 ["min"] = 0,
 ["max"] = 0,
 ["enable"] = false,
 },
-["Members"] = {
+["Age"] = {
 ["min"] = 0,
 ["max"] = 0,
 ["enable"] = false,

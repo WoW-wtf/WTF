@@ -8,7 +8,7 @@ VER 3 0000000000000004 "1111" "Ability_Ambush"
 END
 VER 3 000000000000002C "AutoPotion" "INV_Misc_QuestionMark"
 #showtooltip 
-/castsequence reset=combat 甘霖, item:191378, item:212242
+/castsequence reset=combat item:191379
 END
 VER 3 0000000000000007 "BF_Pet" "achievement_worldevent_brewmaster"
 /BFPET

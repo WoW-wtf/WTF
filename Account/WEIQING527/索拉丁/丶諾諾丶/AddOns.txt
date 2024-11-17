@@ -42,7 +42,7 @@ BtWQuestsTheWarWithin: enabled
 BuffTimers: enabled
 !BugGrabber: enabled
 BugSack: enabled
-Cell: disabled
+Cell: enabled
 Decursive: disabled
 Details: enabled
 Details_Compare2: enabled
@@ -100,3 +100,4 @@ WorldQuestTracker: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 WeakAurasCompanion: enabled
+TurnIn: enabled

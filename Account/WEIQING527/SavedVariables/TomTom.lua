@@ -30,16 +30,6 @@ TomTomDB = {
 ["poi"] = {
 ["setClosest"] = true,
 },
-["arrow"] = {
-["position"] = {
-"CENTER",
-nil,
-"CENTER",
--0.9999418258666992,
--65.4997329711914,
-},
-["closestusecontinent"] = true,
-},
 ["block"] = {
 ["enable"] = false,
 ["position"] = {
@@ -53,17 +43,18 @@ nil,
 ["feeds"] = {
 ["coords"] = true,
 },
+["arrow"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+-0.9999418258666992,
+-65.4997329711914,
+},
+["closestusecontinent"] = true,
+},
 },
 ["丶諾諾丶 - 索拉丁"] = {
-["block"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
--406.4999389648438,
-0,
-},
-},
 ["arrow"] = {
 ["position"] = {
 "CENTER",
@@ -71,6 +62,15 @@ nil,
 "CENTER",
 2.999891042709351,
 -45.99985122680664,
+},
+},
+["block"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+-406.4999389648438,
+0,
 },
 },
 },
@@ -159,10 +159,18 @@ TomTomWaypointsM = {
 ["from"] = "TomTom/way",
 ["callbacks"] = {
 ["distance"] = {
-},
-["minimap"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
 },
 ["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 },
 ["minimap"] = true,
@@ -177,18 +185,28 @@ TomTomWaypointsM = {
 ["arrivaldistance"] = 15,
 ["crazy"] = true,
 ["persistent"] = true,
-["minimap"] = true,
+["desc"] = "被埋藏的小包",
+["silent"] = true,
 ["cleardistance"] = 10,
 ["title"] = "被埋藏的小包",
 ["from"] = "HandyNotes: 巨龙时代",
 ["callbacks"] = {
 ["distance"] = {
-},
-["minimap"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
 },
 ["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 },
+["minimap"] = true,
 ["world"] = true,
 },
 },
@@ -207,10 +225,18 @@ TomTomWaypointsM = {
 ["from"] = "TomTom/way",
 ["callbacks"] = {
 ["distance"] = {
-},
-["minimap"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
 },
 ["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 },
 ["minimap"] = true,
@@ -232,10 +258,18 @@ TomTomWaypointsM = {
 ["from"] = "TomTom/way",
 ["callbacks"] = {
 ["distance"] = {
-},
-["minimap"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
 },
 ["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 },
 ["minimap"] = true,
@@ -257,10 +291,18 @@ TomTomWaypointsM = {
 ["from"] = "TomTom/way",
 ["callbacks"] = {
 ["distance"] = {
-},
-["minimap"] = {
+[10] = nil --[[ skipped inline function ]],
+[15] = nil --[[ skipped inline function ]],
 },
 ["world"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
+},
+["minimap"] = {
+["onclick"] = nil --[[ skipped inline function ]],
+["tooltip_update"] = nil --[[ skipped inline function ]],
+["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 },
 ["minimap"] = true,

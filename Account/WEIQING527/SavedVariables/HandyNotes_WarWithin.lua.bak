@@ -57,13 +57,13 @@ HandyNotes_WarWithinDB = {
 [40703] = true,
 [40704] = true,
 [40840] = true,
-[40762] = false,
+[40810] = false,
 [40166] = true,
 [40435] = true,
 [40632] = false,
 [40705] = true,
 [40851] = true,
-[40810] = false,
+[40762] = false,
 },
 },
 ["Same - 索拉丁"] = {
@@ -76,9 +76,9 @@ HandyNotes_WarWithinDB = {
 ["show_treasure"] = false,
 ["show_npcs"] = false,
 ["groupsHidden"] = {
+["professionknowledge"] = false,
 ["glyphs"] = false,
 ["races"] = true,
-["professionknowledge"] = false,
 },
 ["achievementsHidden"] = {
 [40837] = true,

@@ -13,10 +13,3 @@ X: -235
 Y: 160
 W: 300
 H: 200
-Frame: WorldMapFrame
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 77
-Y: -58
-W: 1035
-H: 534

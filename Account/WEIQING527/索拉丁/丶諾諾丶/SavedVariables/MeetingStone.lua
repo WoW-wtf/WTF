@@ -8,7 +8,11 @@ MEETINGSTONE_CHARACTER_DB = {
 ["minimap"] = {
 ["minimapPos"] = 165.4998371169425,
 },
-["lastSearchCode"] = "6-0-16-0",
+["searchHistoryList"] = {
+"6-0-16-0",
+"6-0-17-0",
+"6-0-0-0",
+},
 ["version"] = "20241104",
 ["settings"] = {
 ["storage"] = {
@@ -19,6 +23,7 @@ MEETINGSTONE_CHARACTER_DB = {
 },
 ["AUTO_JOIN"] = true,
 },
+["lastSearchCode"] = "6-0-16-0",
 ["recent"] = {
 ["3-0-1289-0"] = {
 {
@@ -4249,11 +4254,6 @@ MEETINGSTONE_CHARACTER_DB = {
 ["class"] = 2,
 },
 },
-},
-["searchHistoryList"] = {
-"6-0-16-0",
-"6-0-17-0",
-"6-0-0-0",
 },
 },
 },

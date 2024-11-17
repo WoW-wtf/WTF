@@ -1,6 +1,6 @@
 
 HAMDB = {
-["raidStone"] = false,
+["cavedwellerDelight"] = true,
 ["activatedSpells"] = {
 185311,
 108238,
@@ -21,8 +21,8 @@ HAMDB = {
 28880,
 },
 ["witheringDreamsPotion"] = false,
-["cdReset"] = false,
 ["witheringPotion"] = false,
-["cavedwellerDelight"] = true,
+["cdReset"] = false,
+["raidStone"] = false,
 ["stopCast"] = false,
 }

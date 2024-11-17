@@ -48,22 +48,22 @@ HandyNotes_WarWithinDB = {
 ["海棠未眠 - 索拉丁"] = {
 },
 ["丶諾諾丶 - 索拉丁"] = {
+["groupsHidden"] = {
+["delveentrances"] = false,
+},
 ["achievementsHidden"] = {
 [40724] = true,
 [40837] = true,
 [40703] = true,
 [40704] = true,
 [40840] = true,
-[40166] = true,
-[40810] = false,
-[40632] = false,
 [40435] = true,
+[40166] = true,
+[40762] = false,
+[40632] = false,
 [40705] = true,
 [40851] = true,
-[40762] = false,
-},
-["groupsHidden"] = {
-["delveentrances"] = false,
+[40810] = false,
 },
 },
 ["Same - 索拉丁"] = {
@@ -104,9 +104,9 @@ HandyNotes_WarWithinDB = {
 ["show_npcs"] = false,
 ["show_treasure"] = false,
 ["groupsHidden"] = {
+["races"] = true,
 ["professionknowledge"] = false,
 ["glyphs"] = false,
-["races"] = true,
 },
 ["achievementsHidden"] = {
 [40837] = true,
