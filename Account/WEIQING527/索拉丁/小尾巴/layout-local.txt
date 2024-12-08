@@ -1,11 +1,11 @@
 Version: 1
-Frame: DcrMUFsContainer
+Frame: GroupLootHistoryFrame
 FrameLevel: 1
-Anchor: CENTER
-X: 410
-Y: 63
-W: 20
-H: 20
+Anchor: LEFT
+X: 384
+Y: 117
+W: 261
+H: 590
 Frame: KeystoneLootFrame
 FrameLevel: 1
 Anchor: CENTER

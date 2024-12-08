@@ -5,13 +5,13 @@ KeystoneLootCharDB = {
 ["statHighlightingHasteEnabled"] = true,
 ["favoriteLoot"] = {
 },
-["statHighlightingNoStatsEnabled"] = true,
 ["selectedDungeonItemLevel"] = 0,
+["statHighlightingNoStatsEnabled"] = true,
 ["dbVersion"] = 3,
-["selectedClassId"] = 11,
-["selectedSpecId"] = 105,
-["currentSeason"] = 13,
-["statHighlightingMasteryEnabled"] = true,
 ["statHighlightingVersatilityEnabled"] = true,
+["currentSeason"] = 13,
+["selectedSpecId"] = 105,
+["statHighlightingMasteryEnabled"] = true,
+["selectedClassId"] = 11,
 ["statHighlightingCritEnabled"] = true,
 }

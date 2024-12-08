@@ -1,10 +1,10 @@
 
 TomeOfTele_OptionsGlobal = {
-["showSpells"] = {
+["favourites"] = {
 },
 ["sortOrder"] = {
 },
-["favourites"] = {
+["showSpells"] = {
 },
 ["alwaysShowSpells"] = {
 },

@@ -5,8 +5,6 @@ MEETINGSTONE_CHARACTER_DB = {
 },
 ["profiles"] = {
 ["诺诺丶 - 白银之手"] = {
-["version"] = "20241104",
-["lastSearchCode"] = "6-0-0-0",
 ["settings"] = {
 ["storage"] = {
 ["y"] = 0,
@@ -18,6 +16,8 @@ MEETINGSTONE_CHARACTER_DB = {
 ["searchHistoryList"] = {
 "6-0-0-0",
 },
+["version"] = "20241104",
+["lastSearchCode"] = "6-0-0-0",
 },
 },
 }

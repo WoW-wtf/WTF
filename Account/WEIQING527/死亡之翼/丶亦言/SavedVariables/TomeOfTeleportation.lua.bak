@@ -1,3 +1,8 @@
 
-TomeOfTele_Options = nil
+TomeOfTele_Options = {
+["showSpells"] = {
+},
+["sortOrder"] = {
+},
+}
 TomeOfTele_ShareOptions = true

@@ -1,5 +1,14 @@
 
 HandyNotes_WarWithinDB = {
+["char"] = {
+["丶諾諾丶 - 索拉丁"] = {
+["hidden"] = {
+[2255] = {
+[62796618] = true,
+},
+},
+},
+},
 ["profileKeys"] = {
 ["丶亦言 - 死亡之翼"] = "丶亦言 - 死亡之翼",
 ["諾宝 - 索拉丁"] = "諾宝 - 索拉丁",
@@ -12,30 +21,44 @@ HandyNotes_WarWithinDB = {
 ["Same - 索拉丁"] = "Same - 索拉丁",
 ["諾諾诺 - 安苏"] = "諾諾诺 - 安苏",
 ["诺宝 - 白银之手"] = "诺宝 - 白银之手",
-["按时吃饭 - 索拉丁"] = "按时吃饭 - 索拉丁",
+["乱舞诺诺 - 白银之手"] = "乱舞诺诺 - 白银之手",
 ["小尾巴诺诺 - 死亡之翼"] = "小尾巴诺诺 - 死亡之翼",
 ["兜兜全是糖 - 索拉丁"] = "兜兜全是糖 - 索拉丁",
-["诺诺丶 - 白银之手"] = "诺诺丶 - 白银之手",
+["丶诺宝 - 索拉丁"] = "丶诺宝 - 索拉丁",
 ["諾諾下有 - 白银之手"] = "諾諾下有 - 白银之手",
 ["诺诺宝丶 - 索拉丁"] = "诺诺宝丶 - 索拉丁",
 ["小尾巴 - 索拉丁"] = "小尾巴 - 索拉丁",
 ["Bomb - 索拉丁"] = "Bomb - 索拉丁",
 ["諾諾的小尾巴 - 死亡之翼"] = "諾諾的小尾巴 - 死亡之翼",
 ["女巫的工具人 - 死亡之翼"] = "女巫的工具人 - 死亡之翼",
-["丶诺宝 - 索拉丁"] = "丶诺宝 - 索拉丁",
-["乱舞诺诺 - 白银之手"] = "乱舞诺诺 - 白银之手",
+["诺诺丶 - 白银之手"] = "诺诺丶 - 白银之手",
+["按时吃饭 - 索拉丁"] = "按时吃饭 - 索拉丁",
 },
 ["profiles"] = {
 ["丶亦言 - 死亡之翼"] = {
+["groupsHidden"] = {
+["professionknowledge"] = false,
+},
+["achievementsHidden"] = {
+[40851] = true,
+[40762] = false,
+[40435] = true,
+[40166] = true,
+[40704] = true,
+},
 },
 ["諾宝 - 索拉丁"] = {
 },
 ["丶諾諾丶 - 白银之手"] = {
 ["achievementsHidden"] = {
+[40762] = false,
 [40629] = true,
-[40435] = true,
-[40166] = true,
 [40840] = true,
+[40166] = true,
+[40704] = true,
+[40434] = true,
+[40435] = true,
+[40851] = true,
 [40705] = true,
 },
 },
@@ -46,6 +69,12 @@ HandyNotes_WarWithinDB = {
 ["乱舞諾諾 - 白银之手"] = {
 },
 ["海棠未眠 - 索拉丁"] = {
+["achievementsHidden"] = {
+[40166] = true,
+[40762] = false,
+[40434] = true,
+[40435] = true,
+},
 },
 ["丶諾諾丶 - 索拉丁"] = {
 ["groupsHidden"] = {
@@ -53,15 +82,19 @@ HandyNotes_WarWithinDB = {
 },
 ["achievementsHidden"] = {
 [40724] = true,
+[40762] = false,
 [40837] = true,
 [40703] = true,
-[40704] = true,
 [40840] = true,
+[40704] = true,
+[40622] = false,
+[40705] = true,
 [40435] = true,
 [40166] = true,
-[40762] = false,
+[20594] = false,
 [40632] = false,
-[40705] = true,
+[40625] = false,
+[40618] = false,
 [40851] = true,
 [40810] = false,
 },
@@ -72,13 +105,27 @@ HandyNotes_WarWithinDB = {
 },
 ["诺宝 - 白银之手"] = {
 },
-["按时吃饭 - 索拉丁"] = {
+["乱舞诺诺 - 白银之手"] = {
+["show_npcs"] = false,
+["show_treasure"] = false,
+["groupsHidden"] = {
+["professionknowledge"] = false,
+["races"] = true,
+["glyphs"] = false,
+},
+["achievementsHidden"] = {
+[40837] = true,
+[40475] = false,
+[40703] = true,
+[40724] = true,
+[40762] = false,
+},
 },
 ["小尾巴诺诺 - 死亡之翼"] = {
 },
 ["兜兜全是糖 - 索拉丁"] = {
 },
-["诺诺丶 - 白银之手"] = {
+["丶诺宝 - 索拉丁"] = {
 },
 ["諾諾下有 - 白银之手"] = {
 },
@@ -89,32 +136,34 @@ HandyNotes_WarWithinDB = {
 ["Bomb - 索拉丁"] = {
 },
 ["諾諾的小尾巴 - 死亡之翼"] = {
+["groupsHidden"] = {
+["professionknowledge"] = false,
+},
+["achievementsHidden"] = {
+[40724] = true,
+[40703] = true,
+[40704] = true,
+[40840] = true,
+[40848] = false,
+[40625] = false,
+[20594] = false,
+[40475] = false,
+[40837] = true,
+[40851] = true,
+[40705] = true,
+},
 },
 ["女巫的工具人 - 死亡之翼"] = {
+["groupsHidden"] = {
+["races"] = true,
+},
 ["achievementsHidden"] = {
 [40606] = true,
 },
-["groupsHidden"] = {
-["races"] = true,
 },
+["诺诺丶 - 白银之手"] = {
 },
-["丶诺宝 - 索拉丁"] = {
-},
-["乱舞诺诺 - 白银之手"] = {
-["show_npcs"] = false,
-["show_treasure"] = false,
-["groupsHidden"] = {
-["races"] = true,
-["professionknowledge"] = false,
-["glyphs"] = false,
-},
-["achievementsHidden"] = {
-[40837] = true,
-[40475] = false,
-[40703] = true,
-[40762] = false,
-[40724] = true,
-},
+["按时吃饭 - 索拉丁"] = {
 },
 },
 }

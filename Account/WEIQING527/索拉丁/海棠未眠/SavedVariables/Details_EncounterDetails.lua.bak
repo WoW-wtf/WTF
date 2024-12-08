@@ -1,302 +1,11 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
-[373] = {
-["Raid Damage Done"] = {
-["__time"] = 1730829467,
-},
-},
-[389] = {
-["Raid Damage Done"] = {
-18708530,
-["max_value"] = 18708530,
-["__time"] = 1730943182,
-},
-},
-[405] = {
-["Raid Damage Done"] = {
-19580700,
-["max_value"] = 19580700,
-["__time"] = 1730943213,
-},
-},
-[421] = {
-["Raid Damage Done"] = {
-40045104,
-["max_value"] = 40045104,
-["__time"] = 1730943249,
-},
-},
-[374] = {
-["Raid Damage Done"] = {
-["__time"] = 1730829468,
-},
-},
-[390] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943184,
-},
-},
-[406] = {
-["Raid Damage Done"] = {
-20339926,
-["max_value"] = 20339926,
-["__time"] = 1730943214,
-},
-},
-[375] = {
-["Raid Damage Done"] = {
-38541704,
-["max_value"] = 38541704,
-["__time"] = 1730829470,
-},
-},
-[391] = {
-["Raid Damage Done"] = {
-19854996,
-["max_value"] = 19854996,
-["__time"] = 1730943186,
-},
-},
-[407] = {
-["Raid Damage Done"] = {
-19084942,
-["max_value"] = 19084942,
-["__time"] = 1730943218,
-},
-},
-[376] = {
-["Raid Damage Done"] = {
-18518096,
-["max_value"] = 18518096,
-["__time"] = 1730943087,
-},
-},
-[392] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943188,
-},
-},
-[408] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943219,
-},
-},
-[361] = {
-["Raid Damage Done"] = {
-60648450,
-["max_value"] = 60648450,
-["__time"] = 1730829440,
-},
-},
-[377] = {
-["Raid Damage Done"] = {
-18766262,
-["max_value"] = 18766262,
-["__time"] = 1730943090,
-},
-},
-[393] = {
-["Raid Damage Done"] = {
-19107882,
-["max_value"] = 19107882,
-["__time"] = 1730943191,
-},
-},
-[409] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943221,
-},
-},
-[362] = {
-["Raid Damage Done"] = {
-19304288,
-["max_value"] = 19304288,
-["__time"] = 1730829442,
-},
-},
-[378] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943092,
-},
-},
-[394] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943192,
-},
-},
-[410] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943222,
-},
-},
-[363] = {
-["Raid Damage Done"] = {
-19649258,
-["max_value"] = 19649258,
-["__time"] = 1730829444,
-},
-},
-[379] = {
-["Raid Damage Done"] = {
-18814004,
-["max_value"] = 18814004,
-["__time"] = 1730943096,
-},
-},
-[395] = {
-["Raid Damage Done"] = {
-38636716,
-["max_value"] = 38636716,
-["__time"] = 1730943193,
-},
-},
-[411] = {
-["Raid Damage Done"] = {
-41009744,
-["max_value"] = 41009744,
-["__time"] = 1730943225,
-},
-},
-[364] = {
-["Raid Damage Done"] = {
-["__time"] = 1730829445,
-},
-},
-[380] = {
-["Raid Damage Done"] = {
-19071000,
-["max_value"] = 19071000,
-["__time"] = 1730943098,
-},
-},
-[396] = {
-["Raid Damage Done"] = {
-18920908,
-["max_value"] = 18920908,
-["__time"] = 1730943197,
-},
-},
-[412] = {
-["Raid Damage Done"] = {
-19780110,
-["max_value"] = 19780110,
-["__time"] = 1730943227,
-},
-},
-[365] = {
-["Raid Damage Done"] = {
-["__time"] = 1730829446,
-},
-},
-[381] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943101,
-},
-},
-[397] = {
-["Raid Damage Done"] = {
-19585878,
-["max_value"] = 19585878,
-["__time"] = 1730943199,
-},
-},
-[413] = {
-["Raid Damage Done"] = {
-18331462,
-["max_value"] = 18331462,
-["__time"] = 1730943230,
-},
-},
-[366] = {
-["Raid Damage Done"] = {
-19024082,
-18242346,
-["max_value"] = 19024082,
-["__time"] = 1730829452,
-},
-},
-[382] = {
-["Raid Damage Done"] = {
-18275224,
-["max_value"] = 18275224,
-["__time"] = 1730943104,
-},
-},
-[398] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943200,
-},
-},
-[414] = {
-["Raid Damage Done"] = {
-36511824,
-["max_value"] = 36511824,
-["__time"] = 1730943237,
-},
-},
-[367] = {
-["Raid Damage Done"] = {
-["__time"] = 1730829453,
-},
-},
-[383] = {
-["Raid Damage Done"] = {
-19127816,
-19195500,
-["max_value"] = 19195500,
-["__time"] = 1730943107,
-},
-},
-[399] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943202,
-},
-},
-[415] = {
-["Raid Damage Done"] = {
-18366058,
-["max_value"] = 18366058,
-["__time"] = 1730943238,
-},
-},
-[368] = {
-["Raid Damage Done"] = {
-["__time"] = 1730829456,
-},
-},
-[384] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943110,
-},
-},
-[400] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943204,
-},
-},
 [416] = {
 ["Raid Damage Done"] = {
 38835750,
 ["max_value"] = 38835750,
 ["__time"] = 1730943240,
-},
-},
-[369] = {
-["Raid Damage Done"] = {
-["__time"] = 1730829457,
-},
-},
-[385] = {
-["Raid Damage Done"] = {
-18851070,
-["max_value"] = 18851070,
-["__time"] = 1730943112,
-},
-},
-[401] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943205,
 },
 },
 [417] = {
@@ -306,47 +15,11 @@ EncounterDetailsDB = {
 ["__time"] = 1730943244,
 },
 },
-[370] = {
-["Raid Damage Done"] = {
-["__time"] = 1730829461,
-},
-},
-[386] = {
-["Raid Damage Done"] = {
-18788840,
-["max_value"] = 18788840,
-["__time"] = 1730943114,
-},
-},
-[402] = {
-["Raid Damage Done"] = {
-["__time"] = 1730943207,
-},
-},
 [418] = {
 ["Raid Damage Done"] = {
 20061042,
 ["max_value"] = 20061042,
 ["__time"] = 1730943246,
-},
-},
-[371] = {
-["Raid Damage Done"] = {
-["__time"] = 1730829462,
-},
-},
-[387] = {
-["Raid Damage Done"] = {
-17598392,
-["max_value"] = 17598392,
-["__time"] = 1730943177,
-},
-},
-[403] = {
-["Raid Damage Done"] = {
-37396952,
-["max_value"] = 37396952,
-["__time"] = 1730943208,
 },
 },
 [419] = {
@@ -356,27 +29,6 @@ EncounterDetailsDB = {
 ["__time"] = 1730943247,
 },
 },
-[372] = {
-["Raid Damage Done"] = {
-19898994,
-["max_value"] = 19898994,
-["__time"] = 1730829464,
-},
-},
-[388] = {
-["Raid Damage Done"] = {
-18951520,
-["max_value"] = 18951520,
-["__time"] = 1730943178,
-},
-},
-[404] = {
-["Raid Damage Done"] = {
-41219496,
-["max_value"] = 41219496,
-["__time"] = 1730943212,
-},
-},
 [420] = {
 ["Raid Damage Done"] = {
 18928640,
@@ -384,8 +36,480 @@ EncounterDetailsDB = {
 ["__time"] = 1730943248,
 },
 },
+[421] = {
+["Raid Damage Done"] = {
+40045104,
+["max_value"] = 40045104,
+["__time"] = 1730943249,
+},
+},
+[422] = {
+["Raid Damage Done"] = {
+["__time"] = 1730989065,
+},
+},
+[423] = {
+["Raid Damage Done"] = {
+["__time"] = 1730989066,
+},
+},
+[424] = {
+["Raid Damage Done"] = {
+19142560,
+["max_value"] = 19142560,
+["__time"] = 1730989069,
+},
+},
+[425] = {
+["Raid Damage Done"] = {
+19318612,
+["max_value"] = 19318612,
+["__time"] = 1730989071,
+},
+},
+[426] = {
+["Raid Damage Done"] = {
+["__time"] = 1730989072,
+},
+},
+[427] = {
+["Raid Damage Done"] = {
+["__time"] = 1730989074,
+},
+},
+[428] = {
+["Raid Damage Done"] = {
+["__time"] = 1730989076,
+},
+},
+[429] = {
+["Raid Damage Done"] = {
+["__time"] = 1730989077,
+},
+},
+[430] = {
+["Raid Damage Done"] = {
+20278726,
+["max_value"] = 20278726,
+["__time"] = 1730989079,
+},
+},
+[431] = {
+["Raid Damage Done"] = {
+["__time"] = 1730989080,
+},
+},
+[432] = {
+["Raid Damage Done"] = {
+["__time"] = 1730989081,
+},
+},
+[433] = {
+["Raid Damage Done"] = {
+19029488,
+["max_value"] = 19029488,
+["__time"] = 1730989086,
+},
+},
+[434] = {
+["Raid Damage Done"] = {
+["__time"] = 1730989088,
+},
+},
+[435] = {
+["Raid Damage Done"] = {
+39726056,
+19093768,
+["max_value"] = 39726056,
+["__time"] = 1730989092,
+},
+},
+[437] = {
+["Raid Damage Done"] = {
+4198,
+5322,
+7869,
+11716,
+18838,
+16353,
+18646,
+32617,
+23749,
+29935,
+17680,
+26478,
+30256,
+42140,
+26271,
+29366,
+33591,
+41494,
+27082,
+30272,
+37851,
+24494,
+28321,
+22819,
+21263,
+26084,
+26121,
+23806,
+23816,
+19598,
+28369,
+14530,
+16573,
+21763,
+18987,
+25411,
+22292,
+21718,
+20115,
+22351,
+17347,
+22432,
+20767,
+20907,
+21860,
+23833,
+11884,
+27682,
+16398,
+9096,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+36,
+0,
+0,
+0,
+0,
+0,
+48,
+3857,
+8798,
+11540,
+15345,
+25013,
+25102,
+31542,
+24198,
+29448,
+27017,
+22690,
+29969,
+25262,
+28896,
+24573,
+22538,
+21974,
+21559,
+33116,
+21613,
+20601,
+23021,
+31173,
+27475,
+25440,
+25270,
+11945,
+15066,
+0,
+0,
+0,
+0,
+0,
+48,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+208,
+5871,
+5621,
+6639,
+8743,
+16743,
+24493,
+18563,
+14461,
+19573,
+23239,
+18091,
+26883,
+31238,
+15193,
+23021,
+30048,
+25328,
+17077,
+16019,
+21647,
+25112,
+14584,
+20382,
+14825,
+24361,
+17270,
+19725,
+15013,
+14194,
+23873,
+24149,
+23618,
+26410,
+22969,
+10665,
+25280,
+16568,
+30593,
+13572,
+20022,
+16479,
+18778,
+17177,
+17284,
+10886,
+11451,
+13211,
+18757,
+18548,
+20375,
+18827,
+19932,
+23876,
+12295,
+12779,
+19986,
+20324,
+15762,
+19825,
+34498,
+25032,
+3473,
+1353,
+2435,
+1331,
+2933,
+1531,
+2225,
+1653,
+1073,
+1699,
+726,
+1983,
+272,
+367,
+475,
+0,
+735,
+56,
+438,
+107,
+0,
+0,
+54,
+0,
+0,
+54,
+0,
+0,
+107,
+0,
+147,
+0,
+0,
+2661,
+1284,
+5378,
+5205,
+9648,
+12899,
+13871,
+15623,
+14060,
+16942,
+18660,
+22002,
+27622,
+27102,
+31658,
+19889,
+18786,
+24089,
+30418,
+22440,
+28604,
+25224,
+27067,
+21579,
+19250,
+18836,
+22304,
+19528,
+20967,
+17334,
+16112,
+29512,
+15433,
+13116,
+17421,
+11218,
+16272,
+18385,
+16590,
+15418,
+10064,
+15996,
+18033,
+22682,
+24665,
+14234,
+22264,
+8849,
+5620,
+268,
+50,
+255,
+32,
+475,
+153,
+31,
+181,
+0,
+137,
+0,
+0,
+203,
+91,
+0,
+0,
+0,
+47,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 42140,
+["__time"] = 1730991140,
+},
+},
+[407] = {
+["Raid Damage Done"] = {
+19084942,
+["max_value"] = 19084942,
+["__time"] = 1730943218,
+},
+},
+[408] = {
+["Raid Damage Done"] = {
+["__time"] = 1730943219,
+},
+},
+[409] = {
+["Raid Damage Done"] = {
+["__time"] = 1730943221,
+},
+},
+[410] = {
+["Raid Damage Done"] = {
+["__time"] = 1730943222,
+},
+},
+[411] = {
+["Raid Damage Done"] = {
+41009744,
+["max_value"] = 41009744,
+["__time"] = 1730943225,
+},
+},
+[412] = {
+["Raid Damage Done"] = {
+19780110,
+["max_value"] = 19780110,
+["__time"] = 1730943227,
+},
+},
+[413] = {
+["Raid Damage Done"] = {
+18331462,
+["max_value"] = 18331462,
+["__time"] = 1730943230,
+},
+},
+[414] = {
+["Raid Damage Done"] = {
+36511824,
+["max_value"] = 36511824,
+["__time"] = 1730943237,
+},
+},
+[415] = {
+["Raid Damage Done"] = {
+18366058,
+["max_value"] = 18366058,
+["__time"] = 1730943238,
+},
+},
 },
 ["encounter_spells"] = {
+[41917] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "伊利丹·怒风",
+},
+[40598] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "伊利丹·怒风",
+},
+[415329] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+},
+[40610] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+},
+[59638] = {
+["school"] = 16,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "镜像",
+},
+[414842] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "无头骑士",
+},
 [415047] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -396,13 +520,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "无头骑士",
 },
-[1604] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[414843] = {
+["school"] = 4,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "南瓜士兵",
+["source"] = "无头骑士",
+},
+[224125] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "幽灵狼",
 },
 [25989] = {
 ["school"] = 8,
@@ -412,6 +544,186 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 ["source"] = "毒性泥浆怪",
+},
+[414844] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "无头骑士",
+},
+[25993] = {
+["school"] = 8,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "维希度斯",
+},
+[224126] = {
+["school"] = 16,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "幽灵狼",
+},
+[115804] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "艾克加纳克",
+},
+[40904] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "伊利丹·怒风",
+},
+[41032] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "伊利丹·怒风",
+},
+[224127] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "幽灵狼",
+},
+[40536] = {
+["school"] = 8,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "阿卡玛",
+},
+[433622] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "布莱恩·铜须",
+},
+[39849] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "伊利丹·怒风",
+},
+[39855] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "埃辛诺斯之刃",
+},
+[118459] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "黑暗猎犬",
+},
+[41914] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "寄生暗影魔",
+},
+[459753] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "芬雷尔",
+},
+[40683] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "伊利丹·怒风",
+},
+[423623] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+},
+[40647] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "伊利丹·怒风",
+},
+[40932] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "伊利丹·怒风",
+},
+[414851] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "无头骑士",
+},
+[40611] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+},
+[40631] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "埃辛诺斯之焰",
+},
+[52042] = {
+["school"] = 8,
+["token"] = {
+["SPELL_PERIODIC_HEAL"] = true,
+},
+["source"] = "治疗之泉图腾",
 },
 [55078] = {
 ["school"] = 32,
@@ -428,58 +740,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "虚空鞭笞者",
 },
-[52042] = {
-["school"] = 8,
-["token"] = {
-["SPELL_PERIODIC_HEAL"] = true,
-},
-["source"] = "治疗之泉图腾",
-},
-[59638] = {
-["school"] = 16,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "镜像",
-},
-[415329] = {
-["school"] = 4,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-},
-[414842] = {
-["school"] = 4,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "无头骑士",
-},
-[423623] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-},
-[414843] = {
-["school"] = 4,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "无头骑士",
-},
-[414851] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "无头骑士",
-},
 [415262] = {
 ["school"] = 32,
 ["token"] = {
@@ -489,29 +749,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "无头骑士",
 },
-[414844] = {
+[1604] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "南瓜士兵",
+},
+[40832] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_CAST_START"] = true,
 },
-["source"] = "无头骑士",
-},
-[193473] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "虚空触须",
-},
-[25993] = {
-["school"] = 8,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "维希度斯",
+["source"] = "伊利丹·怒风",
 },
 [423626] = {
 ["school"] = 4,
@@ -520,6 +772,30 @@ EncounterDetailsDB = {
 ["SPELL_CAST_START"] = true,
 },
 ["source"] = "无头骑士",
+},
+[40836] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "烈焰冲撞",
+},
+[39635] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "伊利丹·怒风",
+},
+[193473] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "虚空触须",
 },
 [25991] = {
 ["school"] = 8,
@@ -532,8 +808,95 @@ EncounterDetailsDB = {
 },
 ["source"] = "维希度斯",
 },
+[40841] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+},
 },
 ["emotes"] = {
+{
+{
+15.43400000000838,
+"来吧，我的手下。让这个叛徒付出代价！",
+"伊利丹·怒风",
+7,
+},
+{
+21.51699999999255,
+"我来对付这些渣滓！进攻吧，朋友们！向伊利丹发起进攻！",
+"阿卡玛",
+7,
+},
+{
+171.0169999999926,
+"你们就这点本事吗？这就是你们全部的能耐？",
+"伊利丹·怒风",
+7,
+},
+{
+180.5480000000098,
+"他们的愤怒和我的相比简直不值一提，伊利丹。我们之间终于要决一胜负了。",
+"玛维·影歌",
+7,
+},
+{
+189.0510000000068,
+"玛维……怎么可能……？",
+"伊利丹·怒风",
+7,
+},
+{
+195.1670000000158,
+"我长久以来的追猎终于要结束了！今天，正义将得到伸张！",
+"玛维·影歌",
+7,
+},
+{
+205.1169999999984,
+"感受一万年的仇恨吧！",
+"伊利丹·怒风",
+7,
+},
+{
+236.6009999999951,
+"这一次，你不会有机会再进监狱了！",
+"玛维·影歌",
+7,
+},
+{
+240.1009999999951,
+"太轻松了！",
+"伊利丹·怒风",
+7,
+},
+{
+246.3340000000026,
+"%s倒在了地上。",
+"玛维·影歌",
+3,
+},
+{
+247.5869999999995,
+"感受一万年的仇恨吧！",
+"伊利丹·怒风",
+7,
+},
+{
+251.1840000000084,
+"结束了。你被打败了。",
+"玛维·影歌",
+7,
+},
+{
+257.2680000000109,
+"你赢了……玛维。但是……一个没有目标的猎手……什么都不是。你……离开了我……什么都不是。",
+"伊利丹·怒风",
+7,
+},
+["boss"] = "伊利丹·怒风",
+},
 {
 {
 4.86600000000908,
@@ -839,9 +1202,6 @@ EncounterDetailsDB = {
 },
 {
 ["boss"] = "顽强的范克瑞斯",
-},
-{
-["boss"] = "沙尔图拉",
 },
 },
 }

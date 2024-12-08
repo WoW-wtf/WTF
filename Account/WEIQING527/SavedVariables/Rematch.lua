@@ -46,14 +46,13 @@ Rematch5Settings = {
 ["PetCardAlwaysShowHPBar"] = false,
 ["ShowNewGroupTab"] = false,
 ["SpecialSlots"] = {
-[3] = 0,
 },
 ["PreferPetsTab"] = false,
 ["QueueRandomWhenEmpty"] = false,
 ["PickAggressiveCounters"] = false,
 ["InteractOnSoftInteract"] = 0,
 ["CompactTargetList"] = false,
-["TypeBarTab"] = 2,
+["TypeBarTab"] = 1,
 ["ResetFilters"] = false,
 ["InteractAlways"] = true,
 ["CompactTeamList"] = false,
@@ -111,6 +110,7 @@ Rematch5Settings = {
 ["AllowHiddenPets"] = false,
 ["ShowAfterBattle"] = false,
 ["PetCardNoMouseoverFlip"] = false,
+["BoringLoreFont"] = false,
 ["PetNotes"] = {
 },
 ["LevelingQueue"] = {
@@ -398,11 +398,10 @@ Rematch5Settings = {
 },
 },
 ["PetCardBackground"] = "Expansion",
-["BoringLoreFont"] = false,
 ["Anchor"] = "BOTTOMRIGHT",
 ["ShowFillQueueMore"] = false,
 ["LoadHealthiest"] = false,
-["currentTeamID"] = "team:252",
+["currentTeamID"] = "team:414",
 ["DontConfirmHidePets"] = false,
 ["LastToastedPetID"] = "BattlePet-0-000004567536",
 ["CompactQueueList"] = false,
@@ -2105,7 +2104,7 @@ false,
 2,
 2,
 },
-[1540] = {
+[116] = {
 1,
 1,
 2,
@@ -2115,7 +2114,7 @@ false,
 2,
 2,
 },
-[116] = {
+[1540] = {
 1,
 1,
 2,
@@ -2234,9 +2233,9 @@ true,
 ["AlwaysUsePetSatchel"] = false,
 ["ShowAbilityID"] = false,
 ["CompactPetList"] = false,
-["InteractOnTarget"] = 0,
-["NotesFont"] = "GameFontHighlight",
 ["RankWinsByPercent"] = false,
+["NotesFont"] = "GameFontHighlight",
+["InteractOnTarget"] = 0,
 ["DontConfirmFillQueue"] = false,
 ["SortByNickname"] = false,
 ["NeverTeamTabs"] = false,
@@ -2268,9 +2267,9 @@ true,
 ["HideToolbarTooltips"] = false,
 ["HideNonBattlePets"] = false,
 ["HideBreedsLists"] = false,
-["MinimizePetSummary"] = true,
-["DontConfirmActiveSort"] = false,
 ["MousewheelSpeed"] = "Normal",
+["HideOptionTooltips"] = false,
+["MinimizePetSummary"] = true,
 ["ColorTeamNames"] = true,
 ["HideNotesBadges"] = false,
 ["HideNotesButtonInBattle"] = false,
@@ -2292,10 +2291,10 @@ true,
 ["KeepCompanion"] = false,
 ["PetCardShowExpansionStat"] = false,
 ["ResetSortWithFilters"] = false,
-["HideOptionTooltips"] = false,
+["DontConfirmActiveSort"] = false,
 ["ImportConflictOverwrite"] = false,
 ["ExpandedGroups"] = {
-["group:15"] = true,
+["group:14"] = true,
 },
 ["DontWarnMissing"] = false,
 ["HideMarkerBadges"] = false,
@@ -2327,12 +2326,10 @@ true,
 },
 ["Rarity"] = {
 },
-["RawSearchText"] = "海马",
+["RawSearchText"] = "触须",
 ["Similar"] = {
 },
 ["Search"] = {
-["Pattern"] = "海马",
-["Length"] = 6,
 },
 ["Breed"] = {
 },
@@ -3114,14 +3111,14 @@ Rematch5SavedTeams = {
 ["pets"] = {
 "BattlePet-0-00000DA697BF",
 "BattlePet-0-00000DE178C4",
-"BattlePet-0-00000DE1772B",
+"BattlePet-0-00000DAA8544",
 },
 ["notes"] = "多恩岛戴娜\nquit [!self(#3).exists]\nchange(next) [self.dead]\nability(撕咬) [enemy.hp<=634]\nability(#2)\nability(#3)\nability(#1)\nstandby\n\nhttps://bbs.nga.cn/read.php?&tid=41511578",
 ["name"] = "收集者戴娜",
 ["tags"] = {
 "22282RL",
 "11254C0",
-"21244C0",
+"12282RL",
 },
 ["teamID"] = "team:10",
 ["groupID"] = "group:none",
@@ -3183,7 +3180,7 @@ Rematch5SavedTeams = {
 },
 ["team:387"] = {
 ["pets"] = {
-1537,
+"BattlePet-0-00000DF158F8",
 "BattlePet-0-00000DA48432",
 2443,
 },
@@ -4044,7 +4041,7 @@ Rematch5SavedTeams = {
 ["team:395"] = {
 ["pets"] = {
 1539,
-1537,
+"BattlePet-0-00000DF158F8",
 2352,
 },
 ["name"] = "迷雾之翼",
@@ -4805,7 +4802,7 @@ Rematch5SavedTeams = {
 },
 ["team:371"] = {
 ["pets"] = {
-1537,
+"BattlePet-0-00000DF158F8",
 0,
 2717,
 },
@@ -4924,7 +4921,7 @@ Rematch5SavedTeams = {
 ["team:384"] = {
 ["pets"] = {
 2417,
-1957,
+"BattlePet-0-00000DE0AFF1",
 1266,
 },
 ["notes"] = "召唤闪电+蝇群+2轮震击，敌1挂。\n震击，牺牲，上侍从。召唤闪电，敌2挂。\n待命，被换雪福。潜行+月火术，敌3挂",
@@ -5028,6 +5025,21 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
+["team:408"] = {
+["pets"] = {
+341,
+2352,
+1228,
+},
+["name"] = "斯沃格——魔法队",
+["tags"] = {
+"1113AL",
+"222329G",
+"121616C",
+},
+["teamID"] = "team:408",
+["groupID"] = "group:15",
+},
 ["team:186"] = {
 ["pets"] = {
 1396,
@@ -5044,19 +5056,19 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:186",
 ["groupID"] = "group:6",
 },
-["team:408"] = {
+["team:407"] = {
 ["pets"] = {
-341,
+"BattlePet-0-00000DA48432",
+1338,
 2352,
-1228,
 },
-["name"] = "斯沃格——魔法队",
+["name"] = "斯沃格——阳光日光剧毒皮邪爆",
 ["tags"] = {
-"1113AL",
+"212C93",
+"122319Q",
 "222329G",
-"121616C",
 },
-["teamID"] = "team:408",
+["teamID"] = "team:407",
 ["groupID"] = "group:15",
 },
 ["team:285"] = {
@@ -5077,23 +5089,24 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:9",
 },
-["team:357"] = {
+["team:419"] = {
 ["pets"] = {
-"BattlePet-0-00000DD0E5CD",
-"BattlePet-0-00000DA92CDC",
-1537,
+"BattlePet-0-00000DA697BF",
+"BattlePet-0-00000DD23B36",
+"BattlePet-0-00000DAA8544",
 },
-["name"] = "斯普林特",
+["notes"] = "水晶过载+巨石奔袭，敌1挂。水晶过载+巨石奔袭，牺牲，上羽毛笔。幽魂脊刺，敌2挂。驻足聆听，换微型机器人XD。增压+离子炮+待命，敌3挂。10结束",
+["name"] = "顿德里·黏指 (2)",
 ["tags"] = {
-"121316M",
-"222814S",
-"11261G1",
+"22282RL",
+"211839U",
+"11182RL",
 },
-["teamID"] = "team:357",
+["teamID"] = "team:419",
 ["targets"] = {
-161656,
+173267,
 },
-["groupID"] = "group:13",
+["groupID"] = "group:14",
 },
 ["team:120"] = {
 ["pets"] = {
@@ -5276,20 +5289,23 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:11",
 },
-["team:407"] = {
+["team:88"] = {
 ["pets"] = {
-"BattlePet-0-00000DA48432",
-1338,
-2352,
+463,
+"BattlePet-0-00000DED4755",
+0,
 },
-["name"] = "斯沃格——阳光日光剧毒皮邪爆",
+["name"] = "熊猫人烈焰之灵",
 ["tags"] = {
-"212C93",
-"122319Q",
-"222329G",
+"1216EF",
+"1126140",
+"ZL",
 },
-["teamID"] = "team:407",
-["groupID"] = "group:15",
+["teamID"] = "team:88",
+["targets"] = {
+68463,
+},
+["groupID"] = "group:2",
 },
 ["team:29"] = {
 ["pets"] = {
@@ -5328,24 +5344,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:7",
 },
-["team:88"] = {
-["pets"] = {
-463,
-"BattlePet-0-00000DED4755",
-0,
-},
-["name"] = "熊猫人烈焰之灵",
-["tags"] = {
-"1216EF",
-"1126140",
-"ZL",
-},
-["teamID"] = "team:88",
-["targets"] = {
-68463,
-},
-["groupID"] = "group:2",
-},
 ["team:156"] = {
 ["pets"] = {
 1165,
@@ -5365,6 +5363,25 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:4",
 },
+["team:396"] = {
+["pets"] = {
+"BattlePet-0-00000DA697BF",
+"BattlePet-0-00000DD23B36",
+"BattlePet-0-00000DAA8544",
+},
+["notes"] = "水晶过载+巨石奔袭，敌1挂。水晶过载+巨石奔袭，牺牲，上羽毛笔。幽魂脊刺，敌2挂。驻足聆听，换微型机器人XD。增压+离子炮+待命，敌3挂。10结束",
+["name"] = "顿德里·黏指",
+["tags"] = {
+"22282RL",
+"211839U",
+"12282RL",
+},
+["teamID"] = "team:396",
+["targets"] = {
+173267,
+},
+["groupID"] = "group:14",
+},
 ["team:151"] = {
 ["pets"] = {
 "BattlePet-0-00000DA92CDB",
@@ -5383,27 +5400,9 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:3",
 },
-["team:394"] = {
-["pets"] = {
-382,
-1537,
-1537,
-},
-["name"] = "迪加洛",
-["tags"] = {
-"1223BU",
-"21261G1",
-"21261G1",
-},
-["teamID"] = "team:394",
-["targets"] = {
-175783,
-},
-["groupID"] = "group:14",
-},
 ["team:391"] = {
 ["pets"] = {
-1957,
+"BattlePet-0-00000DE0AFF1",
 2717,
 0,
 },
@@ -5420,6 +5419,21 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:14",
 },
+["team:273"] = {
+["pets"] = {
+"BattlePet-0-0000063CCAA6",
+"BattlePet-0-00000456759E",
+1532,
+},
+["name"] = "全谱系-飞行",
+["tags"] = {
+"21181FS",
+"21181FS",
+"21181FS",
+},
+["teamID"] = "team:273",
+["groupID"] = "group:8",
+},
 ["team:137"] = {
 ["pets"] = {
 1539,
@@ -5435,24 +5449,20 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:137",
 ["groupID"] = "group:3",
 },
-["team:390"] = {
+["team:184"] = {
 ["pets"] = {
-1537,
-0,
-"BattlePet-0-00000456759B",
+1158,
+1073,
+1384,
 },
-["notes"] = "自爆，上小宠，不必点技能，换星弹，旋紧发条+增压+旋紧发条杀敌，5轮结束。\n\n11级小宠380",
-["name"] = "腭骨",
+["name"] = "人形6-增伤DOT",
 ["tags"] = {
-"21261G1",
-"ZL",
-"12141BB",
+"111C146",
+"112C11H",
+"21171B8",
 },
-["teamID"] = "team:390",
-["targets"] = {
-173133,
-},
-["groupID"] = "group:14",
+["teamID"] = "team:184",
+["groupID"] = "group:6",
 },
 ["team:200"] = {
 ["pets"] = {
@@ -5473,39 +5483,38 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:6",
 },
-["team:184"] = {
+["team:61"] = {
 ["pets"] = {
-1158,
-1073,
-1384,
+"BattlePet-0-00000DDFD5CC",
+509,
+509,
 },
-["name"] = "人形6-增伤DOT",
+["name"] = "挑战木桩 (8)",
 ["tags"] = {
-"111C146",
-"112C11H",
-"21171B8",
+"22241FE",
+"1229FT",
+"1226FT",
 },
-["teamID"] = "team:184",
-["groupID"] = "group:6",
-},
-["team:22"] = {
-["pets"] = {
-"BattlePet-0-00000DD0E5CD",
-1536,
-"BattlePet-0-00000DA92CDB",
-},
-["notes"] = "厄运诅咒+鬼影缠身，上孢子，自爆。上赞达拉/掠沙蟹，黑爪+群殴/狩猎小队，敌挂，5轮结束",
-["name"] = "亚基沙行甲虫",
-["tags"] = {
-"121316M",
-"21231G0",
-"222415R",
-},
-["teamID"] = "team:22",
+["teamID"] = "team:61",
 ["targets"] = {
-162465,
+85632,
 },
 ["groupID"] = "group:2",
+},
+["team:417"] = {
+["pets"] = {
+"BattlePet-0-00000DA697BF",
+"BattlePet-0-00000DAA8544",
+2933,
+},
+["name"] = "陨圣峪凯莱",
+["tags"] = {
+"22282RL",
+"22282RL",
+"22282RL",
+},
+["teamID"] = "team:417",
+["groupID"] = "group:none",
 },
 ["team:347"] = {
 ["pets"] = {
@@ -5526,24 +5535,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:12",
 },
-["team:61"] = {
-["pets"] = {
-"BattlePet-0-00000DDFD5CC",
-509,
-509,
-},
-["name"] = "挑战木桩 (8)",
-["tags"] = {
-"22241FE",
-"1229FT",
-"1226FT",
-},
-["teamID"] = "team:61",
-["targets"] = {
-85632,
-},
-["groupID"] = "group:2",
-},
 ["team:294"] = {
 ["pets"] = {
 388,
@@ -5562,6 +5553,25 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:9",
 },
+["team:386"] = {
+["pets"] = {
+627,
+319,
+3023,
+},
+["notes"] = "狂乱之击+邪爆，上灵猫，潜行+召唤黑暗(3102伤害)，敌挂，复活，上小宠，待命，敌挂。5轮结束。4级小宠338经验值",
+["name"] = "肿嘴",
+["tags"] = {
+"2127JJ",
+"122A9V",
+"11182UF",
+},
+["teamID"] = "team:386",
+["targets"] = {
+173274,
+},
+["groupID"] = "group:14",
+},
 ["team:383"] = {
 ["pets"] = {
 1165,
@@ -5579,21 +5589,6 @@ Rematch5SavedTeams = {
 173129,
 },
 ["groupID"] = "group:14",
-},
-["team:218"] = {
-["pets"] = {
-517,
-1181,
-"BattlePet-0-00000DA92CDB",
-},
-["name"] = "野兽4-DOT增伤减速",
-["tags"] = {
-"2113G5",
-"212914T",
-"222A15R",
-},
-["teamID"] = "team:218",
-["groupID"] = "group:6",
 },
 ["team:413"] = {
 ["pets"] = {
@@ -5629,6 +5624,21 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:177",
 ["groupID"] = "group:6",
 },
+["team:218"] = {
+["pets"] = {
+517,
+1181,
+"BattlePet-0-00000DA92CDB",
+},
+["name"] = "野兽4-DOT增伤减速",
+["tags"] = {
+"2113G5",
+"212914T",
+"222A15R",
+},
+["teamID"] = "team:218",
+["groupID"] = "group:6",
+},
 ["team:89"] = {
 ["pets"] = {
 493,
@@ -5648,23 +5658,20 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:47"] = {
+["team:254"] = {
 ["pets"] = {
-641,
-2395,
-0,
+1965,
+1965,
+463,
 },
-["name"] = "差点没头的雅各布",
+["name"] = "全谱系-亡灵",
 ["tags"] = {
-"221BK1",
-"12182AR",
-"ZL",
+"12131TD",
+"12171TD",
+"1126EF",
 },
-["teamID"] = "team:47",
-["targets"] = {
-66636,
-},
-["groupID"] = "group:2",
+["teamID"] = "team:254",
+["groupID"] = "group:8",
 },
 ["team:199"] = {
 ["pets"] = {
@@ -5737,20 +5744,20 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:11",
 },
-["team:254"] = {
+["team:136"] = {
 ["pets"] = {
-1965,
-1965,
-463,
+2716,
+"BattlePet-0-0000063CCAA6",
+1167,
 },
-["name"] = "全谱系-亡灵",
+["name"] = "方法五",
 ["tags"] = {
-"12131TD",
-"12171TD",
-"1126EF",
+"121A2KS",
+"21181FS",
+"212414F",
 },
-["teamID"] = "team:254",
-["groupID"] = "group:8",
+["teamID"] = "team:136",
+["groupID"] = "group:3",
 },
 ["team:362"] = {
 ["pets"] = {
@@ -5770,20 +5777,24 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:13",
 },
-["team:136"] = {
+["team:169"] = {
 ["pets"] = {
-2716,
+868,
 "BattlePet-0-0000063CCAA6",
-1167,
+557,
 },
-["name"] = "方法五",
+["notes"] = "普攻+喷泉，被晕，换伊奇\n黑爪+群殴杀BOSS。\n虚空龙收尾",
+["name"] = "愤怒的晶簇",
 ["tags"] = {
-"121A2KS",
+"1229R4",
 "21181FS",
-"212414F",
+"2215HD",
 },
-["teamID"] = "team:136",
-["groupID"] = "group:3",
+["teamID"] = "team:169",
+["targets"] = {
+119342,
+},
+["groupID"] = "group:5",
 },
 ["team:94"] = {
 ["pets"] = {
@@ -5840,6 +5851,21 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:14",
 },
+["team:147"] = {
+["pets"] = {
+627,
+"BattlePet-0-0000063CCAA6",
+1167,
+},
+["name"] = "方法四",
+["tags"] = {
+"2127JJ",
+"21181FS",
+"212414F",
+},
+["teamID"] = "team:147",
+["groupID"] = "group:3",
+},
 ["team:369"] = {
 ["pets"] = {
 1349,
@@ -5858,21 +5884,6 @@ Rematch5SavedTeams = {
 173130,
 },
 ["groupID"] = "group:14",
-},
-["team:147"] = {
-["pets"] = {
-627,
-"BattlePet-0-0000063CCAA6",
-1167,
-},
-["name"] = "方法四",
-["tags"] = {
-"2127JJ",
-"21181FS",
-"212414F",
-},
-["teamID"] = "team:147",
-["groupID"] = "group:3",
 },
 ["team:166"] = {
 ["pets"] = {
@@ -5893,20 +5904,23 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:5",
 },
-["team:415"] = {
+["team:35"] = {
 ["pets"] = {
-"BattlePet-0-00000DA697BF",
-"BattlePet-0-00000DAA8544",
-2933,
+557,
+"BattlePet-0-00000DED4755",
+"BattlePet-0-00000DEC5A48",
 },
-["name"] = "多恩岛戴娜",
+["name"] = "圣光精华",
 ["tags"] = {
-"22282RL",
-"22282RL",
-"22282RL",
+"2215HD",
+"1126140",
+"2225DP",
 },
-["teamID"] = "team:415",
-["groupID"] = "group:none",
+["teamID"] = "team:35",
+["targets"] = {
+85650,
+},
+["groupID"] = "group:2",
 },
 ["team:141"] = {
 ["pets"] = {
@@ -5956,24 +5970,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:13",
 },
-["team:35"] = {
-["pets"] = {
-557,
-"BattlePet-0-00000DED4755",
-"BattlePet-0-00000DEC5A48",
-},
-["name"] = "圣光精华",
-["tags"] = {
-"2215HD",
-"1126140",
-"2225DP",
-},
-["teamID"] = "team:35",
-["targets"] = {
-85650,
-},
-["groupID"] = "group:2",
-},
 ["team:365"] = {
 ["pets"] = {
 3044,
@@ -6007,6 +6003,25 @@ Rematch5SavedTeams = {
 66553,
 },
 ["groupID"] = "group:2",
+},
+["team:360"] = {
+["pets"] = {
+2648,
+"BattlePet-0-00000DA99F21",
+415,
+},
+["notes"] = "1、黑爪；2、蜂拥；3、对方复生，待命；\n\n4、对面2号上，黑爪；没死就接个蜂拥；\n5、换蟑螂；6、天启；\n7被换熊猫龙；8、一直吐息；\n\n对面能量涌动cd好了，我们就开诱饵；\n待天启还有2轮左右时，干掉2号；\n3号上来后随便打，随后被天启干掉。",
+["name"] = "泰莎·莱利",
+["tags"] = {
+"22282IO",
+"1125QC",
+"2227CV",
+},
+["teamID"] = "team:360",
+["targets"] = {
+160210,
+},
+["groupID"] = "group:13",
 },
 ["team:204"] = {
 ["pets"] = {
@@ -6139,37 +6154,6 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:222",
 ["groupID"] = "group:6",
 },
-["team:207"] = {
-["pets"] = {
-1912,
-164,
-173,
-},
-["notes"] = "割裂+沐血，汹涌到死",
-["name"] = "水栖1-DOT大招收割",
-["tags"] = {
-"22271RO",
-"112354",
-"11275D",
-},
-["teamID"] = "team:207",
-["groupID"] = "group:6",
-},
-["team:223"] = {
-["pets"] = {
-"BattlePet-0-000004567540",
-1228,
-1228,
-},
-["name"] = "魔法1-阳光自爆",
-["tags"] = {
-"11138B",
-"121616C",
-"121616C",
-},
-["teamID"] = "team:223",
-["groupID"] = "group:6",
-},
 ["team:351"] = {
 ["pets"] = {
 "BattlePet-0-00000DD0E5CD",
@@ -6189,6 +6173,21 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:12",
 },
+["team:223"] = {
+["pets"] = {
+"BattlePet-0-000004567540",
+1228,
+1228,
+},
+["name"] = "魔法1-阳光自爆",
+["tags"] = {
+"11138B",
+"121616C",
+"121616C",
+},
+["teamID"] = "team:223",
+["groupID"] = "group:6",
+},
 ["team:215"] = {
 ["pets"] = {
 679,
@@ -6203,6 +6202,21 @@ Rematch5SavedTeams = {
 },
 ["teamID"] = "team:215",
 ["groupID"] = "group:6",
+},
+["team:307"] = {
+["pets"] = {
+1435,
+518,
+518,
+},
+["name"] = "BOSS战2V1方案六",
+["tags"] = {
+"22261CR",
+"2226G6",
+"2226G6",
+},
+["teamID"] = "team:307",
+["groupID"] = "group:11",
 },
 ["team:341"] = {
 ["pets"] = {
@@ -6237,23 +6251,24 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:296",
 ["groupID"] = "group:10",
 },
-["team:53"] = {
+["team:164"] = {
 ["pets"] = {
-"BattlePet-0-00000456751E",
-0,
-1322,
+868,
+"BattlePet-0-0000063CCAA6",
+557,
 },
-["name"] = "拉斯安",
+["notes"] = "喷泉，被击晕，换伊奇。黑爪+群殴杀敌",
+["name"] = "“船长”克鲁兹",
 ["tags"] = {
-"11292L",
-"ZL",
-"121619A",
+"1229R4",
+"21181FS",
+"2215HD",
 },
-["teamID"] = "team:53",
+["teamID"] = "team:164",
 ["targets"] = {
-66551,
+119408,
 },
-["groupID"] = "group:2",
+["groupID"] = "group:5",
 },
 ["team:232"] = {
 ["pets"] = {
@@ -6310,24 +6325,23 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:none",
 },
-["team:164"] = {
+["team:126"] = {
 ["pets"] = {
-868,
-"BattlePet-0-0000063CCAA6",
-557,
+"BattlePet-0-00000456759B",
+"BattlePet-0-00000456759B",
+0,
 },
-["notes"] = "喷泉，被击晕，换伊奇。黑爪+群殴杀敌",
-["name"] = "“船长”克鲁兹",
+["name"] = "鲁库斯",
 ["tags"] = {
-"1229R4",
-"21181FS",
-"2215HD",
+"12141BB",
+"11161BB",
+"ZL",
 },
-["teamID"] = "team:164",
+["teamID"] = "team:126",
 ["targets"] = {
-119408,
+85655,
 },
-["groupID"] = "group:5",
+["groupID"] = "group:2",
 },
 ["team:410"] = {
 ["pets"] = {
@@ -6347,24 +6361,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:none",
 },
-["team:126"] = {
-["pets"] = {
-"BattlePet-0-00000456759B",
-"BattlePet-0-00000456759B",
-0,
-},
-["name"] = "鲁库斯",
-["tags"] = {
-"12141BB",
-"11161BB",
-"ZL",
-},
-["teamID"] = "team:126",
-["targets"] = {
-85655,
-},
-["groupID"] = "group:2",
-},
 ["team:108"] = {
 ["pets"] = {
 641,
@@ -6383,6 +6379,24 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
+["team:62"] = {
+["pets"] = {
+"BattlePet-0-00000DACC616",
+"BattlePet-0-00000456753C",
+383,
+},
+["name"] = "挑战木桩 (9)",
+["tags"] = {
+"112BKC",
+"22189M",
+"1228BV",
+},
+["teamID"] = "team:62",
+["targets"] = {
+85517,
+},
+["groupID"] = "group:2",
+},
 ["team:182"] = {
 ["pets"] = {
 1073,
@@ -6398,22 +6412,22 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:182",
 ["groupID"] = "group:6",
 },
-["team:324"] = {
+["team:338"] = {
 ["pets"] = {
-3034,
-2078,
-"random:0",
+"BattlePet-0-00000DA48432",
+1537,
+1537,
 },
-["notes"] = "太阳光，\n\n换星弹/火炮/黑索。\n待命(不管晕不晕)，自爆，\n\n上赤红孢子/虚空深渊魔。\n蠕行真菌/献祭+自爆，敌挂复活。\n\n上荆丛幼芽，日光术\n\n敌升空被DOT死，8轮结束。",
-["name"] = "CK-9型微型压制单位",
+["notes"] = "太阳光。换赤红孢子，自爆，自爆，敌挂，4轮结束",
+["name"] = "贪婪的鳞裔",
 ["tags"] = {
-"21282UQ",
-"212620U",
-"ZR0",
+"212C93",
+"11261G1",
+"11261G1",
 },
-["teamID"] = "team:324",
+["teamID"] = "team:338",
 ["targets"] = {
-154926,
+154916,
 },
 ["groupID"] = "group:11",
 },
@@ -6453,25 +6467,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:338"] = {
-["pets"] = {
-"BattlePet-0-00000DA48432",
-1537,
-1537,
-},
-["notes"] = "太阳光。换赤红孢子，自爆，自爆，敌挂，4轮结束",
-["name"] = "贪婪的鳞裔",
-["tags"] = {
-"212C93",
-"11261G1",
-"11261G1",
-},
-["teamID"] = "team:338",
-["targets"] = {
-154916,
-},
-["groupID"] = "group:11",
-},
 ["team:103"] = {
 ["pets"] = {
 "BattlePet-0-00000DA92CDC",
@@ -6509,21 +6504,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:406"] = {
-["pets"] = {
-2352,
-557,
-1537,
-},
-["name"] = "斯沃格——滥杀+交换+自爆",
-["tags"] = {
-"222329G",
-"2214HD",
-"21261G1",
-},
-["teamID"] = "team:406",
-["groupID"] = "group:15",
-},
 ["team:161"] = {
 ["pets"] = {
 "BattlePet-0-00000DA92CDB",
@@ -6543,6 +6523,21 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:4",
 },
+["team:406"] = {
+["pets"] = {
+2352,
+557,
+"BattlePet-0-00000DF158F8",
+},
+["name"] = "斯沃格——滥杀+交换+自爆",
+["tags"] = {
+"222329G",
+"2214HD",
+"21261G1",
+},
+["teamID"] = "team:406",
+["groupID"] = "group:15",
+},
 ["team:174"] = {
 ["pets"] = {
 1442,
@@ -6557,6 +6552,24 @@ Rematch5SavedTeams = {
 },
 ["teamID"] = "team:174",
 ["groupID"] = "group:6",
+},
+["team:340"] = {
+["pets"] = {
+"BattlePet-0-00000DD0E5CD",
+"BattlePet-0-0000063CCAA6",
+"BattlePet-0-00000DA92CDB",
+},
+["name"] = "阿噬",
+["tags"] = {
+"121316M",
+"21181FS",
+"222515R",
+},
+["teamID"] = "team:340",
+["targets"] = {
+154911,
+},
+["groupID"] = "group:11",
 },
 ["team:58"] = {
 ["pets"] = {
@@ -6609,24 +6622,6 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:175",
 ["groupID"] = "group:6",
 },
-["team:340"] = {
-["pets"] = {
-"BattlePet-0-00000DD0E5CD",
-"BattlePet-0-0000063CCAA6",
-"BattlePet-0-00000DA92CDB",
-},
-["name"] = "阿噬",
-["tags"] = {
-"121316M",
-"21181FS",
-"222515R",
-},
-["teamID"] = "team:340",
-["targets"] = {
-154911,
-},
-["groupID"] = "group:11",
-},
 ["team:320"] = {
 ["pets"] = {
 3118,
@@ -6641,6 +6636,21 @@ Rematch5SavedTeams = {
 },
 ["teamID"] = "team:320",
 ["groupID"] = "group:11",
+},
+["team:278"] = {
+["pets"] = {
+1165,
+1165,
+1165,
+},
+["name"] = "全谱系-龙类",
+["tags"] = {
+"122814D",
+"122414D",
+"122414D",
+},
+["teamID"] = "team:278",
+["groupID"] = "group:8",
 },
 ["team:143"] = {
 ["pets"] = {
@@ -6657,23 +6667,20 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:143",
 ["groupID"] = "group:3",
 },
-["team:9"] = {
+["team:205"] = {
 ["pets"] = {
-"BattlePet-0-00000DD23B36",
-"BattlePet-0-00000DA4B9E2",
-"BattlePet-0-00000DAB76A9",
+339,
+1320,
+338,
 },
-["name"] = "巴库007",
+["name"] = "机械5-自爆DOT奔踏收割",
 ["tags"] = {
-"211839U",
-"12251G2",
-"11181LP",
+"122CAJ",
+"2215198",
+"2127AI",
 },
-["teamID"] = "team:9",
-["groupID"] = "group:none",
-["targets"] = {
-197102,
-},
+["teamID"] = "team:205",
+["groupID"] = "group:6",
 },
 ["team:311"] = {
 ["pets"] = {
@@ -6689,21 +6696,6 @@ Rematch5SavedTeams = {
 },
 ["teamID"] = "team:311",
 ["groupID"] = "group:11",
-},
-["team:205"] = {
-["pets"] = {
-339,
-1320,
-338,
-},
-["name"] = "机械5-自爆DOT奔踏收割",
-["tags"] = {
-"122CAJ",
-"2215198",
-"2127AI",
-},
-["teamID"] = "team:205",
-["groupID"] = "group:6",
 },
 ["team:246"] = {
 ["pets"] = {
@@ -6759,6 +6751,21 @@ Rematch5SavedTeams = {
 162466,
 },
 ["groupID"] = "group:2",
+},
+["team:309"] = {
+["pets"] = {
+"BattlePet-0-00000DA48432",
+1537,
+1537,
+},
+["name"] = "BOSS战3V1方案七",
+["tags"] = {
+"212C93",
+"21261G1",
+"11261G1",
+},
+["teamID"] = "team:309",
+["groupID"] = "group:11",
 },
 ["team:337"] = {
 ["pets"] = {
@@ -6826,20 +6833,24 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:43",
 ["groupID"] = "group:2",
 },
-["team:309"] = {
+["team:159"] = {
 ["pets"] = {
-"BattlePet-0-00000DA48432",
-1537,
-1537,
+"BattlePet-0-0000063CCAA6",
+557,
+557,
 },
-["name"] = "BOSS战3V1方案七",
+["notes"] = "黑爪+群殴，敌挂\n站桩宠收尾",
+["name"] = "斯卡姆之子",
 ["tags"] = {
-"212C93",
-"21261G1",
-"11261G1",
+"21181FS",
+"2215HD",
+"2214HD",
 },
-["teamID"] = "team:309",
-["groupID"] = "group:11",
+["teamID"] = "team:159",
+["targets"] = {
+116789,
+},
+["groupID"] = "group:4",
 },
 ["team:96"] = {
 ["pets"] = {
@@ -6860,24 +6871,24 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:159"] = {
+["team:251"] = {
 ["pets"] = {
-"BattlePet-0-0000063CCAA6",
-557,
-557,
+1537,
+0,
+"BattlePet-0-00000456759B",
 },
-["notes"] = "黑爪+群殴，敌挂\n站桩宠收尾",
-["name"] = "斯卡姆之子",
+["notes"] = "自爆，上小宠，不必点技能。\n换钢铁星弹，旋紧发条+增压+旋紧发条+毒烟，敌挂",
+["name"] = "血牙",
 ["tags"] = {
-"21181FS",
-"2215HD",
-"2214HD",
+"11261G1",
+"ZL",
+"11141BB",
 },
-["teamID"] = "team:159",
+["teamID"] = "team:251",
 ["targets"] = {
-116789,
+141588,
 },
-["groupID"] = "group:4",
+["groupID"] = "group:7",
 },
 ["team:24"] = {
 ["pets"] = {
@@ -6976,57 +6987,56 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:9",
 },
-["team:292"] = {
+["team:304"] = {
 ["pets"] = {
-"BattlePet-0-00000DAB291A",
-746,
-572,
+"BattlePet-0-00000DD0E5CD",
+627,
+456,
 },
-["name"] = "诺莫瑞根护卫狼",
+["notes"] = "暗影鞭笞+待命+厄运诅咒+鬼影缠身，上松鼠。狂乱之击+奔踏。8轮结束",
+["name"] = "BOSS战2V1方案一改2",
 ["tags"] = {
-"222721C",
-"1214NA",
-"1214HS",
+"121316M",
+"2127JJ",
+"2218E8",
 },
-["teamID"] = "team:292",
-["targets"] = {
-146002,
+["teamID"] = "team:304",
+["groupID"] = "group:11",
 },
-["groupID"] = "group:9",
-},
-["team:82"] = {
+["team:78"] = {
 ["pets"] = {
-835,
-1333,
+"BattlePet-0-00000456751E",
+2410,
 0,
 },
-["name"] = "派恩少校",
+["name"] = "格特瑞奇",
 ["tags"] = {
-"2215Q3",
-"121519L",
+"21292L",
+"11172BA",
 "ZL",
 },
-["teamID"] = "team:82",
+["teamID"] = "team:78",
 ["targets"] = {
-66675,
+66639,
 },
 ["groupID"] = "group:2",
 },
-["team:128"] = {
+["team:152"] = {
 ["pets"] = {
-"BattlePet-0-00000DA92CDB",
-1403,
+1957,
+489,
 1167,
 },
-["name"] = "德拉诺污血怪",
+["notes"] = "旋紧发条+增压+召唤闪电+旋紧发条，邪能宠挂",
+["name"] = "腐化的雷尾淡水兽",
 ["tags"] = {
-"222415R",
-"12151BR",
+"22231T5",
+"1114F9",
 "212414F",
 },
-["teamID"] = "team:128",
+["teamID"] = "team:152",
 ["targets"] = {
-94646,
+94637,
 },
 ["groupID"] = "group:3",
 },
@@ -7049,52 +7059,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:7",
 },
-["team:405"] = {
-["pets"] = {
-"BattlePet-0-00000D78AF20",
-"BattlePet-0-00000DAB7C2D",
-"BattlePet-0-0000063CCAA6",
-},
-["name"] = "斯沃格——定时炸弹+生命交换",
-["tags"] = {
-"122430S",
-"2128144",
-"21181FS",
-},
-["teamID"] = "team:405",
-["groupID"] = "group:15",
-},
-["team:302"] = {
-["pets"] = {
-0,
-"BattlePet-0-00000DD0E5CD",
-2648,
-},
-["name"] = "BOSS战2V1方案一",
-["tags"] = {
-"ZL",
-"121316M",
-"22252IO",
-},
-["teamID"] = "team:302",
-["groupID"] = "group:11",
-},
-["team:304"] = {
-["pets"] = {
-"BattlePet-0-00000DD0E5CD",
-627,
-456,
-},
-["notes"] = "暗影鞭笞+待命+厄运诅咒+鬼影缠身，上松鼠。狂乱之击+奔踏。8轮结束",
-["name"] = "BOSS战2V1方案一改2",
-["tags"] = {
-"121316M",
-"2127JJ",
-"2218E8",
-},
-["teamID"] = "team:304",
-["groupID"] = "group:11",
-},
 ["team:12"] = {
 ["pets"] = {
 "BattlePet-0-00000DD23B36",
@@ -7113,23 +7077,72 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:none",
 },
-["team:78"] = {
+["team:302"] = {
 ["pets"] = {
-"BattlePet-0-00000456751E",
-2410,
+0,
+"BattlePet-0-00000DD0E5CD",
+2648,
+},
+["name"] = "BOSS战2V1方案一",
+["tags"] = {
+"ZL",
+"121316M",
+"22252IO",
+},
+["teamID"] = "team:302",
+["groupID"] = "group:11",
+},
+["team:82"] = {
+["pets"] = {
+835,
+1333,
 0,
 },
-["name"] = "格特瑞奇",
+["name"] = "派恩少校",
 ["tags"] = {
-"21292L",
-"11172BA",
+"2215Q3",
+"121519L",
 "ZL",
 },
-["teamID"] = "team:78",
+["teamID"] = "team:82",
 ["targets"] = {
-66639,
+66675,
 },
 ["groupID"] = "group:2",
+},
+["team:243"] = {
+["pets"] = {
+1976,
+0,
+1974,
+},
+["notes"] = "隼龙围攻+狂风杀敌1\n\n隼龙围攻，敌2被DOT死，利爪龙牺牲\n\n上2号隼龙，隼龙围攻+掠食之击杀敌3\n\n若有意外，3号主力补刀",
+["name"] = "德莉亚·哈那科",
+["tags"] = {
+"11141TO",
+"ZL",
+"12151TM",
+},
+["teamID"] = "team:243",
+["targets"] = {
+141292,
+},
+["groupID"] = "group:7",
+},
+["team:405"] = {
+["pets"] = {
+"BattlePet-0-00000D78AF20",
+"BattlePet-0-00000DAB7C2D",
+"BattlePet-0-0000063CCAA6",
+},
+["name"] = "斯沃格——定时炸弹+生命交换",
+["tags"] = {
+"122430S",
+"2128144",
+"21181FS",
+},
+["teamID"] = "team:405",
+["groupID"] = "group:15",
 },
 ["team:122"] = {
 ["pets"] = {
@@ -7215,24 +7228,24 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:none",
 },
-["team:243"] = {
+["team:282"] = {
 ["pets"] = {
-1976,
+1536,
+"BattlePet-0-00000DA92CDB",
 0,
-1974,
 },
-["notes"] = "隼龙围攻+狂风杀敌1\n\n隼龙围攻，敌2被DOT死，利爪龙牺牲\n\n上2号隼龙，隼龙围攻+掠食之击杀敌3\n\n若有意外，3号主力补刀",
-["name"] = "德莉亚·哈那科",
+["notes"] = "孢子菇。\n换赞达拉撕踝者/袭胫者，黑爪+狩猎小队。\n待命(或上小宠)，敌挂。\n6轮结束。",
+["name"] = "吵吵机器人原型机",
 ["tags"] = {
-"11141TO",
+"21131G0",
+"222A15R",
 "ZL",
-"12151TM",
 },
-["teamID"] = "team:243",
+["teamID"] = "team:282",
 ["targets"] = {
-141292,
+146001,
 },
-["groupID"] = "group:7",
+["groupID"] = "group:9",
 },
 ["team:193"] = {
 ["pets"] = {
@@ -7250,20 +7263,24 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:193",
 ["groupID"] = "group:6",
 },
-["team:219"] = {
+["team:171"] = {
 ["pets"] = {
-1573,
-1537,
-1537,
+1442,
+"BattlePet-0-00000DA92CDC",
+1165,
 },
-["name"] = "飞行1-阳光自爆",
+["notes"] = "虚无之界+鬼影缠身+黑爪+狩猎小队/群殴，敌挂",
+["name"] = "曲奇的剩菜",
 ["tags"] = {
-"11151H5",
-"21261G1",
-"21261G1",
+"22261D2",
+"222814S",
+"122814D",
 },
-["teamID"] = "team:219",
-["groupID"] = "group:6",
+["teamID"] = "team:171",
+["targets"] = {
+119407,
+},
+["groupID"] = "group:5",
 },
 ["team:315"] = {
 ["pets"] = {
@@ -7335,24 +7352,21 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:171"] = {
+["team:233"] = {
 ["pets"] = {
-1442,
-"BattlePet-0-00000DA92CDC",
-1165,
+1152,
+1152,
+2081,
 },
-["notes"] = "虚无之界+鬼影缠身+黑爪+狩猎小队/群殴，敌挂",
-["name"] = "曲奇的剩菜",
+["notes"] = "腐化之血\n1满血彩狗待命，被换上姐妹\n2屏障\n3待命\n4暮光陨星\n5扫尾\n6扫尾\n7换上血多的彩狗，被换上血少的彩狗\n8吼\n9能量涌动(8和9轮可改为咬+涌动)\n10待命，死\n11另一只彩狗，涌动\n\nhttp://bbs.nga.cn/read.php?&tid=12620762",
+["name"] = "龙类5-玛凯雷",
 ["tags"] = {
-"22261D2",
-"222814S",
-"122814D",
+"1126140",
+"1126140",
+"122A211",
 },
-["teamID"] = "team:171",
-["targets"] = {
-119407,
-},
-["groupID"] = "group:5",
+["teamID"] = "team:233",
+["groupID"] = "group:6",
 },
 ["team:355"] = {
 ["pets"] = {
@@ -7406,22 +7420,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:233"] = {
-["pets"] = {
-1152,
-1152,
-2081,
-},
-["notes"] = "腐化之血\n1满血彩狗待命，被换上姐妹\n2屏障\n3待命\n4暮光陨星\n5扫尾\n6扫尾\n7换上血多的彩狗，被换上血少的彩狗\n8吼\n9能量涌动(8和9轮可改为咬+涌动)\n10待命，死\n11另一只彩狗，涌动\n\nhttp://bbs.nga.cn/read.php?&tid=12620762",
-["name"] = "龙类5-玛凯雷",
-["tags"] = {
-"1126140",
-"1126140",
-"122A211",
-},
-["teamID"] = "team:233",
-["groupID"] = "group:6",
-},
 ["team:209"] = {
 ["pets"] = {
 1912,
@@ -7437,23 +7435,41 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:209",
 ["groupID"] = "group:6",
 },
-["team:373"] = {
+["team:150"] = {
 ["pets"] = {
-277,
-1537,
-"BattlePet-0-0000063CCAA6",
+"BattlePet-0-00000456759B",
+1403,
+1167,
 },
-["name"] = "寇斯托斯",
+["name"] = "混沌狼崽",
 ["tags"] = {
-"221B8L",
-"21261G1",
-"11181FS",
+"11141BB",
+"12151BR",
+"212414F",
 },
-["teamID"] = "team:373",
+["teamID"] = "team:150",
 ["targets"] = {
-175785,
+94638,
 },
-["groupID"] = "group:14",
+["groupID"] = "group:3",
+},
+["team:56"] = {
+["pets"] = {
+"BattlePet-0-00000456751E",
+1165,
+1165,
+},
+["name"] = "挑战木桩 (3)",
+["tags"] = {
+"11292L",
+"122414D",
+"122814D",
+},
+["teamID"] = "team:56",
+["targets"] = {
+85626,
+},
+["groupID"] = "group:2",
 },
 ["team:195"] = {
 ["pets"] = {
@@ -7503,27 +7519,24 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:188",
 ["groupID"] = "group:6",
 },
-["team:56"] = {
+["team:274"] = {
 ["pets"] = {
-"BattlePet-0-00000456751E",
-1165,
-1165,
+534,
+1710,
+1712,
 },
-["name"] = "挑战木桩 (3)",
+["name"] = "全谱系-飞行2",
 ["tags"] = {
-"11292L",
-"122414D",
-"122814D",
+"2224GM",
+"21241LE",
+"21241LG",
 },
-["teamID"] = "team:56",
-["targets"] = {
-85626,
-},
-["groupID"] = "group:2",
+["teamID"] = "team:274",
+["groupID"] = "group:8",
 },
 ["team:388"] = {
 ["pets"] = {
-441,
+"BattlePet-0-00000DEC5A48",
 1778,
 "BattlePet-0-000004567528",
 },
@@ -7590,7 +7603,7 @@ Rematch5SavedTeams = {
 ["team:379"] = {
 ["pets"] = {
 1228,
-1537,
+"BattlePet-0-00000DF158F8",
 1766,
 },
 ["name"] = "灼灼",
@@ -7745,25 +7758,6 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:270",
 ["groupID"] = "group:8",
 },
-["team:401"] = {
-["pets"] = {
-339,
-339,
-0,
-},
-["notes"] = "雷霆之箭+自爆，雷霆之箭+自爆，敌挂。4轮结束。",
-["name"] = "斯托玛穆",
-["tags"] = {
-"121CAJ",
-"121CAJ",
-"ZL",
-},
-["teamID"] = "team:401",
-["targets"] = {
-197447,
-},
-["groupID"] = "group:15",
-},
 ["team:117"] = {
 ["pets"] = {
 "BattlePet-0-00000DA4100E",
@@ -7781,6 +7775,25 @@ Rematch5SavedTeams = {
 99742,
 },
 ["groupID"] = "group:2",
+},
+["team:325"] = {
+["pets"] = {
+"BattlePet-0-00000DAB2914",
+"BattlePet-0-0000063CCAA6",
+2674,
+},
+["notes"] = "鬼影，黑爪+群殴，万能打击，4轮结束",
+["name"] = "侏儒飨宴者",
+["tags"] = {
+"21181TG",
+"21181FS",
+"22132JI",
+},
+["teamID"] = "team:325",
+["targets"] = {
+154922,
+},
+["groupID"] = "group:11",
 },
 ["team:83"] = {
 ["pets"] = {
@@ -7831,24 +7844,23 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:295",
 ["groupID"] = "group:10",
 },
-["team:325"] = {
+["team:98"] = {
 ["pets"] = {
-"BattlePet-0-00000DAB2914",
-"BattlePet-0-0000063CCAA6",
-2674,
+"BattlePet-0-00000DD0E5CD",
+1427,
+"BattlePet-0-00000DED4755",
 },
-["notes"] = "鬼影，黑爪+群殴，万能打击，4轮结束",
-["name"] = "侏儒飨宴者",
+["name"] = "缝合三世",
 ["tags"] = {
-"21181TG",
-"21181FS",
-"22132JI",
+"122316M",
+"11241CJ",
+"1126140",
 },
-["teamID"] = "team:325",
+["teamID"] = "team:98",
 ["targets"] = {
-154922,
+105840,
 },
-["groupID"] = "group:11",
+["groupID"] = "group:2",
 },
 ["team:21"] = {
 ["pets"] = {
@@ -7954,23 +7966,24 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:98"] = {
+["team:375"] = {
 ["pets"] = {
-"BattlePet-0-00000DD0E5CD",
-1427,
-"BattlePet-0-00000DED4755",
+2717,
+517,
+1577,
 },
-["name"] = "缝合三世",
+["notes"] = "警报+心灵游戏：生命值+增压+离子炮",
+["name"] = "折磨者阿迪乌斯",
 ["tags"] = {
-"122316M",
-"11241CJ",
-"1126140",
+"12272KT",
+"2128G5",
+"111B1H9",
 },
-["teamID"] = "team:98",
+["teamID"] = "team:375",
 ["targets"] = {
-105840,
+173331,
 },
-["groupID"] = "group:2",
+["groupID"] = "group:14",
 },
 ["team:392"] = {
 ["pets"] = {
@@ -7987,21 +8000,6 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:392",
 ["groupID"] = "group:14",
 },
-["team:271"] = {
-["pets"] = {
-1266,
-1330,
-1749,
-},
-["name"] = "全谱系-野兽2",
-["tags"] = {
-"122417I",
-"212519I",
-"21251ML",
-},
-["teamID"] = "team:271",
-["groupID"] = "group:8",
-},
 ["team:256"] = {
 ["pets"] = {
 1073,
@@ -8015,6 +8013,21 @@ Rematch5SavedTeams = {
 "11251EN",
 },
 ["teamID"] = "team:256",
+["groupID"] = "group:8",
+},
+["team:261"] = {
+["pets"] = {
+"BattlePet-0-00000DEC5A48",
+1778,
+"BattlePet-0-000004567528",
+},
+["name"] = "全谱系-小动物",
+["tags"] = {
+"2225DP",
+"22251NI",
+"222568",
+},
+["teamID"] = "team:261",
 ["groupID"] = "group:8",
 },
 ["team:37"] = {
@@ -8032,43 +8045,6 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:37",
 ["targets"] = {
 79751,
-},
-["groupID"] = "group:2",
-},
-["team:16"] = {
-["pets"] = {
-1165,
-557,
-557,
-},
-["notes"] = "奥术风暴+法力澎湃+奥术风暴+扫尾，6-7轮过关\n        后排放精灵龙，就是让它的血少少的，用来生命交换",
-["name"] = "变异小爪迅猛龙",
-["tags"] = {
-"122414D",
-"2215HD",
-"2214HD",
-},
-["teamID"] = "team:16",
-["targets"] = {
-116786,
-},
-["groupID"] = "group:1",
-},
-["team:38"] = {
-["pets"] = {
-1165,
-0,
-557,
-},
-["name"] = "塔拉鲁恩",
-["tags"] = {
-"122414D",
-"ZL",
-"2215HD",
-},
-["teamID"] = "team:38",
-["targets"] = {
-87125,
 },
 ["groupID"] = "group:2",
 },
@@ -8090,6 +8066,24 @@ Rematch5SavedTeams = {
 141046,
 },
 ["groupID"] = "group:7",
+},
+["team:38"] = {
+["pets"] = {
+1165,
+0,
+557,
+},
+["name"] = "塔拉鲁恩",
+["tags"] = {
+"122414D",
+"ZL",
+"2215HD",
+},
+["teamID"] = "team:38",
+["targets"] = {
+87125,
+},
+["groupID"] = "group:2",
 },
 ["team:127"] = {
 ["pets"] = {
@@ -8124,25 +8118,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:240"] = {
-["pets"] = {
-1266,
-"BattlePet-0-00000456759B",
-0,
-},
-["notes"] = "潜行+月火术杀鸣喙。\n\n换星弹，旋紧发条+强力球+旋紧发条+自爆，敌挂，上小宠，不必点技能，直接换雪福。\n\n潜行+幽灵爪杀敌。\n\n10轮结束。",
-["name"] = "基约",
-["tags"] = {
-"122417I",
-"11261BB",
-"ZL",
-},
-["teamID"] = "team:240",
-["targets"] = {
-141879,
-},
-["groupID"] = "group:7",
-},
 ["team:109"] = {
 ["pets"] = {
 1403,
@@ -8162,6 +8137,25 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
+["team:240"] = {
+["pets"] = {
+1266,
+"BattlePet-0-00000456759B",
+0,
+},
+["notes"] = "潜行+月火术杀鸣喙。\n\n换星弹，旋紧发条+强力球+旋紧发条+自爆，敌挂，上小宠，不必点技能，直接换雪福。\n\n潜行+幽灵爪杀敌。\n\n10轮结束。",
+["name"] = "基约",
+["tags"] = {
+"122417I",
+"11261BB",
+"ZL",
+},
+["teamID"] = "team:240",
+["targets"] = {
+141879,
+},
+["groupID"] = "group:7",
+},
 ["team:32"] = {
 ["pets"] = {
 1521,
@@ -8179,6 +8173,25 @@ Rematch5SavedTeams = {
 106542,
 },
 ["groupID"] = "group:2",
+},
+["team:16"] = {
+["pets"] = {
+1165,
+557,
+557,
+},
+["notes"] = "奥术风暴+法力澎湃+奥术风暴+扫尾，6-7轮过关\n        后排放精灵龙，就是让它的血少少的，用来生命交换",
+["name"] = "变异小爪迅猛龙",
+["tags"] = {
+"122414D",
+"2215HD",
+"2214HD",
+},
+["teamID"] = "team:16",
+["targets"] = {
+116786,
+},
+["groupID"] = "group:1",
 },
 ["team:41"] = {
 ["pets"] = {
@@ -8217,19 +8230,19 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:12",
 },
-["team:261"] = {
+["team:271"] = {
 ["pets"] = {
-"BattlePet-0-00000DEC5A48",
-1778,
-"BattlePet-0-000004567528",
+1266,
+1330,
+1749,
 },
-["name"] = "全谱系-小动物",
+["name"] = "全谱系-野兽2",
 ["tags"] = {
-"2225DP",
-"22251NI",
-"222568",
+"122417I",
+"212519I",
+"21251ML",
 },
-["teamID"] = "team:261",
+["teamID"] = "team:271",
 ["groupID"] = "group:8",
 },
 ["team:269"] = {
@@ -8247,25 +8260,6 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:269",
 ["groupID"] = "group:8",
 },
-["team:375"] = {
-["pets"] = {
-2717,
-517,
-1577,
-},
-["notes"] = "警报+心灵游戏：生命值+增压+离子炮",
-["name"] = "折磨者阿迪乌斯",
-["tags"] = {
-"12272KT",
-"2128G5",
-"111B1H9",
-},
-["teamID"] = "team:375",
-["targets"] = {
-173331,
-},
-["groupID"] = "group:14",
-},
 ["team:266"] = {
 ["pets"] = {
 1320,
@@ -8280,6 +8274,25 @@ Rematch5SavedTeams = {
 },
 ["teamID"] = "team:266",
 ["groupID"] = "group:8",
+},
+["team:401"] = {
+["pets"] = {
+339,
+339,
+0,
+},
+["notes"] = "雷霆之箭+自爆，雷霆之箭+自爆，敌挂。4轮结束。",
+["name"] = "斯托玛穆",
+["tags"] = {
+"121CAJ",
+"121CAJ",
+"ZL",
+},
+["teamID"] = "team:401",
+["targets"] = {
+197447,
+},
+["groupID"] = "group:15",
 },
 ["team:376"] = {
 ["pets"] = {
@@ -8348,20 +8361,23 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:312",
 ["groupID"] = "group:11",
 },
-["team:274"] = {
+["team:373"] = {
 ["pets"] = {
-534,
-1710,
-1712,
+277,
+"BattlePet-0-00000DF158F8",
+"BattlePet-0-0000063CCAA6",
 },
-["name"] = "全谱系-飞行2",
+["name"] = "寇斯托斯",
 ["tags"] = {
-"2224GM",
-"21241LE",
-"21241LG",
+"221B8L",
+"21261G1",
+"11181FS",
 },
-["teamID"] = "team:274",
-["groupID"] = "group:8",
+["teamID"] = "team:373",
+["targets"] = {
+175785,
+},
+["groupID"] = "group:14",
 },
 ["team:179"] = {
 ["pets"] = {
@@ -8398,23 +8414,20 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:11",
 },
-["team:150"] = {
+["team:219"] = {
 ["pets"] = {
-"BattlePet-0-00000456759B",
-1403,
-1167,
+1573,
+1537,
+1537,
 },
-["name"] = "混沌狼崽",
+["name"] = "飞行1-阳光自爆",
 ["tags"] = {
-"11141BB",
-"12151BR",
-"212414F",
+"11151H5",
+"21261G1",
+"21261G1",
 },
-["teamID"] = "team:150",
-["targets"] = {
-94638,
-},
-["groupID"] = "group:3",
+["teamID"] = "team:219",
+["groupID"] = "group:6",
 },
 ["team:327"] = {
 ["pets"] = {
@@ -8454,22 +8467,22 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:282"] = {
+["team:283"] = {
 ["pets"] = {
-1536,
 "BattlePet-0-00000DA92CDB",
-0,
+"BattlePet-0-00000DA92CDC",
+"BattlePet-0-00000DA92D27",
 },
-["notes"] = "孢子菇。\n换赞达拉撕踝者/袭胫者，黑爪+狩猎小队。\n待命(或上小宠)，敌挂。\n6轮结束。",
-["name"] = "吵吵机器人原型机",
+["notes"] = "原始嗥叫+黑爪+狩猎小队，牺牲，上袭胫者，血牙杀敌。\n\n黑爪+狩猎小队杀敌(敌未死加血牙)。\n\n血牙+待命(被晕)，黑爪到牺牲，上3号赞达拉，狩猎小队杀敌。\n\n12轮结束。",
+["name"] = "大门控制台",
 ["tags"] = {
-"21131G0",
-"222A15R",
-"ZL",
+"222415R",
+"222814S",
+"222415S",
 },
-["teamID"] = "team:282",
+["teamID"] = "team:283",
 ["targets"] = {
-146001,
+146932,
 },
 ["groupID"] = "group:9",
 },
@@ -8492,43 +8505,41 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:12",
 },
-["team:283"] = {
+["team:128"] = {
 ["pets"] = {
 "BattlePet-0-00000DA92CDB",
-"BattlePet-0-00000DA92CDC",
-"BattlePet-0-00000DA92D27",
-},
-["notes"] = "原始嗥叫+黑爪+狩猎小队，牺牲，上袭胫者，血牙杀敌。\n\n黑爪+狩猎小队杀敌(敌未死加血牙)。\n\n血牙+待命(被晕)，黑爪到牺牲，上3号赞达拉，狩猎小队杀敌。\n\n12轮结束。",
-["name"] = "大门控制台",
-["tags"] = {
-"222415R",
-"222814S",
-"222415S",
-},
-["teamID"] = "team:283",
-["targets"] = {
-146932,
-},
-["groupID"] = "group:9",
-},
-["team:152"] = {
-["pets"] = {
-1957,
-489,
+1403,
 1167,
 },
-["notes"] = "旋紧发条+增压+召唤闪电+旋紧发条，邪能宠挂",
-["name"] = "腐化的雷尾淡水兽",
+["name"] = "德拉诺污血怪",
 ["tags"] = {
-"22231T5",
-"1114F9",
+"222415R",
+"12151BR",
 "212414F",
 },
-["teamID"] = "team:152",
+["teamID"] = "team:128",
 ["targets"] = {
-94637,
+94646,
 },
 ["groupID"] = "group:3",
+},
+["team:292"] = {
+["pets"] = {
+"BattlePet-0-00000DAB291A",
+746,
+572,
+},
+["name"] = "诺莫瑞根护卫狼",
+["tags"] = {
+"222721C",
+"1214NA",
+"1214HS",
+},
+["teamID"] = "team:292",
+["targets"] = {
+146002,
+},
+["groupID"] = "group:9",
 },
 ["team:231"] = {
 ["pets"] = {
@@ -8632,25 +8643,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:251"] = {
-["pets"] = {
-1537,
-0,
-"BattlePet-0-00000456759B",
-},
-["notes"] = "自爆，上小宠，不必点技能。\n换钢铁星弹，旋紧发条+增压+旋紧发条+毒烟，敌挂",
-["name"] = "血牙",
-["tags"] = {
-"11261G1",
-"ZL",
-"11141BB",
-},
-["teamID"] = "team:251",
-["targets"] = {
-141588,
-},
-["groupID"] = "group:7",
-},
 ["team:250"] = {
 ["pets"] = {
 2403,
@@ -8730,6 +8722,24 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:314",
 ["groupID"] = "group:11",
 },
+["team:9"] = {
+["pets"] = {
+"BattlePet-0-00000DD23B36",
+"BattlePet-0-00000DA4B9E2",
+"BattlePet-0-00000DAB76A9",
+},
+["name"] = "巴库007",
+["tags"] = {
+"211839U",
+"12251G2",
+"11181LP",
+},
+["teamID"] = "team:9",
+["groupID"] = "group:none",
+["targets"] = {
+197102,
+},
+},
 ["team:20"] = {
 ["pets"] = {
 1228,
@@ -8747,21 +8757,6 @@ Rematch5SavedTeams = {
 66466,
 },
 ["groupID"] = "group:2",
-},
-["team:278"] = {
-["pets"] = {
-1165,
-1165,
-1165,
-},
-["name"] = "全谱系-龙类",
-["tags"] = {
-"122814D",
-"122414D",
-"122414D",
-},
-["teamID"] = "team:278",
-["groupID"] = "group:8",
 },
 ["team:322"] = {
 ["pets"] = {
@@ -8793,6 +8788,21 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:323",
 ["groupID"] = "group:11",
 },
+["team:378"] = {
+["pets"] = {
+2382,
+836,
+2758,
+},
+["name"] = "法利尔-水栖队",
+["tags"] = {
+"21162AE",
+"1215Q4",
+"12142M6",
+},
+["teamID"] = "team:378",
+["groupID"] = "group:14",
+},
 ["team:130"] = {
 ["pets"] = {
 1442,
@@ -8810,21 +8820,6 @@ Rematch5SavedTeams = {
 94649,
 },
 ["groupID"] = "group:3",
-},
-["team:378"] = {
-["pets"] = {
-2382,
-836,
-2758,
-},
-["name"] = "法利尔-水栖队",
-["tags"] = {
-"21162AE",
-"1215Q4",
-"12142M6",
-},
-["teamID"] = "team:378",
-["groupID"] = "group:14",
 },
 ["team:330"] = {
 ["pets"] = {
@@ -8860,6 +8855,25 @@ Rematch5SavedTeams = {
 },
 ["teamID"] = "team:201",
 ["groupID"] = "group:6",
+},
+["team:324"] = {
+["pets"] = {
+3034,
+2078,
+"random:0",
+},
+["notes"] = "太阳光，\n\n换星弹/火炮/黑索。\n待命(不管晕不晕)，自爆，\n\n上赤红孢子/虚空深渊魔。\n蠕行真菌/献祭+自爆，敌挂复活。\n\n上荆丛幼芽，日光术\n\n敌升空被DOT死，8轮结束。",
+["name"] = "CK-9型微型压制单位",
+["tags"] = {
+"21282UQ",
+"212620U",
+"ZR0",
+},
+["teamID"] = "team:324",
+["targets"] = {
+154926,
+},
+["groupID"] = "group:11",
 },
 ["team:409"] = {
 ["pets"] = {
@@ -8898,24 +8912,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:2",
 },
-["team:62"] = {
-["pets"] = {
-"BattlePet-0-00000DACC616",
-"BattlePet-0-00000456753C",
-383,
-},
-["name"] = "挑战木桩 (9)",
-["tags"] = {
-"112BKC",
-"22189M",
-"1228BV",
-},
-["teamID"] = "team:62",
-["targets"] = {
-85517,
-},
-["groupID"] = "group:2",
-},
 ["team:329"] = {
 ["pets"] = {
 341,
@@ -8934,6 +8930,24 @@ Rematch5SavedTeams = {
 154913,
 },
 ["groupID"] = "group:11",
+},
+["team:53"] = {
+["pets"] = {
+"BattlePet-0-00000456751E",
+0,
+1322,
+},
+["name"] = "拉斯安",
+["tags"] = {
+"11292L",
+"ZL",
+"121619A",
+},
+["teamID"] = "team:53",
+["targets"] = {
+66551,
+},
+["groupID"] = "group:2",
 },
 ["team:297"] = {
 ["pets"] = {
@@ -8983,21 +8997,6 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:14",
 },
-["team:307"] = {
-["pets"] = {
-1435,
-518,
-518,
-},
-["name"] = "BOSS战2V1方案六",
-["tags"] = {
-"22261CR",
-"2226G6",
-"2226G6",
-},
-["teamID"] = "team:307",
-["groupID"] = "group:11",
-},
 ["team:350"] = {
 ["pets"] = {
 2389,
@@ -9015,6 +9014,22 @@ Rematch5SavedTeams = {
 155414,
 },
 ["groupID"] = "group:12",
+},
+["team:207"] = {
+["pets"] = {
+1912,
+164,
+173,
+},
+["notes"] = "割裂+沐血，汹涌到死",
+["name"] = "水栖1-DOT大招收割",
+["tags"] = {
+"22271RO",
+"112354",
+"11275D",
+},
+["teamID"] = "team:207",
+["groupID"] = "group:6",
 },
 ["team:335"] = {
 ["pets"] = {
@@ -9088,25 +9103,6 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:264",
 ["groupID"] = "group:8",
 },
-["team:360"] = {
-["pets"] = {
-2648,
-"BattlePet-0-00000DA99F21",
-415,
-},
-["notes"] = "1、黑爪；2、蜂拥；3、对方复生，待命；\n\n4、对面2号上，黑爪；没死就接个蜂拥；\n5、换蟑螂；6、天启；\n7被换熊猫龙；8、一直吐息；\n\n对面能量涌动cd好了，我们就开诱饵；\n待天启还有2轮左右时，干掉2号；\n3号上来后随便打，随后被天启干掉。",
-["name"] = "泰莎·莱利",
-["tags"] = {
-"22282IO",
-"1125QC",
-"2227CV",
-},
-["teamID"] = "team:360",
-["targets"] = {
-160210,
-},
-["groupID"] = "group:13",
-},
 ["team:361"] = {
 ["pets"] = {
 2590,
@@ -9125,6 +9121,21 @@ Rematch5SavedTeams = {
 160207,
 },
 ["groupID"] = "group:13",
+},
+["team:415"] = {
+["pets"] = {
+"BattlePet-0-00000DA697BF",
+"BattlePet-0-00000DAA8544",
+2933,
+},
+["name"] = "多恩岛戴娜",
+["tags"] = {
+"22282RL",
+"22282RL",
+"22282RL",
+},
+["teamID"] = "team:415",
+["groupID"] = "group:none",
 },
 ["team:245"] = {
 ["pets"] = {
@@ -9232,24 +9243,23 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:366",
 ["groupID"] = "group:13",
 },
-["team:169"] = {
+["team:47"] = {
 ["pets"] = {
-868,
-"BattlePet-0-0000063CCAA6",
-557,
+641,
+2395,
+0,
 },
-["notes"] = "普攻+喷泉，被晕，换伊奇\n黑爪+群殴杀BOSS。\n虚空龙收尾",
-["name"] = "愤怒的晶簇",
+["name"] = "差点没头的雅各布",
 ["tags"] = {
-"1229R4",
-"21181FS",
-"2215HD",
+"221BK1",
+"12182AR",
+"ZL",
 },
-["teamID"] = "team:169",
+["teamID"] = "team:47",
 ["targets"] = {
-119342,
+66636,
 },
-["groupID"] = "group:5",
+["groupID"] = "group:2",
 },
 ["team:49"] = {
 ["pets"] = {
@@ -9340,24 +9350,24 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:11",
 },
-["team:386"] = {
+["team:22"] = {
 ["pets"] = {
-627,
-319,
-3023,
+"BattlePet-0-00000DD0E5CD",
+1536,
+"BattlePet-0-00000DA92CDB",
 },
-["notes"] = "狂乱之击+邪爆，上灵猫，潜行+召唤黑暗(3102伤害)，敌挂，复活，上小宠，待命，敌挂。5轮结束。4级小宠338经验值",
-["name"] = "肿嘴",
+["notes"] = "厄运诅咒+鬼影缠身，上孢子，自爆。上赞达拉/掠沙蟹，黑爪+群殴/狩猎小队，敌挂，5轮结束",
+["name"] = "亚基沙行甲虫",
 ["tags"] = {
-"2127JJ",
-"122A9V",
-"11182UF",
+"121316M",
+"21231G0",
+"222415R",
 },
-["teamID"] = "team:386",
+["teamID"] = "team:22",
 ["targets"] = {
-173274,
+162465,
 },
-["groupID"] = "group:14",
+["groupID"] = "group:2",
 },
 ["team:339"] = {
 ["pets"] = {
@@ -9378,20 +9388,24 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:11",
 },
-["team:417"] = {
+["team:390"] = {
 ["pets"] = {
-"BattlePet-0-00000DA697BF",
-"BattlePet-0-00000DAA8544",
-2933,
+"BattlePet-0-00000DF158F8",
+0,
+"BattlePet-0-00000456759B",
 },
-["name"] = "陨圣峪凯莱",
+["notes"] = "自爆，上小宠，不必点技能，换星弹，旋紧发条+增压+旋紧发条杀敌，5轮结束。\n\n11级小宠380",
+["name"] = "腭骨",
 ["tags"] = {
-"22282RL",
-"22282RL",
-"22282RL",
+"21261G1",
+"ZL",
+"12141BB",
 },
-["teamID"] = "team:417",
-["groupID"] = "group:none",
+["teamID"] = "team:390",
+["targets"] = {
+173133,
+},
+["groupID"] = "group:14",
 },
 ["team:306"] = {
 ["pets"] = {
@@ -9408,20 +9422,23 @@ Rematch5SavedTeams = {
 ["teamID"] = "team:306",
 ["groupID"] = "group:11",
 },
-["team:273"] = {
+["team:394"] = {
 ["pets"] = {
-"BattlePet-0-0000063CCAA6",
-"BattlePet-0-00000456759E",
-1532,
+382,
+"BattlePet-0-00000DF158F8",
+"BattlePet-0-00000DF158F6",
 },
-["name"] = "全谱系-飞行",
+["name"] = "迪加洛",
 ["tags"] = {
-"21181FS",
-"21181FS",
-"21181FS",
+"1223BU",
+"21261G1",
+"21261G1",
 },
-["teamID"] = "team:273",
-["groupID"] = "group:8",
+["teamID"] = "team:394",
+["targets"] = {
+175783,
+},
+["groupID"] = "group:14",
 },
 ["team:148"] = {
 ["pets"] = {
@@ -9440,25 +9457,6 @@ Rematch5SavedTeams = {
 94641,
 },
 ["groupID"] = "group:3",
-},
-["team:396"] = {
-["pets"] = {
-559,
-3008,
-2717,
-},
-["notes"] = "水晶过载+巨石奔袭，敌1挂。水晶过载+巨石奔袭，牺牲，上羽毛笔。幽魂脊刺，敌2挂。驻足聆听，换微型机器人XD。增压+离子炮+待命，敌3挂。10结束",
-["name"] = "顿德里·黏指",
-["tags"] = {
-"1114HF",
-"22252U0",
-"12272KT",
-},
-["teamID"] = "team:396",
-["targets"] = {
-173267,
-},
-["groupID"] = "group:14",
 },
 ["team:404"] = {
 ["pets"] = {
@@ -9490,6 +9488,24 @@ Rematch5SavedTeams = {
 },
 ["teamID"] = "team:139",
 ["groupID"] = "group:3",
+},
+["team:357"] = {
+["pets"] = {
+"BattlePet-0-00000DD0E5CD",
+"BattlePet-0-00000DA92CDC",
+1537,
+},
+["name"] = "斯普林特",
+["tags"] = {
+"121316M",
+"222814S",
+"11261G1",
+},
+["teamID"] = "team:357",
+["targets"] = {
+161656,
+},
+["groupID"] = "group:13",
 },
 ["team:81"] = {
 ["pets"] = {
@@ -9873,42 +9889,14 @@ Rematch5SavedGroups = {
 "team:253",
 },
 },
-["group:14"] = {
-["showTab"] = true,
+["group:favorites"] = {
 ["sortMode"] = 1,
+["name"] = "Favorite Teams",
 ["isExpanded"] = true,
-["name"] = "暗影界",
-["groupID"] = "group:14",
-["icon"] = 3747336,
+["meta"] = true,
+["icon"] = "Interface\\Icons\\ACHIEVEMENT_GUILDPERK_MRPOPULARITY_RANK2",
+["groupID"] = "group:favorites",
 ["teams"] = {
-"team:369",
-"team:370",
-"team:371",
-"team:372",
-"team:373",
-"team:374",
-"team:375",
-"team:376",
-"team:377",
-"team:378",
-"team:379",
-"team:380",
-"team:381",
-"team:382",
-"team:383",
-"team:384",
-"team:385",
-"team:386",
-"team:387",
-"team:388",
-"team:389",
-"team:390",
-"team:391",
-"team:392",
-"team:393",
-"team:394",
-"team:395",
-"team:396",
 },
 },
 ["group:8"] = {
@@ -10020,14 +10008,43 @@ Rematch5SavedGroups = {
 ["icon"] = "Interface\\Icons\\INV_Pet_BattlePetTraining",
 ["isExpanded"] = true,
 },
-["group:favorites"] = {
+["group:14"] = {
+["showTab"] = true,
 ["sortMode"] = 1,
-["name"] = "Favorite Teams",
 ["isExpanded"] = true,
-["meta"] = true,
-["icon"] = "Interface\\Icons\\ACHIEVEMENT_GUILDPERK_MRPOPULARITY_RANK2",
-["groupID"] = "group:favorites",
+["name"] = "暗影界",
+["groupID"] = "group:14",
+["icon"] = 3747336,
 ["teams"] = {
+"team:369",
+"team:370",
+"team:371",
+"team:372",
+"team:373",
+"team:374",
+"team:375",
+"team:376",
+"team:377",
+"team:378",
+"team:379",
+"team:380",
+"team:381",
+"team:382",
+"team:383",
+"team:384",
+"team:385",
+"team:386",
+"team:387",
+"team:388",
+"team:389",
+"team:390",
+"team:391",
+"team:392",
+"team:393",
+"team:394",
+"team:395",
+"team:396",
+"team:419",
 },
 },
 ["group:1"] = {
@@ -10154,6 +10171,7 @@ Rematch5SavedTargets = {
 },
 [173267] = {
 "team:396",
+"team:419",
 },
 [173331] = {
 "team:375",
@@ -10218,11 +10236,11 @@ Rematch5SavedTargets = {
 [116788] = {
 "team:156",
 },
-[162466] = {
-"team:84",
-},
 [141046] = {
 "team:249",
+},
+[162466] = {
+"team:84",
 },
 [223443] = {
 "team:12",
@@ -10242,8 +10260,8 @@ Rematch5SavedTargets = {
 [85678] = {
 "team:90",
 },
-[116791] = {
-"team:18",
+[119341] = {
+"team:170",
 },
 [154914] = {
 "team:333",
@@ -10260,8 +10278,8 @@ Rematch5SavedTargets = {
 [66636] = {
 "team:47",
 },
-[162469] = {
-"team:52",
+[141814] = {
+"team:247",
 },
 [150929] = {
 "team:344",
@@ -10287,17 +10305,17 @@ Rematch5SavedTargets = {
 [85650] = {
 "team:35",
 },
+[146181] = {
+"team:285",
+},
+[128012] = {
+"team:200",
+},
+[162469] = {
+"team:52",
+},
 [160206] = {
 "team:364",
-},
-[119342] = {
-"team:169",
-},
-[141814] = {
-"team:247",
-},
-[223446] = {
-"team:10",
 },
 [67370] = {
 "team:77",
@@ -10317,8 +10335,8 @@ Rematch5SavedTargets = {
 [94637] = {
 "team:152",
 },
-[116793] = {
-"team:158",
+[119343] = {
+"team:168",
 },
 [146182] = {
 "team:287",
@@ -10329,17 +10347,17 @@ Rematch5SavedTargets = {
 [154916] = {
 "team:338",
 },
-[141529] = {
-"team:102",
+[116793] = {
+"team:158",
 },
 [176655] = {
 "team:372",
 },
-[173372] = {
-"team:380",
+[99182] = {
+"team:29",
 },
-[119343] = {
-"team:168",
+[141529] = {
+"team:102",
 },
 [162471] = {
 "team:96",
@@ -10383,26 +10401,26 @@ Rematch5SavedTargets = {
 [116794] = {
 "team:161",
 },
-[94641] = {
-"team:148",
+[160210] = {
+"team:360",
 },
 [119344] = {
 "team:167",
 },
-[66639] = {
-"team:78",
+[189376] = {
+"team:409",
 },
-[160210] = {
-"team:360",
+[94641] = {
+"team:148",
 },
 [117950] = {
 "team:113",
 },
-[154919] = {
-"team:334",
+[119408] = {
+"team:164",
 },
-[189376] = {
-"team:409",
+[66639] = {
+"team:78",
 },
 [161661] = {
 "team:355",
@@ -10416,17 +10434,17 @@ Rematch5SavedTargets = {
 [79751] = {
 "team:37",
 },
-[116795] = {
-"team:163",
-},
 [119345] = {
 "team:166",
+},
+[85685] = {
+"team:99",
 },
 [154920] = {
 "team:332",
 },
-[119409] = {
-"team:172",
+[154921] = {
+"team:328",
 },
 [142234] = {
 "team:246",
@@ -10434,20 +10452,20 @@ Rematch5SavedTargets = {
 [173376] = {
 "team:371",
 },
-[85685] = {
-"team:99",
+[116795] = {
+"team:163",
 },
 [141292] = {
 "team:243",
 },
-[99742] = {
-"team:117",
+[94642] = {
+"team:151",
 },
 [66551] = {
 "team:53",
 },
-[154921] = {
-"team:328",
+[119409] = {
+"team:172",
 },
 [150918] = {
 "team:346",
@@ -10465,14 +10483,14 @@ Rematch5SavedTargets = {
 [116786] = {
 "team:16",
 },
+[85622] = {
+"team:54",
+},
+[155145] = {
+"team:345",
+},
 [83837] = {
 "team:28",
-},
-[105241] = {
-"team:71",
-},
-[105512] = {
-"team:91",
 },
 [196264] = {
 "team:34",
@@ -10532,14 +10550,14 @@ Rematch5SavedTargets = {
 [161663] = {
 "team:354",
 },
-[91014] = {
-"team:68",
+[85659] = {
+"team:39",
 },
 [173381] = {
 "team:374",
 },
-[154926] = {
-"team:324",
+[146001] = {
+"team:282",
 },
 [145968] = {
 "team:294",
@@ -10550,8 +10568,8 @@ Rematch5SavedTargets = {
 [66550] = {
 "team:46",
 },
-[85659] = {
-"team:39",
+[91014] = {
+"team:68",
 },
 [161651] = {
 "team:356",
@@ -10559,11 +10577,11 @@ Rematch5SavedTargets = {
 [68558] = {
 "team:114",
 },
-[146001] = {
-"team:282",
+[154926] = {
+"team:324",
 },
-[87122] = {
-"team:30",
+[197447] = {
+"team:401",
 },
 [66738] = {
 "team:31",
@@ -10576,6 +10594,12 @@ Rematch5SavedTargets = {
 },
 [154922] = {
 "team:325",
+},
+[161657] = {
+"team:368",
+},
+[142054] = {
+"team:242",
 },
 [197102] = {
 "team:1",
@@ -10590,20 +10614,14 @@ Rematch5SavedTargets = {
 "team:397",
 "team:399",
 },
-[142054] = {
-"team:242",
-},
-[161657] = {
-"team:368",
-},
 [94645] = {
 "team:153",
 },
-[146002] = {
-"team:292",
-},
 [154927] = {
 "team:300",
+},
+[146002] = {
+"team:292",
 },
 [66822] = {
 "team:122",
@@ -10617,23 +10635,23 @@ Rematch5SavedTargets = {
 [139489] = {
 "team:252",
 },
-[146003] = {
-"team:293",
-},
-[142114] = {
-"team:81",
-},
-[145971] = {
-"team:290",
-},
 [154928] = {
 "team:301",
+},
+[87123] = {
+"team:97",
+},
+[66739] = {
+"team:51",
+},
+[146003] = {
+"team:293",
 },
 [222535] = {
 "team:413",
 },
-[105898] = {
-"team:49",
+[154929] = {
+"team:299",
 },
 [173129] = {
 "team:383",
@@ -10641,8 +10659,8 @@ Rematch5SavedTargets = {
 [66819] = {
 "team:48",
 },
-[154929] = {
-"team:299",
+[146004] = {
+"team:291",
 },
 [94646] = {
 "team:128",
@@ -10650,8 +10668,8 @@ Rematch5SavedTargets = {
 [173257] = {
 "team:384",
 },
-[146004] = {
-"team:291",
+[105898] = {
+"team:49",
 },
 [154917] = {
 "team:330",
@@ -10695,11 +10713,11 @@ Rematch5SavedTargets = {
 [94647] = {
 "team:129",
 },
-[66739] = {
-"team:51",
+[145971] = {
+"team:290",
 },
-[87123] = {
-"team:97",
+[142114] = {
+"team:81",
 },
 [154913] = {
 "team:329",
@@ -10708,14 +10726,14 @@ Rematch5SavedTargets = {
 "team:25",
 "team:14",
 },
-[141002] = {
-"team:248",
+[68462] = {
+"team:87",
 },
 [141799] = {
 "team:79",
 },
-[68462] = {
-"team:87",
+[141002] = {
+"team:248",
 },
 [87125] = {
 "team:38",
@@ -10735,8 +10753,8 @@ Rematch5SavedTargets = {
 [173133] = {
 "team:390",
 },
-[197447] = {
-"team:401",
+[87122] = {
+"team:30",
 },
 [146932] = {
 "team:283",
@@ -10768,11 +10786,11 @@ Rematch5SavedTargets = {
 [175780] = {
 "team:395",
 },
-[85622] = {
-"team:54",
+[105512] = {
+"team:91",
 },
-[155145] = {
-"team:345",
+[105241] = {
+"team:71",
 },
 [68559] = {
 "team:104",
@@ -10786,8 +10804,8 @@ Rematch5SavedTargets = {
 [128022] = {
 "team:232",
 },
-[94642] = {
-"team:151",
+[99742] = {
+"team:117",
 },
 [94649] = {
 "team:130",
@@ -10804,17 +10822,17 @@ Rematch5SavedTargets = {
 [66918] = {
 "team:64",
 },
-[117934] = {
-"team:50",
+[68464] = {
+"team:86",
 },
 [162458] = {
 "team:63",
 },
-[68464] = {
-"team:86",
+[117934] = {
+"team:50",
 },
-[119408] = {
-"team:164",
+[154919] = {
+"team:334",
 },
 [155414] = {
 "team:350",
@@ -10828,14 +10846,14 @@ Rematch5SavedTargets = {
 [91016] = {
 "team:69",
 },
-[116787] = {
-"team:157",
-},
 [139987] = {
 "team:237",
 },
-[99182] = {
-"team:29",
+[116787] = {
+"team:157",
+},
+[173372] = {
+"team:380",
 },
 [175783] = {
 "team:394",
@@ -10846,11 +10864,11 @@ Rematch5SavedTargets = {
 [128008] = {
 "team:213",
 },
-[146181] = {
-"team:285",
+[223446] = {
+"team:10",
 },
-[128012] = {
-"team:200",
+[119342] = {
+"team:169",
 },
 [72290] = {
 "team:94",
@@ -10858,8 +10876,8 @@ Rematch5SavedTargets = {
 [117951] = {
 "team:76",
 },
-[119341] = {
-"team:170",
+[116791] = {
+"team:18",
 },
 [175784] = {
 "team:387",

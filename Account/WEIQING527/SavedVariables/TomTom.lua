@@ -30,6 +30,16 @@ TomTomDB = {
 ["poi"] = {
 ["setClosest"] = true,
 },
+["arrow"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+-0.9999418258666992,
+-65.4997329711914,
+},
+["closestusecontinent"] = true,
+},
 ["block"] = {
 ["enable"] = false,
 ["position"] = {
@@ -42,16 +52,6 @@ nil,
 },
 ["feeds"] = {
 ["coords"] = true,
-},
-["arrow"] = {
-["position"] = {
-"CENTER",
-nil,
-"CENTER",
--0.9999418258666992,
--65.4997329711914,
-},
-["closestusecontinent"] = true,
 },
 },
 ["丶諾諾丶 - 索拉丁"] = {
@@ -133,9 +133,9 @@ TomTomWaypointsM = {
 ["callbacks"] = {
 ["distance"] = {
 },
-["world"] = {
-},
 ["minimap"] = {
+},
+["world"] = {
 },
 },
 ["minimap"] = true,
@@ -144,11 +144,11 @@ TomTomWaypointsM = {
 },
 },
 ["丶諾諾丶 - 索拉丁"] = {
-[113] = {
-["113:773000000:461800000:TomTom 路径点"] = {
-113,
-0.773,
-0.4618,
+[1701] = {
+["1701:415000000:448300000:TomTom 路径点"] = {
+1701,
+0.415,
+0.4483,
 ["arrivaldistance"] = 15,
 ["crazy"] = true,
 ["persistent"] = true,
@@ -159,62 +159,21 @@ TomTomWaypointsM = {
 ["from"] = "TomTom/way",
 ["callbacks"] = {
 ["distance"] = {
-[10] = nil --[[ skipped inline function ]],
-[15] = nil --[[ skipped inline function ]],
 },
 ["world"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 ["minimap"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 },
 ["minimap"] = true,
 ["world"] = true,
 },
 },
-[13] = {
-["13:508400000:365100000:被埋藏的小包"] = {
-13,
-0.5084,
-0.3651,
-["arrivaldistance"] = 15,
-["crazy"] = true,
-["persistent"] = true,
-["desc"] = "被埋藏的小包",
-["silent"] = true,
-["cleardistance"] = 10,
-["title"] = "被埋藏的小包",
-["from"] = "HandyNotes: 巨龙时代",
-["callbacks"] = {
-["distance"] = {
-[10] = nil --[[ skipped inline function ]],
-[15] = nil --[[ skipped inline function ]],
-},
-["world"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
-},
-["minimap"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
-},
-},
-["minimap"] = true,
-["world"] = true,
-},
-},
-[119] = {
-["119:175300000:562500000:TomTom 路径点"] = {
-119,
-0.1753,
-0.5625,
+[12] = {
+["12:604100000:354200000:TomTom 路径点"] = {
+12,
+0.6041,
+0.3542,
 ["arrivaldistance"] = 15,
 ["crazy"] = true,
 ["persistent"] = true,
@@ -225,84 +184,58 @@ TomTomWaypointsM = {
 ["from"] = "TomTom/way",
 ["callbacks"] = {
 ["distance"] = {
-[10] = nil --[[ skipped inline function ]],
-[15] = nil --[[ skipped inline function ]],
 },
 ["world"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 ["minimap"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 },
 ["minimap"] = true,
 ["world"] = true,
 },
 },
-[895] = {
-["895:421100000:750900000:TomTom 路径点"] = {
-895,
-0.4211,
-0.7509,
+[2248] = {
+["2248:781300000:278400000:泰坦控制台"] = {
+2248,
+0.7813,
+0.2784,
 ["arrivaldistance"] = 15,
 ["crazy"] = true,
 ["persistent"] = true,
-["desc"] = "TomTom 路径点",
+["desc"] = "泰坦控制台",
 ["silent"] = true,
 ["cleardistance"] = 10,
-["title"] = "TomTom 路径点",
-["from"] = "TomTom/way",
+["title"] = "泰坦控制台",
+["from"] = "?",
 ["callbacks"] = {
 ["distance"] = {
-[10] = nil --[[ skipped inline function ]],
-[15] = nil --[[ skipped inline function ]],
 },
 ["world"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 ["minimap"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 },
 ["minimap"] = true,
 ["world"] = true,
 },
-},
-[1355] = {
-["1355:380000000:550000000:TomTom 路径点"] = {
-1355,
-0.38,
-0.55,
+["2248:572200000:200100000:北方看护者"] = {
+2248,
+0.5722,
+0.2001,
 ["arrivaldistance"] = 15,
 ["crazy"] = true,
 ["persistent"] = true,
-["desc"] = "TomTom 路径点",
+["desc"] = "北方看护者",
 ["silent"] = true,
 ["cleardistance"] = 10,
-["title"] = "TomTom 路径点",
-["from"] = "TomTom/way",
+["title"] = "北方看护者",
+["from"] = "?",
 ["callbacks"] = {
 ["distance"] = {
-[10] = nil --[[ skipped inline function ]],
-[15] = nil --[[ skipped inline function ]],
 },
 ["world"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 ["minimap"] = {
-["onclick"] = nil --[[ skipped inline function ]],
-["tooltip_update"] = nil --[[ skipped inline function ]],
-["tooltip_show"] = nil --[[ skipped inline function ]],
 },
 },
 ["minimap"] = true,
@@ -339,9 +272,9 @@ TomTomWaypointsM = {
 ["callbacks"] = {
 ["distance"] = {
 },
-["minimap"] = {
-},
 ["world"] = {
+},
+["minimap"] = {
 },
 },
 ["minimap"] = true,
@@ -362,9 +295,9 @@ TomTomWaypointsM = {
 ["callbacks"] = {
 ["distance"] = {
 },
-["minimap"] = {
-},
 ["world"] = {
+},
+["minimap"] = {
 },
 },
 ["minimap"] = true,
@@ -552,9 +485,9 @@ TomTomWaypointsM = {
 ["callbacks"] = {
 ["distance"] = {
 },
-["minimap"] = {
-},
 ["world"] = {
+},
+["minimap"] = {
 },
 },
 ["minimap"] = true,

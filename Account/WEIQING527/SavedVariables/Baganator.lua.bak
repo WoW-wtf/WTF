@@ -16,20 +16,20 @@ BAGANATOR_CONFIG = {
 ["default_battlepet"] = true,
 ["default_food"] = true,
 ["default_reagent"] = true,
-["default_junk"] = true,
+["default_weapon"] = true,
 ["default_special_empty"] = true,
-["default_miscellaneous"] = true,
-["default_key"] = true,
+["default_recipe"] = true,
+["default_gem"] = true,
 ["default_consumable"] = true,
 ["default_tradegoods"] = true,
-["default_container"] = true,
-["default_keystone"] = true,
-["default_auto_equipment_sets"] = true,
-["default_profession"] = true,
 ["default_potion"] = true,
-["default_gem"] = true,
-["default_recipe"] = true,
-["default_weapon"] = true,
+["default_keystone"] = true,
+["default_profession"] = true,
+["default_auto_equipment_sets"] = true,
+["default_container"] = true,
+["default_key"] = true,
+["default_miscellaneous"] = true,
+["default_junk"] = true,
 },
 ["debug_categories_search"] = false,
 ["bank_view_width"] = 24,
@@ -40,12 +40,12 @@ BAGANATOR_CONFIG = {
 ["void_storage"] = false,
 ["guild_bank"] = false,
 ["merchant"] = true,
-["trade_partner"] = false,
+["forge_of_bonds"] = false,
 ["scrapping_machine"] = true,
 ["tradeskill"] = false,
 ["mail"] = false,
 ["sockets"] = false,
-["forge_of_bonds"] = false,
+["trade_partner"] = false,
 ["bank"] = true,
 },
 ["icon_corners_auto_insert_applied"] = {
@@ -57,11 +57,33 @@ BAGANATOR_CONFIG = {
 ["upgrade_plugin_ignored"] = {
 },
 ["category_hidden"] = {
-["1"] = false,
-["default_weapon"] = false,
-["default_auto_equipment_sets"] = false,
-["default_armor"] = false,
-["2"] = false,
+["36"] = false,
+["23"] = false,
+["33"] = false,
+["12"] = false,
+["20"] = false,
+["28"] = false,
+["29"] = false,
+["11"] = false,
+["27"] = false,
+["Junk"] = true,
+["15"] = false,
+["25"] = false,
+["5"] = true,
+["3"] = false,
+["4"] = false,
+["19"] = false,
+["18"] = false,
+["7"] = false,
+["6"] = false,
+["14"] = false,
+["24"] = false,
+["16"] = false,
+["9"] = false,
+["13"] = false,
+["21"] = false,
+["22"] = false,
+["32"] = false,
 },
 ["junk_plugin_ignored"] = {
 ["none"] = true,
@@ -75,50 +97,61 @@ BAGANATOR_CONFIG = {
 "boa",
 "boe",
 },
-["main_view_show_bag_slots"] = true,
+["main_view_show_bag_slots"] = false,
 ["category_display_order"] = {
-"_新组",
-"__end",
 "default_auto_recents",
-"----",
-"default_hearthstone",
-"default_keystone",
-"default_potion",
-"default_food",
-"default_consumable",
-"default_questitem",
-"_EQUIPMENT",
-"default_auto_equipment_sets",
-"1",
-"2",
-"default_weapon",
-"default_armor",
-"__end",
-"_CRAFTING",
-"default_reagent",
-"default_tradegoods",
-"default_profession",
-"default_recipe",
-"__end",
-"default_gem",
-"default_itemenhancement",
-"default_container",
-"default_key",
-"default_miscellaneous",
-"default_battlepet",
-"default_toy",
-"default_other",
-"----",
-"default_junk",
+"25",
+"_World of Warcraft",
 "default_special_empty",
+"31",
+"21",
+"3",
+"14",
+"5",
+"16",
+"28",
+"default_other",
+"__end",
+"_Gear",
+"30",
+"22",
+"32",
+"7",
+"default_auto_equipment_sets",
+"23",
+"33",
+"19",
+"4",
+"6",
+"__end",
+"_Prep",
+"20",
+"12",
+"24",
+"29",
+"36",
+"__end",
+"_专业",
+"15",
+"18",
+"27",
+"9",
+"10",
+"35",
+"13",
+"34",
+"11",
+"8",
+"17",
+"__end",
 },
 ["hide_boe_on_common"] = true,
 ["bank_view_type"] = "category",
 ["icon_grey_junk"] = true,
 ["main_view_position"] = {
 "RIGHT",
--226.998291015625,
-18,
+-94.998779296875,
+12.50018310546875,
 },
 ["bank_only_view_show_bag_slots"] = true,
 ["icon_bottom_left_corner_array"] = {
@@ -147,28 +180,146 @@ BAGANATOR_CONFIG = {
 ["debug_categories"] = false,
 ["category_migration"] = 4,
 ["category_modifications"] = {
+["35"] = {
+["priority"] = 0,
+},
+["default_hearthstone"] = {
+["addedItems"] = {
+["i:65274"] = true,
+["i:210494"] = true,
+["i:188152"] = true,
+["i:109076"] = true,
+},
+},
+["default_other"] = {
+["priority"] = -1,
+},
+["29"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
 ["1"] = {
 ["showGroupPrefix"] = true,
 ["priority"] = -1,
 },
-["default_weapon"] = {
+["3"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["2"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["5"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["4"] = {
+["showGroupPrefix"] = true,
+["priority"] = 1,
+},
+["7"] = {
 ["showGroupPrefix"] = true,
 ["priority"] = -1,
+},
+["6"] = {
+["showGroupPrefix"] = true,
+["priority"] = 3,
+},
+["25"] = {
+["showGroupPrefix"] = true,
+["priority"] = 3,
+},
+["8"] = {
+["priority"] = 1,
+},
+["27"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["default_auto_equipment_sets"] = {
+["priority"] = 0,
+},
+["13"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["21"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["11"] = {
+["showGroupPrefix"] = true,
+["priority"] = -1,
+},
+["23"] = {
+["showGroupPrefix"] = true,
+["priority"] = 1,
 },
 ["default_miscellaneous"] = {
 ["addedItems"] = {
 ["i:211965"] = true,
 },
 },
-["default_auto_equipment_sets"] = {
-["showGroupPrefix"] = true,
-["priority"] = -1,
-},
 ["default_armor"] = {
+["group"] = "type",
+},
+["34"] = {
+["priority"] = 0,
+},
+["32"] = {
 ["showGroupPrefix"] = true,
 ["priority"] = -1,
 },
-["2"] = {
+["28"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["31"] = {
+["addedItems"] = {
+["i:132514"] = true,
+["i:6948"] = true,
+},
+["priority"] = 1,
+},
+["30"] = {
+["priority"] = 3,
+},
+["15"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["36"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["33"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["24"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+["addedItems"] = {
+["i:224106"] = true,
+},
+},
+["default_reagent"] = {
+["group"] = "type",
+["priority"] = -1,
+},
+["9"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["default_weapon"] = {
+["showGroupPrefix"] = true,
+["priority"] = -1,
+},
+["17"] = {
+["priority"] = 1,
+},
+["18"] = {
 ["showGroupPrefix"] = true,
 ["priority"] = 0,
 },
@@ -177,82 +328,213 @@ BAGANATOR_CONFIG = {
 ["i:118475"] = true,
 },
 },
+["19"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["14"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
 ["default_keystone"] = {
 ["group"] = "type",
+},
+["16"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["26"] = {
+["priority"] = 0,
+},
+["20"] = {
+["showGroupPrefix"] = true,
+["priority"] = -1,
+},
+["12"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["22"] = {
+["showGroupPrefix"] = true,
+["priority"] = -1,
+},
+["10"] = {
+["priority"] = 0,
 },
 },
 ["warband_bank_view_width"] = 14,
 ["category_section_toggled"] = {
-["装备"] = false,
+["World of Warcraft"] = false,
+["Prep"] = false,
+["Gear"] = false,
 ["制造"] = false,
+["装备"] = false,
+["专业"] = false,
 },
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
-["bag_empty_space_at_top"] = false,
+["recent_timeout"] = 15,
 ["icon_text_quality_colors"] = false,
-["currency_headers_collapsed"] = {
+["custom_categories"] = {
+["35"] = {
+["name"] = "Herb",
+["search"] = "#herb || #alchemy || #inscription",
+},
+["29"] = {
+["name"] = "强化",
+["search"] = "#item enhancement",
+},
+["1"] = {
+["name"] = "赛季",
+["search"] = "勇士||英雄||神话",
+},
+["3"] = {
+["name"] = "钥匙",
+["search"] = "#key",
+},
+["2"] = {
+["name"] = "装绑",
+["search"] = "账号绑定||战团绑定||装绑",
+},
+["5"] = {
+["name"] = "玩具",
+["search"] = "#toy",
+},
+["4"] = {
+["name"] = "可交易",
+["search"] = "#tradeable loot || #tradable loot",
+},
+["7"] = {
+["name"] = "护甲",
+["search"] = "#armor",
+},
+["6"] = {
+["name"] = "老版本",
+["search"] = "#gear & <536",
+},
+["9"] = {
+["name"] = "元素",
+["search"] = "#elemental",
+},
+["8"] = {
+["name"] = "Profession",
+["search"] = "#profession",
+},
+["27"] = {
+["name"] = "钓鱼",
+["search"] = "#fishing",
+},
+["17"] = {
+["name"] = "Recipe",
+["search"] = "#recipe",
+},
+["13"] = {
+["name"] = "制皮",
+["search"] = "!gear & (#leather || #leatherworking)",
+},
+["21"] = {
+["name"] = "任务",
+["search"] = "#quest",
+},
+["11"] = {
+["name"] = "制造",
+["search"] = "#finishing reagents || #optional reagents || #crafting reagent || #reagent",
+},
+["23"] = {
+["name"] = "衬衣",
+["search"] = "#tabard || #shirt",
+},
+["36"] = {
+["name"] = "宝石",
+["search"] = "#gem",
+},
+["34"] = {
+["name"] = "Ores",
+["search"] = "#metal stone || #parts || #blacksmithing || #engineering || #jewelcrafting",
+},
+["28"] = {
+["name"] = "杂项",
+["search"] = "#miscellaneous",
+},
+["10"] = {
+["name"] = "Enchanting",
+["search"] = "#enchanting",
+},
+["33"] = {
+["name"] = "战团绑定",
+["search"] = "#wue",
+},
+["12"] = {
+["name"] = "食物",
+["search"] = "#food",
+},
+["31"] = {
+["name"] = "Perma",
+["search"] = "",
+},
+["15"] = {
+["name"] = "裁缝",
+["search"] = "!gear & (#cloth || #tailoring || #first aid)",
+},
+["18"] = {
+["name"] = "烹饪",
+["search"] = "#cooking || #fish ",
+},
+["19"] = {
+["name"] = "装绑",
+["search"] = "#boe || #bwe",
+},
+["25"] = {
+["name"] = "垃圾",
+["search"] = "#junk",
+},
+["14"] = {
+["name"] = "宠物",
+["search"] = "#battle pet || #battle pets",
+},
+["24"] = {
+["name"] = "药水",
+["search"] = "#potion",
+},
+["16"] = {
+["name"] = "容器",
+["search"] = "#open",
+},
+["26"] = {
+["name"] = "Soulbound",
+["search"] = "soulbound",
+},
+["20"] = {
+["name"] = "消耗品",
+["search"] = "#consumable",
+},
+["30"] = {
+["name"] = "PvP",
+["search"] = "#pvp",
+},
+["22"] = {
+["name"] = "武器",
+["search"] = "#weapon",
+},
+["32"] = {
+["name"] = "饰品",
+["search"] = "#trinket",
+},
 },
 ["icon_text_font_size"] = 14,
-["sort_start_at_bottom"] = true,
-["bag_icon_size"] = 37,
+["category_group_empty_slots"] = true,
+["guild_view_position"] = {
+"LEFT",
+147.5,
+6.50006103515625,
+},
 ["view_alpha"] = 1,
 ["bag_view_width"] = 16,
-["icon_equipment_set_border"] = true,
+["lock_frames"] = false,
 ["sort_ignore_slots_at_end"] = false,
-["recent_characters_main_view"] = {
-"丶諾諾丶-索拉丁",
-"諾宝-索拉丁",
-"乱舞诺诺-白银之手",
-"小尾巴-索拉丁",
-"丶亦言-死亡之翼",
-"女巫的工具人-死亡之翼",
-"小尾巴要长高-布兰卡德",
-"丶諾諾丶-白银之手",
-"諾諾诺-安苏",
-"按时吃饭-索拉丁",
-"諾諾的小尾巴-死亡之翼",
-"然而-索拉丁",
-"海棠未眠-索拉丁",
-"诺诺丶-白银之手",
-"诺诺宝丶-索拉丁",
-"諾諾下有-白银之手",
-"小尾巴诺诺-死亡之翼",
-"Bomb-索拉丁",
-"丶诺宝-索拉丁",
-"诺宝-白银之手",
+["currencies_tracked_imported"] = {
 },
 ["debug_keywords"] = false,
-["sort_ignore_slots_count_2"] = {
-["諾宝-索拉丁"] = 0,
-["丶諾諾丶-索拉丁"] = 0,
-["小尾巴-索拉丁"] = 0,
-["乱舞诺诺-白银之手"] = 0,
-},
-["auto_sort_on_open"] = false,
-["show_buttons_on_alt"] = false,
-["sort_ignore_bank_slots_count"] = {
-["諾宝-索拉丁"] = 0,
-["丶諾諾丶-索拉丁"] = 0,
-["小尾巴-索拉丁"] = 0,
-["乱舞诺诺-白银之手"] = 0,
-},
-["setting_anchors"] = false,
-["upgrade_plugin"] = "none",
-["guild_view_dialog_position"] = {
-"BOTTOM",
-"Baganator_SingleViewGuildViewFrame",
-"TOP",
-0,
-0,
-},
-["guild_bank_sort_method"] = "unset",
-["bank_only_view_position"] = {
-"LEFT",
-20,
-0,
-},
-["guild_current_tab"] = 0,
-["show_sort_button_2"] = true,
 ["currencies_tracked"] = {
 ["Same-索拉丁"] = {
 },
@@ -293,19 +575,19 @@ BAGANATOR_CONFIG = {
 },
 ["諾諾的小尾巴-死亡之翼"] = {
 },
-["诺宝-白银之手"] = {
-},
 ["按时吃饭-索拉丁"] = {
 },
-["丶諾諾丶-白银之手"] = {
-},
-["小尾巴诺诺-死亡之翼"] = {
-},
-["女巫的工具人-死亡之翼"] = {
+["诺诺丶-白银之手"] = {
 },
 ["丶诺宝-索拉丁"] = {
 },
-["诺诺丶-白银之手"] = {
+["女巫的工具人-死亡之翼"] = {
+},
+["小尾巴诺诺-死亡之翼"] = {
+},
+["丶諾諾丶-白银之手"] = {
+},
+["诺宝-白银之手"] = {
 },
 ["諾宝-索拉丁"] = {
 {
@@ -313,7 +595,58 @@ BAGANATOR_CONFIG = {
 },
 },
 },
-["currencies_tracked_imported"] = {
+["auto_sort_on_open"] = false,
+["show_buttons_on_alt"] = false,
+["guild_current_tab"] = 0,
+["setting_anchors"] = false,
+["guild_bank_sort_method"] = "unset",
+["guild_view_dialog_position"] = {
+"BOTTOM",
+"Baganator_SingleViewGuildViewFrame",
+"TOP",
+0,
+0,
+},
+["upgrade_plugin"] = "none",
+["bank_only_view_position"] = {
+"LEFT",
+262.9999694824219,
+75.4998779296875,
+},
+["sort_ignore_bank_slots_count"] = {
+["乱舞诺诺-白银之手"] = 0,
+["丶諾諾丶-索拉丁"] = 0,
+["小尾巴-索拉丁"] = 0,
+["諾宝-索拉丁"] = 0,
+},
+["show_sort_button_2"] = true,
+["sort_ignore_slots_count_2"] = {
+["乱舞诺诺-白银之手"] = 0,
+["丶諾諾丶-索拉丁"] = 0,
+["小尾巴-索拉丁"] = 0,
+["諾宝-索拉丁"] = 0,
+},
+["recent_characters_main_view"] = {
+"諾諾的小尾巴-死亡之翼",
+"丶諾諾丶-索拉丁",
+"諾宝-索拉丁",
+"丶諾諾丶-白银之手",
+"乱舞诺诺-白银之手",
+"丶亦言-死亡之翼",
+"小尾巴-索拉丁",
+"乱舞諾諾-白银之手",
+"小尾巴诺诺-死亡之翼",
+"女巫的工具人-死亡之翼",
+"按时吃饭-索拉丁",
+"小尾巴要长高-布兰卡德",
+"然而-索拉丁",
+"海棠未眠-索拉丁",
+"Bomb-索拉丁",
+"諾諾诺-安苏",
+"诺诺丶-白银之手",
+"诺诺宝丶-索拉丁",
+"諾諾下有-白银之手",
+"丶诺宝-索拉丁",
 },
 ["currency_panel_position"] = {
 "RIGHT",
@@ -322,23 +655,11 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["lock_frames"] = false,
-["guild_view_position"] = {
-"LEFT",
-147.5,
-6.50006103515625,
+["icon_equipment_set_border"] = true,
+["bag_icon_size"] = 37,
+["sort_start_at_bottom"] = true,
+["currency_headers_collapsed"] = {
 },
-["category_group_empty_slots"] = true,
-["custom_categories"] = {
-["1"] = {
-["name"] = "赛季",
-["search"] = "勇士||英雄||神话",
-},
-["2"] = {
-["name"] = "装绑",
-["search"] = "账号绑定||战团绑定||装绑",
-},
-},
-["recent_timeout"] = 15,
+["bag_empty_space_at_top"] = false,
 }
 BAGANATOR_DATA = nil

@@ -5,7 +5,8 @@ MEETINGSTONE_CHARACTER_DB = {
 },
 ["profiles"] = {
 ["小尾巴要长高 - 布兰卡德"] = {
-["version"] = "20241024",
+["lastSearchCode"] = "6-0-0-0",
+["version"] = "20241104",
 ["settings"] = {
 ["storage"] = {
 ["y"] = 0,
@@ -13,6 +14,9 @@ MEETINGSTONE_CHARACTER_DB = {
 ["point"] = "TOPLEFT",
 ["scale"] = 1,
 },
+},
+["searchHistoryList"] = {
+"6-0-0-0",
 },
 },
 },

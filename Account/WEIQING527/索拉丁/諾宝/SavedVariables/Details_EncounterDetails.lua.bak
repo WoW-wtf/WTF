@@ -1,69 +1,35 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
-[88] = {
+[153] = {
 },
-[107] = {
-["Raid Damage Done"] = {
-1885149,
-["max_value"] = 1885149,
-["__time"] = 1731375109,
+[161] = {
 },
+[154] = {
 },
-[111] = {
-["Raid Damage Done"] = {
-877526,
-["max_value"] = 877526,
-["__time"] = 1731375168,
+[162] = {
 },
+[155] = {
 },
-[89] = {
+[163] = {
 },
-[93] = {
+[156] = {
 },
-[90] = {
+[149] = {
 },
-[92] = {
+[157] = {
 },
-[105] = {
-["Raid Damage Done"] = {
-["__time"] = 1731375057,
+[150] = {
 },
+[158] = {
 },
-[109] = {
-["Raid Damage Done"] = {
-953352,
-["max_value"] = 953352,
-["__time"] = 1731375145,
+[151] = {
 },
+[159] = {
 },
-[95] = {
+[152] = {
 },
-[91] = {
-},
-[106] = {
-["Raid Damage Done"] = {
-3047777,
-["max_value"] = 3047777,
-["__time"] = 1731375105,
-},
-},
-[110] = {
-["Raid Damage Done"] = {
-297559,
-0,
-139893,
-0,
-["max_value"] = 297559,
-["__time"] = 1731375156,
-},
-},
-[96] = {
-},
-[108] = {
-["Raid Damage Done"] = {
-["__time"] = 1731375123,
-},
+[160] = {
 },
 },
 ["encounter_spells"] = {
@@ -115,12 +81,13 @@ EncounterDetailsDB = {
 ["SPELL_DAMAGE"] = true,
 },
 },
-[104318] = {
+[423626] = {
 ["school"] = 4,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "野生小鬼",
+["source"] = "无头骑士",
 },
 [415262] = {
 ["school"] = 32,
@@ -138,13 +105,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "无头骑士",
 },
-[423626] = {
+[104318] = {
 ["school"] = 4,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "无头骑士",
+["source"] = "野生小鬼",
 },
 },
 ["emotes"] = {

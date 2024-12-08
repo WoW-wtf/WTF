@@ -2,7 +2,7 @@
 OmniCCDB = {
 ["global"] = {
 ["dbVersion"] = 6,
-["addonVersion"] = "11.0.3",
+["addonVersion"] = "11.0.6",
 },
 ["profileKeys"] = {
 ["女巫的工具人 - 死亡之翼"] = "默认",

@@ -8,14 +8,14 @@ MJEPersonalSettings = {
 ["compactMountList"] = true,
 ["enableCursorKeys"] = true,
 ["displayStatistics"] = {
-["TravelDistance"] = true,
 ["UsedCount"] = true,
-["LearnedDate"] = true,
+["TravelDistance"] = true,
+["TravelTime"] = true,
 ["Rarity"] = true,
 ["Family"] = true,
 ["CustomizationCount"] = true,
 ["Wowhead"] = true,
-["TravelTime"] = true,
+["LearnedDate"] = true,
 },
 ["colorizeNameByRarity"] = true,
 ["slotPosition"] = "top",
@@ -26,8 +26,8 @@ MJEPersonalSettings = {
 ["showResizeEdge"] = true,
 ["showPersonalCount"] = true,
 ["displayBackground"] = "original",
-["autoRotateModel"] = false,
 ["previewButton"] = true,
+["autoRotateModel"] = false,
 ["showMountspecialButton"] = true,
 ["unlockDisplayCamera"] = true,
 ["displayAnimation"] = "stand",
@@ -35,6 +35,25 @@ MJEPersonalSettings = {
 ["searchInFamilyName"] = true,
 ["searchInNotes"] = true,
 ["hiddenMounts"] = {
+},
+["favorites"] = {
+["assignments"] = {
+},
+["profiles"] = {
+{
+["mounts"] = {
+},
+["name"] = "",
+["autoFavor"] = false,
+},
+},
+},
+["sort"] = {
+["unownedOnBottom"] = true,
+["descending"] = false,
+["by"] = "name",
+["favoritesOnTop"] = true,
+["unusableToBottom"] = false,
 },
 ["filter"] = {
 ["expansion"] = {
@@ -66,15 +85,8 @@ true,
 ["Instance"] = true,
 ["Drop"] = true,
 },
-["faction"] = {
-["horde"] = true,
-["alliance"] = true,
-["noFaction"] = true,
-},
-["color"] = {
-},
-["notCollected"] = true,
 ["hidden"] = false,
+["hiddenIngame"] = false,
 ["rarity"] = {
 true,
 true,
@@ -82,9 +94,7 @@ true,
 true,
 true,
 },
-["onlyTradable"] = false,
-["onlyFavorites"] = false,
-["onlyUsable"] = false,
+["notCollected"] = true,
 ["mountType"] = {
 ["repair"] = true,
 ["flying"] = true,
@@ -94,6 +104,14 @@ true,
 ["ground"] = true,
 ["rideAlong"] = true,
 },
+["onlyTradable"] = false,
+["onlyFavorites"] = false,
+["faction"] = {
+["horde"] = true,
+["alliance"] = true,
+["noFaction"] = true,
+},
+["onlyUsable"] = false,
 ["family"] = {
 ["Drakes"] = {
 ["Drakes"] = true,
@@ -191,8 +209,8 @@ true,
 ["Rockets"] = true,
 ["Spider Tanks"] = true,
 ["Motorcycles"] = true,
-["Carpets"] = true,
 ["Mechanical Animals"] = true,
+["Carpets"] = true,
 ["Gyrocopters"] = true,
 ["Hovercraft"] = true,
 ["Airplanes"] = true,
@@ -223,10 +241,10 @@ true,
 },
 ["Mole"] = true,
 ["Rays"] = {
-["Stingrays"] = true,
 ["Fathom Rays"] = true,
-["Mana Rays"] = true,
 ["Nether Rays"] = true,
+["Mana Rays"] = true,
+["Stingrays"] = true,
 },
 ["Bovids"] = {
 ["Tauralus"] = true,
@@ -319,25 +337,7 @@ true,
 },
 ["collected"] = true,
 ["onlyRecent"] = false,
-["hiddenIngame"] = false,
-},
-["sort"] = {
-["unownedOnBottom"] = true,
-["descending"] = false,
-["by"] = "name",
-["favoritesOnTop"] = true,
-["unusableToBottom"] = false,
-},
-["favorites"] = {
-["assignments"] = {
-},
-["profiles"] = {
-{
-["mounts"] = {
-},
-["name"] = "",
-["autoFavor"] = false,
-},
+["color"] = {
 },
 },
 ["personalHiddenMounts"] = false,

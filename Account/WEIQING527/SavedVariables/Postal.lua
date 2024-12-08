@@ -49,7 +49,7 @@ Postal3DB = {
 "諾諾的小尾巴|死亡之翼|Horde|80|SHAMAN",
 "諾諾诺|安苏|Alliance|10|HUNTER",
 "诺宝|白银之手|Alliance|15|SHAMAN",
-"诺诺丶|白银之手|Alliance|29|PRIEST",
+"诺诺丶|白银之手|Alliance|30|PRIEST",
 "诺诺宝丶|索拉丁|Horde|15|MONK",
 },
 },

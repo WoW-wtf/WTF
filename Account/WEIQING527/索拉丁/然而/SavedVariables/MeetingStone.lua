@@ -5,10 +5,8 @@ MEETINGSTONE_CHARACTER_DB = {
 },
 ["profiles"] = {
 ["然而 - 索拉丁"] = {
-["searchHistoryList"] = {
-"3-0-300-0",
-"6-0-0-0",
-},
+["lastSearchCode"] = "3-0-303-0",
+["version"] = "20241104",
 ["settings"] = {
 ["storage"] = {
 ["y"] = -1,
@@ -16,9 +14,14 @@ MEETINGSTONE_CHARACTER_DB = {
 ["point"] = "TOPLEFT",
 ["scale"] = 1,
 },
+["AUTO_JOIN"] = true,
 },
-["version"] = "20241104",
-["lastSearchCode"] = "3-0-300-0",
+["searchHistoryList"] = {
+"3-0-303-0",
+"6-0-16-0",
+"3-0-300-0",
+"6-0-0-0",
+},
 ["recent"] = {
 ["3-0-300-0"] = {
 {
@@ -215,6 +218,183 @@ MEETINGSTONE_CHARACTER_DB = {
 ["name"] = "探囊取物-布兰卡德",
 ["time"] = 1731254669,
 ["class"] = 10,
+},
+},
+["3-0-303-0"] = {
+{
+["role"] = "HEALER",
+["name"] = "潇湘朵朵-格瑞姆巴托",
+["time"] = 1733066958,
+["class"] = 10,
+["leader"] = true,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "暗影王申鹏-安苏",
+["time"] = 1733066958,
+["class"] = 4,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "钱松松呀-凤凰之神",
+["time"] = 1733066958,
+["class"] = 3,
+},
+{
+["role"] = "TANK",
+["name"] = "丶歆-凤凰之神",
+["time"] = 1733066958,
+["class"] = 12,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "梦到你笑-黑龙军团",
+["time"] = 1733066958,
+["class"] = 7,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "古丽柯孜撒让-恶魔之魂",
+["time"] = 1733066958,
+["class"] = 8,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "沧浪亭-白银之手",
+["time"] = 1733066958,
+["class"] = 10,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "孤独心语-范达尔鹿盔",
+["time"] = 1733066958,
+["class"] = 6,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "吴尔丹古彦祖-索瑞森",
+["time"] = 1733066958,
+["class"] = 9,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "Mikey-逐日者",
+["time"] = 1733066958,
+["class"] = 3,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "升腾者-屠魔山谷",
+["time"] = 1733066958,
+["class"] = 7,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "Ashestoashès-死亡之翼",
+["time"] = 1733066958,
+["class"] = 9,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "來自江湖-斯克提斯",
+["time"] = 1733066958,
+["class"] = 9,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "耿的爽-影之哀伤",
+["time"] = 1733066958,
+["class"] = 1,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "微笑灬-达尔坎",
+["time"] = 1733066958,
+["class"] = 2,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "小美姬-古尔丹",
+["time"] = 1733066958,
+["class"] = 12,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "月之伊瑞尔-遗忘海岸",
+["time"] = 1733066958,
+["class"] = 2,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "无奈的无奈-黑龙军团",
+["time"] = 1733066958,
+["class"] = 8,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "Yltp-丽丽（四川）",
+["time"] = 1733066958,
+["class"] = 8,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "遁迹匿影-白银之手",
+["time"] = 1733066958,
+["class"] = 4,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "艾泽拉丝-贫瘠之地",
+["time"] = 1733066958,
+["class"] = 6,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "迪克男丶-迅捷微风",
+["time"] = 1733066958,
+["class"] = 6,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "愤怒的大蟲-熊猫酒仙",
+["time"] = 1733066958,
+["class"] = 12,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "奥尼克西斯-玛法里奥",
+["time"] = 1733066958,
+["class"] = 13,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "西北到处吹-安苏",
+["time"] = 1733066958,
+["class"] = 4,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "害羞的琪宝宝-死亡之翼",
+["time"] = 1733066958,
+["class"] = 12,
+},
+{
+["role"] = "DAMAGER",
+["name"] = "我来自创始-安苏",
+["time"] = 1733066958,
+["class"] = 1,
+},
+{
+["role"] = "TANK",
+["name"] = "刁蛮依依-轻风之语",
+["time"] = 1733066958,
+["class"] = 1,
+},
+{
+["role"] = "HEALER",
+["name"] = "贝林厄姆-血色十字军",
+["time"] = 1733066958,
+["class"] = 13,
 },
 },
 },

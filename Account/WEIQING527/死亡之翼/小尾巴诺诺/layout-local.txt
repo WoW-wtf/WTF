@@ -1,4 +1,11 @@
 Version: 1
+Frame: GroupLootHistoryFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 384
+Y: 117
+W: 261
+H: 590
 Frame: KeystoneLootFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -13,3 +20,10 @@ X: -235
 Y: 160
 W: 300
 H: 200
+Frame: WorldMapFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 1
+Y: 23
+W: 1035
+H: 534

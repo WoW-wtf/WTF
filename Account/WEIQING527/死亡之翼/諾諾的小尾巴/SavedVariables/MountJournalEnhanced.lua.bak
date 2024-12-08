@@ -2,6 +2,8 @@
 MJEPersonalSettings = {
 ["notes"] = {
 },
+["hiddenMounts"] = {
+},
 ["personalFilter"] = false,
 ["ui"] = {
 ["debugMode"] = false,
@@ -33,9 +35,13 @@ MJEPersonalSettings = {
 ["unlockDisplayCamera"] = true,
 ["displayAnimation"] = "stand",
 },
-["searchInFamilyName"] = true,
 ["searchInNotes"] = true,
-["hiddenMounts"] = {
+["searchInFamilyName"] = true,
+["personalUi"] = false,
+["pets"] = {
+["assignments"] = {
+},
+["seenInfo"] = false,
 },
 ["filter"] = {
 ["expansion"] = {
@@ -343,6 +349,6 @@ true,
 },
 ["personalHiddenMounts"] = false,
 ["trackUsageStats"] = true,
-["personalUi"] = false,
+["summonPreviousPetAgain"] = true,
 ["searchInDescription"] = true,
 }

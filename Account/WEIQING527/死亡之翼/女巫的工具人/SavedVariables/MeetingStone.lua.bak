@@ -5,6 +5,8 @@ MEETINGSTONE_CHARACTER_DB = {
 },
 ["profiles"] = {
 ["女巫的工具人 - 死亡之翼"] = {
+["version"] = "20241104",
+["lastSearchCode"] = "6-0-16-0",
 ["settings"] = {
 ["storage"] = {
 ["y"] = 0,
@@ -19,8 +21,6 @@ MEETINGSTONE_CHARACTER_DB = {
 "2-328-1535-0",
 "6-0-0-0",
 },
-["version"] = "20241104",
-["lastSearchCode"] = "6-0-16-0",
 },
 },
 }

@@ -1,14 +1,16 @@
 
 HAMDB = {
-["cavedwellerDelight"] = true,
+["stopCast"] = false,
+["cdReset"] = false,
 ["activatedSpells"] = {
 185311,
 108238,
 109304,
-272679,
+388035,
 383762,
 19236,
 122281,
+108416,
 59545,
 59543,
 59548,
@@ -21,8 +23,8 @@ HAMDB = {
 28880,
 },
 ["witheringDreamsPotion"] = false,
-["witheringPotion"] = false,
-["cdReset"] = false,
 ["raidStone"] = false,
-["stopCast"] = false,
+["witheringPotion"] = false,
+["cavedwellerDelight"] = true,
+["heartseekingInjector"] = false,
 }

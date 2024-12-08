@@ -1,4 +1,11 @@
 Version: 1
+Frame: GroupLootHistoryFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 384
+Y: 117
+W: 261
+H: 590
 Frame: TipTac
 FrameLevel: 1
 Anchor: RIGHT

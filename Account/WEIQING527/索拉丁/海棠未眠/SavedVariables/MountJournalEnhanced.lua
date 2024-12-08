@@ -2,6 +2,7 @@
 MJEPersonalSettings = {
 ["notes"] = {
 },
+["summonPreviousPetAgain"] = true,
 ["personalFilter"] = false,
 ["ui"] = {
 ["debugMode"] = false,
@@ -10,22 +11,22 @@ MJEPersonalSettings = {
 ["enableCursorKeys"] = true,
 ["slotPosition"] = "top",
 ["displayStatistics"] = {
-["TravelDistance"] = true,
 ["UsedCount"] = true,
-["LearnedDate"] = true,
+["TravelDistance"] = true,
+["TravelTime"] = true,
 ["Rarity"] = true,
 ["Family"] = true,
 ["CustomizationCount"] = true,
 ["Wowhead"] = true,
-["TravelTime"] = true,
+["LearnedDate"] = true,
 },
 ["compactMountList"] = true,
 ["colorizeNameByRarity"] = true,
 ["showResizeEdge"] = true,
 ["showPersonalCount"] = true,
 ["displayBackground"] = "original",
-["autoRotateModel"] = false,
 ["previewButton"] = true,
+["autoRotateModel"] = false,
 ["windowSize"] = {
 0,
 0,
@@ -33,28 +34,14 @@ MJEPersonalSettings = {
 ["unlockDisplayCamera"] = true,
 ["displayAnimation"] = "stand",
 },
-["searchInFamilyName"] = true,
-["searchInNotes"] = true,
 ["hiddenMounts"] = {
 },
-["favorites"] = {
+["searchInFamilyName"] = true,
+["searchInNotes"] = true,
+["pets"] = {
 ["assignments"] = {
 },
-["profiles"] = {
-{
-["mounts"] = {
-},
-["name"] = "",
-["autoFavor"] = false,
-},
-},
-},
-["sort"] = {
-["unownedOnBottom"] = true,
-["descending"] = false,
-["by"] = "name",
-["favoritesOnTop"] = true,
-["unusableToBottom"] = false,
+["seenInfo"] = false,
 },
 ["filter"] = {
 ["expansion"] = {
@@ -93,8 +80,7 @@ true,
 true,
 true,
 },
-["color"] = {
-},
+["hiddenIngame"] = false,
 ["hidden"] = false,
 ["notCollected"] = true,
 ["faction"] = {
@@ -211,8 +197,8 @@ true,
 ["Rockets"] = true,
 ["Spider Tanks"] = true,
 ["Motorcycles"] = true,
-["Carpets"] = true,
 ["Mechanical Animals"] = true,
+["Carpets"] = true,
 ["Gyrocopters"] = true,
 ["Hovercraft"] = true,
 ["Airplanes"] = true,
@@ -339,7 +325,27 @@ true,
 },
 ["collected"] = true,
 ["onlyRecent"] = false,
-["hiddenIngame"] = false,
+["color"] = {
+},
+},
+["sort"] = {
+["unownedOnBottom"] = true,
+["descending"] = false,
+["by"] = "name",
+["favoritesOnTop"] = true,
+["unusableToBottom"] = false,
+},
+["favorites"] = {
+["assignments"] = {
+},
+["profiles"] = {
+{
+["mounts"] = {
+},
+["name"] = "",
+["autoFavor"] = false,
+},
+},
 },
 ["personalHiddenMounts"] = false,
 ["trackUsageStats"] = true,

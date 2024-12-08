@@ -12,4 +12,4 @@ Anchor: BOTTOM
 X: -235
 Y: 160
 W: 300
-H: 200
+H: 208

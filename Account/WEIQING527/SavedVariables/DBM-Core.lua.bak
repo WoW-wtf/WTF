@@ -89,6 +89,7 @@ DBM_AllSavedOptions = {
 ["SpecialWarningFlashDura2"] = 0.4,
 ["LogTrivialRaids"] = false,
 ["FilterVoidFormSay2"] = false,
+["VPReplacesSADefault"] = true,
 ["GroupOptionsExcludeIcon"] = false,
 ["FilterBTargetFocus"] = true,
 ["RecordOnlyBosses"] = false,
@@ -122,7 +123,7 @@ DBM_AllSavedOptions = {
 ["HideMovieDuringFight"] = true,
 ["RangeFrameRadarY"] = -121.9999237060547,
 ["OverrideBossAnnounce"] = false,
-["CoreSavedRevision"] = 20241116113119,
+["CoreSavedRevision"] = 20241204054959,
 ["RangeFrameX"] = 50,
 ["NPIconGrowthDirection"] = "CENTER",
 ["RangeFrameY"] = -50,
@@ -142,6 +143,8 @@ DBM_AllSavedOptions = {
 ["SpecialWarningX"] = 0,
 ["DontShowPT2"] = false,
 ["MoviesSeen"] = {
+["2295暗影华冠"] = true,
+["2292恢弘城垒"] = true,
 ["2296暗影华冠"] = true,
 },
 ["ShowQueuePop"] = true,
@@ -170,6 +173,7 @@ DBM_AllSavedOptions = {
 ["HideMovieNonInstanceAnywhere"] = false,
 ["DontAutoGossip"] = false,
 ["VPReplacesSA3"] = true,
+["AlwaysKeepNPs"] = true,
 ["AlwaysShowSpeedKillTimer2"] = false,
 ["SpecialWarningFlashCount5"] = 3,
 ["DebugLevel"] = 1,
@@ -332,7 +336,9 @@ DBM_MinimapIcon = {
 ["minimapPos"] = 246.1726951088278,
 ["showInCompartment"] = true,
 }
-DBM_AnnoyingPopupDisables = nil
+DBM_AnnoyingPopupDisables = {
+["WoTLK"] = 1732770542,
+}
 DBM_ModsToLoadWithFullTestSupport = {
 ["addonsWithTests"] = {
 },

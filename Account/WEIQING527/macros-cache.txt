@@ -1,14 +1,10 @@
 VER 3 0000000000000008 " 目标" "132270"
-/tar 达拉然
+/tar 行商瓦什提
 END
 VER 3 0000000000000004 "1111" "Ability_Ambush"
 #showtooltip 风暴打击
 /startattack
 /castsequence reset-combat 烈焰震击,风暴打击,火焰新星,熔岩暴击,大地震击,火焰新星,风暴打击,大地震击,火焰新星,熔岩暴击,火焰新星
-END
-VER 3 000000000000002C "AutoPotion" "INV_Misc_QuestionMark"
-#showtooltip 
-/castsequence reset=combat 甘霖, item:191378, item:212242
 END
 VER 3 0000000000000007 "BF_Pet" "achievement_worldevent_brewmaster"
 /BFPET
@@ -27,7 +23,7 @@ VER 3 0000000000000020 "ddddd" "134400"
 END
 VER 3 0000000000000018 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] 散魔功;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 散魔功
+/cast [@mouseover,nomod,exists] 清创生血;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 清创生血
 END
 VER 3 000000000000001E "duan" "134400"
 #showtooltip 胁迫
@@ -124,6 +120,9 @@ VER 3 0000000000000011 "星涌术" "134400"
 #showtooltip 星涌术
 /cast [noform:4]枭兽形态
 /cast [form:4]星涌术
+END
+VER 3 000000000000002E "治疗" "INV_Misc_QuestionMark"
+#showtooltip
 END
 VER 3 0000000000000001 "炉石" "134400"
 #showtooltip 烈焰炉石
